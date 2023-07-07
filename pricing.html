@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pricing</title>
+    <title>4our Pixels - Pricing</title>
+    <link rel="icon" type="image/x-icon" href="./image/favicon.ico" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -41,13 +42,18 @@
           <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
             <a
               class="me-3 py-2 text-white text-decoration-none"
-              href="index.html"
+              href="./index.html"
               >Home</a
             >
             <a
               class="me-3 py-2 text-white text-decoration-none"
               href="./web_blog.html"
               >Blog</a
+            >
+            <a
+              class="me-3 py-2 text-white text-decoration-none"
+              href="./index.html#portfolio"
+              >Projects</a
             >
           </nav>
         </div>
@@ -86,13 +92,14 @@
                   <li>Basic on-page SEO</li>
                   <li>CDN (Content Management System)</li>
                 </ul>
-                <button
+                <a
+                  href="#form"
                   style="color: #ababab"
                   type="button"
-                  class="w-100 btn btn-lg btn-outline-dark"
+                  class="w-100 btn btn-outline-dark"
                 >
                   Get started
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -120,13 +127,14 @@
                   <li>Blog setup</li>
                   <li>Enhanced SEO optimization</li>
                 </ul>
-                <button
+                <a
+                  href="#form"
                   style="color: #ababab"
                   type="button"
-                  class="w-100 btn btn-lg"
+                  class="w-100 btn"
                 >
                   Get started
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -153,13 +161,14 @@
                   <li>Payment Gateway Integration</li>
                   <li>Website analytics and reporting</li>
                 </ul>
-                <button
+                <a
+                  href="#form"
                   style="background-color: #30d5c8"
                   type="button"
-                  class="w-100 btn btn-lg text-dark"
+                  class="w-100 btn text-dark"
                 >
                   Contact us
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -211,6 +220,23 @@
             </tbody>
           </table>
         </div>
+        <h1 class="my-5 text-center">Contact Us</h1>
+
+        <form name="submit-to-google-sheet">
+          <label for="Name">Name</label>
+          <input type="text" name="Name" placeholder="Your Name" required />
+          <label class="mt-3" for="Email">Email</label>
+          <input type="email" name="Email" placeholder="Your Email" required />
+          <label class="mt-3" for="Message">Message</label>
+          <textarea
+            type="text"
+            name="Message"
+            rows="6"
+            placeholder="Your Message..."
+          ></textarea>
+          <button type="submit" class="btn w-100 btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
       </main>
 
       <footer class="pt-4 my-md-5 pt-md-5">
@@ -227,8 +253,8 @@
               <li class="mb-1">
                 <a
                   class="link-secondary text-decoration-none"
-                  href="https://instagram.com/ipiche___"
-                  >iPiche</a
+                  href="./index.html#portfolio"
+                  >Websites</a
                 >
               </li>
             </ul>
@@ -241,18 +267,6 @@
                   class="link-secondary text-decoration-none"
                   href="https://github.com/4ourpixels"
                   >GitHub</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>About</h5>
-            <ul class="list-unstyled text-small">
-              <li class="mb-1">
-                <a
-                  class="link-secondary text-decoration-none"
-                  href="./index.html"
-                  >Team</a
                 >
               </li>
             </ul>
