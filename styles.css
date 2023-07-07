@@ -470,3 +470,7 @@ nav .fa-solid {
 .hidden {
   display: none;
 }
+
+.grayscale{
+  filter: grayscale();
+}
