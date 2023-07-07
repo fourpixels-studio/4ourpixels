@@ -471,6 +471,6 @@ nav .fa-solid {
   display: none;
 }
 
-.grayscale{
+.greyscale {
   filter: grayscale();
 }
