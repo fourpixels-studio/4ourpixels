@@ -307,6 +307,10 @@ nav ul li a:hover::after {
   display: inline-block;
   background: #30d5c8;
 }
+.btn2:hover {
+  background-color: #104d48;
+  color: #ffffff;
+}
 .contact-right form {
   width: 100%;
 }
