@@ -161,7 +161,13 @@
 
           <div class="mb-3">
             <label for="email" class="form-label">Email:</label>
-            <input type="text" class="form-control" id="email" name="email" />
+            <input
+              type="text"
+              required
+              class="form-control"
+              id="email"
+              name="email"
+            />
           </div>
 
           <div class="mb-3">
@@ -197,7 +203,7 @@
           <br />
         </div>
         <div class="container">
-          <div id="qrcode"></div>
+          <div style="width: 100%; height: 100px" id="qrcode"></div>
         </div>
       </main>
       <hr />
@@ -285,8 +291,8 @@
 
         var qrCode = new QRCode(document.getElementById("qrcode"), {
           text: JSON.stringify(data),
-          width: 2028,
-          height: 2028,
+          width: 228,
+          height: 228,
         });
       }
 
