@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>4our Pixels - DJ G400 Mixes</title>
+    <title>DJ G400 - The Rihanna Mixtape</title>
     <!-- Favicon for all devices -->
     <link
       rel="icon"
@@ -58,8 +58,8 @@
     ></script>
   </head>
   <body>
-    <div id="header">
-      <div class="containerLocal">
+    <div id="single-mix-header">
+      <div class="container">
         <nav>
           <img src="image/g400.png" class="logo" />
           <ul id="sidemenu">
@@ -72,15 +72,16 @@
           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-          <p>DJ G400 Mixes</p>
-          <h1>Coming <span>Soon</span></h1>
+          <p>The</p>
+          <h1><span>Rihanna</span></h1>
+          <h1>Mixtape</h1>
         </div>
       </div>
     </div>
 
     <!------portfolio-->
     <div id="portfolio">
-      <div class="containerLocal">
+      <div class="container">
         <h1 class="sub-title">Latest Mixes</h1>
         <div class="work-list">
           <div class="work">
@@ -125,7 +126,7 @@
 
     <!------portfolio-->
     <div id="merchandise">
-      <div class="containerLocal">
+      <div class="container">
         <h1 class="sub-title">Merchandise</h1>
         <div class="work-list">
           <div class="work">
@@ -159,10 +160,10 @@
       </div>
     </div>
     <!------contact-->
-    <div id="orderFormContainer" class="containerLocal">
+    <div id="orderFormContainer" class="container">
       <h1>Order Form</h1>
       <br />
-      <div class="containerLocal">
+      <div class="container">
         <hr />
       </div>
       <br />
@@ -214,6 +215,49 @@
         </div>
       </div>
     </div>
+    <script>
+      function sendEmail(event) {
+        event.preventDefault();
+
+        // Get user input values
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var product = document.getElementById("product").value;
+        var quantity = document.getElementById("quantity").value;
+
+        // Display order details
+        document.getElementById("orderName").textContent = name;
+        document.getElementById("orderEmail").textContent = email;
+        document.getElementById("orderProduct").textContent = product;
+        document.getElementById("orderQuantity").textContent = quantity;
+        document.getElementById("orderDetails").style.display = "block";
+
+        // Construct the email body
+        var body =
+          "Name: " +
+          name +
+          "\n" +
+          "Email: " +
+          email +
+          "\n" +
+          "Product: " +
+          product +
+          "\n" +
+          "Quantity: " +
+          quantity;
+
+        // Send email using a mailto link
+        window.location.href =
+          "mailto:4ourpixels@gmail.com?subject=New Order&body=" +
+          encodeURIComponent(body);
+
+        // Show confirmation message
+        document.getElementById("confirmation").style.display = "block";
+
+        // Clear the form
+        document.getElementById("orderForm").reset();
+      }
+    </script>
     <hr class="mb-5 mt-3" />
     <footer class="container mt-5">
       <hr class="mb-5 mt-3" />
@@ -278,49 +322,6 @@
         </div>
       </div>
     </footer>
-    <script>
-      function sendEmail(event) {
-        event.preventDefault();
-
-        // Get user input values
-        var name = document.getElementById("name").value;
-        var email = document.getElementById("email").value;
-        var product = document.getElementById("product").value;
-        var quantity = document.getElementById("quantity").value;
-
-        // Display order details
-        document.getElementById("orderName").textContent = name;
-        document.getElementById("orderEmail").textContent = email;
-        document.getElementById("orderProduct").textContent = product;
-        document.getElementById("orderQuantity").textContent = quantity;
-        document.getElementById("orderDetails").style.display = "block";
-
-        // Construct the email body
-        var body =
-          "Name: " +
-          name +
-          "\n" +
-          "Email: " +
-          email +
-          "\n" +
-          "Product: " +
-          product +
-          "\n" +
-          "Quantity: " +
-          quantity;
-
-        // Send email using a mailto link
-        window.location.href =
-          "mailto:4ourpixels@gmail.com?subject=New Order&body=" +
-          encodeURIComponent(body);
-
-        // Show confirmation message
-        document.getElementById("confirmation").style.display = "block";
-
-        // Clear the form
-        document.getElementById("orderForm").reset();
-      }
-    </script>
     <script src="./image/js.js"></script>
     <script>
       var tablinks = document.getElementsByClassName("tab-links");

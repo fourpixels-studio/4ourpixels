@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>4our Pixels - Pricing</title>
+    <title>4our Pixels - Motion Graphics Pricing</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <!-- Favicon for all devices -->
     <link
       rel="icon"
@@ -62,52 +68,51 @@
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
   </head>
+  <link rel="stylesheet" href="./styles.css" />
   <body style="background-color: #000000">
-    <div class="container text-white py-3">
-      <header>
-        <div
-          class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom"
-        >
-          <a
-            href="./index.html"
-            class="d-flex align-items-center text-dark text-decoration-none"
-          >
-            <img height="50" src="image/4logo.png" />
-            <span class="fs-4 mx-3 text-white">4our Pixels</span>
-          </a>
+    <div class="container text-white py-3 border-bottom mb-5">
+      <div
+        class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom"
+      >
+        <a href="./index.html" class="d-flex align-items-center text-light">
+          <img height="50" src="image/4logo.png" />
+          <span class="fs-4 mx-3 text-white">4our Pixels</span>
+        </a>
 
-          <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-            <a
-              class="me-3 py-2 text-white text-decoration-none"
-              href="./index.html"
-              >Home</a
-            >
-            <a
-              class="me-3 py-2 text-white text-decoration-none"
-              href="./blog.html"
-              >Blog</a
-            >
-            <a
-              class="me-3 py-2 text-white text-decoration-none"
-              href="./services.html"
-              >Projects</a
-            >
-          </nav>
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <a class="me-3 py-2 text-white underline" href="./index.html">Home</a>
+          <a class="me-3 py-2 text-white underline" href="./blog.html">Blog</a>
+          <a class="me-3 py-2 text-white underline" href="#form">Contact</a>
+        </nav>
+      </div>
+      <div class="container text-center">
+        <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+          <main role="main" class="inner cover">
+            <h1 class="text-center sub-title">
+              Choose the perfect plan for your creative needs.
+            </h1>
+            <p class="lead text-muted mt-5">
+              Mixes/Video/Motion Graphics. <br /><br />Our agency specializes in
+              producing and editing music, videos, and motion graphics to
+              elevate your digital presence. With our expertise in making video
+              and audio mixes, we create great mixes that perfectly complement
+              your brand or project. We also offer comprehensive video
+              production services, including filming, editing, and
+              post-production. Additionally, our motion graphics services add
+              dynamic visual elements, animated typography, and captivating
+              effects to enhance the impact of your videos, presentations, and
+              multimedia projects.
+            </p>
+          </main>
         </div>
+      </div>
 
-        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-          <h1 class="display-4 fw-normal">Web/App Development</h1>
-          <p style="color: #ababab" class="fs-5">
-            Tailored design packages to meet your specific needs. Logo,
-            branding, print and digital design, web development, and maintenance
-            services for any budget.
-          </p>
-        </div>
-      </header>
-
-      <main>
+      <div class="container mt-5">
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
           <div class="col">
             <div
@@ -115,7 +120,7 @@
               class="card mb-4 rounded-3 shadow-sm"
             >
               <div class="card-header py-3">
-                <h4 style="color: #ababab" class="my-0 fw-normal">Package 1</h4>
+                <h4 style="color: #ababab" class="my-0 fw-normal">Basic</h4>
               </div>
               <div style="background-color: #000000" class="card-body">
                 <h1
@@ -131,12 +136,9 @@
                   <li>Basic on-page SEO</li>
                   <li>CDN (Content Management System)</li>
                 </ul>
-
-                <form id="orderFormPackage1" onsubmit="sendEmail(event)">
-                  <button type="submit" class="w-100 btn btn-outline-dark">
-                    Get started
-                  </button>
-                </form>
+                <a href="#form" class="w-100 btn btn-outline-dark">
+                  Choose Plan
+                </a>
               </div>
             </div>
           </div>
@@ -146,9 +148,7 @@
               class="card mb-4 rounded-3 shadow-sm"
             >
               <div class="card-header py-3">
-                <h4 style="color: #ababab" class="my-0 fw-normal">
-                  Pro Package
-                </h4>
+                <h4 style="color: #ababab" class="my-0 fw-normal">Standard</h4>
               </div>
               <div style="background-color: #000000" class="card-body">
                 <h1
@@ -165,9 +165,9 @@
                   <li>Enhanced SEO optimization</li>
                 </ul>
                 <form id="orderFormPackage2" onsubmit="sendEmail(event)">
-                  <button type="submit" class="w-100 btn btn-outline-dark">
+                  <a href="#form" class="w-100 btn btn-outline-dark">
                     Get started
-                  </button>
+                  </a>
                 </form>
               </div>
             </div>
@@ -181,7 +181,7 @@
                 style="background-color: #30d5c8; border-color: #30d5c8"
                 class="card-header py-3"
               >
-                <h4 class="my-0 fw-normal text-dark">Enterprise Package</h4>
+                <h4 class="my-0 fw-normal text-dark">Premium</h4>
               </div>
               <div
                 style="background-color: #000000; color: #ababab"
@@ -196,112 +196,24 @@
                   <li>Website analytics and reporting</li>
                 </ul>
                 <form id="orderFormPackage3" onsubmit="sendEmail(event)">
-                  <button
-                    type="submit"
+                  <a
+                    href="#form"
                     style="background-color: #30d5c8"
                     class="w-100 btn text-dark"
                   >
                     Get started
-                  </button>
+                  </a>
                 </form>
               </div>
             </div>
           </div>
         </div>
-
-        <script>
-          function sendEmail(event) {
-            event.preventDefault();
-
-            // Get user input values
-            var name = document.getElementById("name").value;
-            var email = document.getElementById("email").value;
-            var product = document.getElementById("product").value;
-            var quantity = document.getElementById("quantity").value;
-
-            // Display order details
-            document.getElementById("orderName").textContent = name;
-            document.getElementById("orderEmail").textContent = email;
-            document.getElementById("orderProduct").textContent = product;
-            document.getElementById("orderQuantity").textContent = quantity;
-            document.getElementById("orderDetails").style.display = "block";
-
-            // Construct the email body
-            var body =
-              "Name: " +
-              name +
-              "\n" +
-              "Email: " +
-              email +
-              "\n" +
-              "Product: " +
-              product +
-              "\n" +
-              "Quantity: " +
-              quantity;
-
-            // Send email using a mailto link
-            window.location.href =
-              "mailto:youremail@example.com?subject=New Order&body=" +
-              encodeURIComponent(body);
-
-            // Show confirmation message
-            document.getElementById("confirmation").style.display = "block";
-
-            // Clear the form
-            document.getElementById("orderForm").reset();
-          }
-        </script>
-
-        <h2 class="display-6 text-center mb-4">Compare plans</h2>
-
-        <div class="table-responsive">
-          <table class="table text-center text-white">
-            <thead>
-              <tr>
-                <th style="width: 34%"></th>
-                <th style="width: 22%">Package 1</th>
-                <th style="width: 22%">Pro Package</th>
-                <th style="width: 22%">Enterprise Package</th>
-              </tr>
-            </thead>
-            <tbody class="text-light">
-              <tr>
-                <th scope="row" class="text-start">Logo</th>
-                <td>
-                  <i class="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i class="fa-solid fa-check"></i>
-                  <i class="fa-solid fa-check"></i>
-                </td>
-                <td>
-                  <i class="fa-solid fa-check"></i>
-                  <i class="fa-solid fa-check"></i>
-                  <i class="fa-solid fa-check"></i>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row" class="text-start">Pages</th>
-                <td>5</td>
-                <td>Up to 10</td>
-                <td>15+</td>
-              </tr>
-            </tbody>
-
-            <tbody>
-              <tr>
-                <th scope="row" class="text-start text-light">Maintenance</th>
-                <td class="text-light">Basic</td>
-                <td class="text-light">$10/hr</td>
-                <td class="text-light">$30/hr</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h1 class="my-5 text-center">Contact Us</h1>
-
-        <form name="submit-to-google-sheet">
+      </div>
+    </div>
+    <div class="container border-bottom">
+      <h1 class="mb-4">Get Started</h1>
+      <div class="row">
+        <form id="form" name="submit-to-google-sheet">
           <label for="Name">Name</label>
           <input type="text" name="Name" placeholder="Your Name" required />
           <label class="mt-3" for="Email">Email</label>
@@ -313,12 +225,11 @@
             rows="6"
             placeholder="Your Message..."
           ></textarea>
-          <button type="submit" class="btn w-100 btn2">Submit</button>
+          <button type="submit" class="btn2">Submit</button>
         </form>
         <span id="msg"></span>
-      </main>
+      </div>
     </div>
-    <hr class="mb-5 mt-3" />
     <footer class="container mt-5">
       <hr class="mb-5 mt-3" />
       <div class="row">
@@ -382,6 +293,50 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      function sendEmail(event) {
+        event.preventDefault();
+
+        // Get user input values
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var product = document.getElementById("product").value;
+        var quantity = document.getElementById("quantity").value;
+
+        // Display order details
+        document.getElementById("orderName").textContent = name;
+        document.getElementById("orderEmail").textContent = email;
+        document.getElementById("orderProduct").textContent = product;
+        document.getElementById("orderQuantity").textContent = quantity;
+        document.getElementById("orderDetails").style.display = "block";
+
+        // Construct the email body
+        var body =
+          "Name: " +
+          name +
+          "\n" +
+          "Email: " +
+          email +
+          "\n" +
+          "Product: " +
+          product +
+          "\n" +
+          "Quantity: " +
+          quantity;
+
+        // Send email using a mailto link
+        window.location.href =
+          "mailto:youremail@example.com?subject=New Order&body=" +
+          encodeURIComponent(body);
+
+        // Show confirmation message
+        document.getElementById("confirmation").style.display = "block";
+
+        // Clear the form
+        document.getElementById("orderForm").reset();
+      }
+    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
