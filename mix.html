@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4our Pixels - Highjacked</title>
+    <!-- Favicon for all devices -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="./image/favicon/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./image/favicon/favicon-16x16.png"
+    />
+
+    <!-- iOS specific favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./image/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./image/favicon/apple-touch-icon.png"
+    />
+
+    <!-- Android Chrome specific favicon -->
+    <link rel="manifest" href="./image/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#30d5c8" />
+
+    <!-- Microsoft specific favicon -->
+    <meta name="msapplication-TileImage" content="./image/favicon/4white.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+
+    <!-- Other favicons -->
+    <link
+      rel="mask-icon"
+      href="./image/favicon//image/favicon/4white.png"
+      color="#30d5c8"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/215638c07f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <style>
+      .btn-primary {
+        border-color: #d53030;
+        background-color: #d53030;
+      }
+      .btn-primary:hover {
+        border-color: #781f1f;
+        background-color: #781f1f;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mix-header">
+      <div class="containerLocal">
+        <nav>
+          <img src="./image/g400.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./djg400.html">Mixes</a></li>
+            <li>
+              <a href="https://4ourpixels.github.io/ecommerce/">Merchandise</a>
+            </li>
+            <li><a href="./contact.html">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p class="text-white small">DJ G400 Presents</p>
+          <h1 id="hero-title" class="sub-title">Highjacked Sn 03</h1>
+          <p id="mix-description">
+            <span class="w-50 small d-flex justify-content-between"
+              ><span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>
+              <span>2h 35m</span>
+              <span>Trap, Hip Hop, Rap</span>
+              <span>11 Aug 2017</span></span
+            >
+            <br />
+            <br />
+            A mix full of bangers and hits that are guaranteed to get you hyped.
+            The playlist <br />
+            features a mix of established artists and up-and-coming talent, with
+            a <br />
+            diverse range of styles and sounds. <br />
+            Arap Trap ouperforms the competition by a factor of 400.
+          </p>
+          <input class="my-5" type="range" value="0" id="mix_progress_bar" />
+          <button
+            id="controlIcon"
+            onclick="playPause()"
+            class="btn btn-lg btn-primary"
+          >
+            Play Now
+            <i class="fa-solid fa-play text-white" id="controlIcon"></i>
+          </button>
+          <button class="btn btn-lg btn-secondary">Trailer</button>
+        </div>
+      </div>
+    </div>
+    <div class="audio-player py-3 px-5">
+      <audio id="song">
+        <source
+          src="https://hearthis.at/djg400/dj-g400-highjacked-season-07-auido/listen.mp3?s=lge"
+          type="audio/mpeg"
+        />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <script>
+      // Get a reference to the audio element
+      var progress = document.getElementById("mix_progress_bar");
+      var song = document.getElementById("song");
+      var controlIcon = document.getElementById("controlIcon");
+
+      song.onloadedmetadata = function () {
+        progress.max = song.duration;
+        progress.value = song.currentTime;
+      };
+
+      function playPause() {
+        if (song.paused) {
+          song.play();
+          controlIcon.classList.add("fa-pause");
+          controlIcon.classList.remove("fa-play");
+        } else {
+          song.pause();
+          controlIcon.classList.remove("fa-pause");
+          controlIcon.classList.add("fa-play");
+        }
+      }
+
+      if (song.played) {
+        setInterval(() => {
+          progress.value = song.currentTime;
+        }, 500);
+      }
+
+      progress.onchange = function () {
+        song.currentTime = progress.value;
+        controlIcon.classList.add("fa-pause");
+        controlIcon.classList.remove("fa-play");
+      };
+    </script>
+    <script src="./image/js.js"></script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

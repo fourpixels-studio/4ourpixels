@@ -69,8 +69,11 @@
   <body>
     <div id="#header_four_pixels">
       <video autoplay muted loop id="video-background">
-        <source id="smallSrc" src="./video/portrait.mp4" type="video/mp4" />
-        <source id="largeSrc" src="./video/720.mp4" type="video/mp4" />
+        <source
+          id="video-element"
+          src="./video/portrait.mp4"
+          type="video/mp4"
+        />
         Your browser does not support the video tag.
       </video>
 
@@ -82,10 +85,13 @@
               <a style="color: inherit" href="./index.html">Home</a>
             </li>
             <li>
-              <a style="color: inherit" href="./blog.html">Blog</a>
+              <a style="color: inherit" href="#about">About</a>
             </li>
             <li>
-              <a style="color: inherit" href="./contact.html">Contact Us</a>
+              <a style="color: inherit" href="./services.html">Works</a>
+            </li>
+            <li>
+              <a style="color: inherit" href="./contact.html">Contact</a>
             </li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
@@ -93,12 +99,30 @@
         </nav>
         <div class="header-text">
           <small>Creative Agency</small>
-          <h1 class="sub-heading hover">
+          <h1 id="hero-title" class="sub-title hover">
             Welcome to<br />
             <span>4our</span> Pixels
           </h1>
         </div>
       </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div
+      style="display: flex; justify-content: center; align-items: center"
+      class="container text-center"
+    >
+      <a
+        style="text-align: center"
+        href="#about"
+        class="small underline hover text-center"
+        >Scroll <br />
+        &darr;</a
+      >
     </div>
     <!------aboout------->
     <div id="about">
@@ -182,6 +206,18 @@
                 >Learn more</a
               >
             </li>
+            <hr />
+            <li class="mb-5">
+              <h2 class="hover">
+                <span class="legacy-color">04.</span> DJ G400
+              </h2>
+              <p class="text-muted">
+                Playlists, mixes, music and DJ services by DJ G400.
+              </p>
+              <a class="link text-muted underline small" href="./djg400.html"
+                >Learn more</a
+              >
+            </li>
           </ol>
         </div>
       </div>
@@ -212,7 +248,7 @@
                 Unleashing the Power of Web Development: <br />
                 A 4our Pixels Guide.
               </h3>
-              <a class="hover" href="./web_blog.html"
+              <a href="./web_blog.html"
                 ><i style="cursor: pointer" class="fa-solid fa-link"></i
               ></a>
             </div>
@@ -294,6 +330,10 @@
               href="https://podcasts.apple.com/ke/podcast/dj-g400-mixes/id1645709049"
               ><i class="fa-solid fa-podcast fa-xs"></i
             ></a>
+            <a
+              href="https://podcasts.apple.com/ke/podcast/dj-g400-mixes/id1645709049"
+              ><i class="fa-brands fa-spotify fa-xs"></i
+            ></a>
             <a href="https://www.youtube.com/channel/UC9HP_DqruMAplsz0-ynveaQ"
               ><i class="fa-brands fa-youtube fa-xs"></i
             ></a>
@@ -303,7 +343,7 @@
             <a href="https://hearthis.at/djg400/"
               ><img
                 style="margin-bottom: 0.7rem"
-                height="20"
+                height="12"
                 src="./image/hearthis.png"
             /></a>
           </div>
@@ -311,27 +351,25 @@
       </div>
     </footer>
     <script>
-      function toggleVideo() {
-        var video = document.getElementById("myVideo");
-        var smallSource = document.getElementById("smallSrc");
-        var largeSource = document.getElementById("largeSrc");
-
-        var screenWidth = window.innerWidth;
-
-        if (screenWidth < 768) {
-          // Small screen
-          video.src = smallSource.src;
+      // Check if the media query matches
+      function handleVideoSourceChange(mq) {
+        if (mq.matches) {
+          // Set the video source for small screens
+          document.getElementById("video-element").src = "./video/portrait.mp4";
         } else {
-          // Large screen
-          video.src = largeSource.src;
+          // Set the video source for larger screens
+          document.getElementById("video-element").src = "./video/720.mp4";
         }
       }
 
-      // Call the function initially to set the video source based on the screen size
-      toggleVideo();
+      // Create a media query
+      const mediaQuery = window.matchMedia("(max-width: 600px)");
 
-      // Update the video source when the window is resized
-      window.addEventListener("resize", toggleVideo);
+      // Call the function initially
+      handleVideoSourceChange(mediaQuery);
+
+      // Register event listener for changes in the media query
+      mediaQuery.addListener(handleVideoSourceChange);
     </script>
     <script src="./image/js.js"></script>
     <script>

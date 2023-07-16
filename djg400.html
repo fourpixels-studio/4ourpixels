@@ -72,8 +72,8 @@
           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-          <p>DJ G400 Mixes</p>
-          <h1>Coming <span>Soon</span></h1>
+          <p>Arap Trap</p>
+          <h1 id="hero-title" class="sub-title hover">DJ <span>G400</span></h1>
         </div>
       </div>
     </div>
@@ -107,15 +107,12 @@
           <div class="work">
             <img src="./image/mixes.png" />
             <div class="layer">
-              <h3>Highjacked Season 7</h3>
+              <h3>Highjacked Season 3</h3>
               <p>
-                With a diverse range of styles and sounds, listen to the latest
+                With a diverse range of styles and sounds, listen to the third
                 Highjacked installment.
               </p>
-              <a
-                href="https://drive.google.com/file/d/1FaEVlULLLxfOUr9Ii5fPfb6dXczdRg22/view?usp=sharing"
-                ><i class="fa-solid fa-link"></i
-              ></a>
+              <a href="./mix.html"><i class="fa-solid fa-link"></i></a>
             </div>
           </div>
         </div>
@@ -125,7 +122,7 @@
 
     <!------portfolio-->
     <div id="merchandise">
-      <div class="containerLocal">
+      <div class="containerLocal border-bottom">
         <h1 class="sub-title">Merchandise</h1>
         <div class="work-list">
           <div class="work">
@@ -158,65 +155,7 @@
         </div>
       </div>
     </div>
-    <!------contact-->
-    <div id="orderFormContainer" class="containerLocal">
-      <h1>Order Form</h1>
-      <br />
-      <div class="containerLocal">
-        <hr />
-      </div>
-      <br />
-      <br />
-      <form id="orderForm" onsubmit="sendEmail(event)">
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input type="text" class="form-control" id="name" required />
-        </div>
-
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" class="form-control" id="email" required />
-        </div>
-
-        <div class="form-group">
-          <label for="product">Product:</label>
-          <input type="text" class="form-control" id="product" required />
-        </div>
-
-        <div class="form-group">
-          <label for="quantity">Quantity:</label>
-          <input type="number" class="form-control" id="quantity" required />
-        </div>
-
-        <button
-          style="background: none; color: #30d5c8; cursor: pointer"
-          type="submit"
-          class="btn w-100"
-        >
-          Place Order
-        </button>
-      </form>
-
-      <div id="orderDetails" class="mt-4" style="display: none">
-        <h3>Order Details:</h3>
-        <p><strong>Name:</strong> <span id="orderName"></span></p>
-        <p><strong>Email:</strong> <span id="orderEmail"></span></p>
-        <p><strong>Product:</strong> <span id="orderProduct"></span></p>
-        <p><strong>Quantity:</strong> <span id="orderQuantity"></span></p>
-
-        <div
-          id="confirmation"
-          class="alert alert-success mt-4"
-          style="display: none"
-        >
-          <strong>Order placed successfully!</strong> We will contact you
-          shortly.
-        </div>
-      </div>
-    </div>
-    <hr class="mb-5 mt-3" />
-    <footer class="container mt-5">
-      <hr class="mb-5 mt-3" />
+    <footer class="containerLocal mt-5">
       <div class="row">
         <div class="col-12 col-md">
           <img class="mb-4" height="50" src="image/4logo.png" alt="" />
@@ -262,6 +201,10 @@
               href="https://podcasts.apple.com/ke/podcast/dj-g400-mixes/id1645709049"
               ><i class="fa-solid fa-podcast fa-xs"></i
             ></a>
+            <a
+              href="https://podcasts.apple.com/ke/podcast/dj-g400-mixes/id1645709049"
+              ><i class="fa-brands fa-spotify fa-xs"></i
+            ></a>
             <a href="https://www.youtube.com/channel/UC9HP_DqruMAplsz0-ynveaQ"
               ><i class="fa-brands fa-youtube fa-xs"></i
             ></a>
@@ -271,7 +214,7 @@
             <a href="https://hearthis.at/djg400/"
               ><img
                 style="margin-bottom: 0.7rem"
-                height="20"
+                height="12"
                 src="./image/hearthis.png"
             /></a>
           </div>

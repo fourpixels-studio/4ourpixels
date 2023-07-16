@@ -65,7 +65,7 @@
   </head>
   <body>
     <div id="image_compression_header">
-      <div class="container">
+      <div class="containerLocal">
         <nav>
           <img src="image/4pixels.png" class="logo" />
           <ul id="sidemenu">
@@ -88,7 +88,7 @@
     </div>
     <!------aboout------->
     <div id="about">
-      <div class="container">
+      <div class="containerLocal">
         <div class="row">
           <div class="about-col-2">
             <br />
@@ -99,7 +99,12 @@
           </div>
           <div class="about-col-1">
             <img
-              style="filter: grayscale(100%)"
+              style="
+                height: 50vh;
+                width: 100%;
+                object-fit: cover;
+                filter: grayscale(100%);
+              "
               src="https://images.pexels.com/photos/14001304/pexels-photo-14001304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             />
           </div>
@@ -131,6 +136,9 @@
         <div class="about-col-1">
           <img
             style="
+              height: 25vh;
+              width: 100%;
+              object-fit: cover;
               filter: grayscale(100%);
               margin-bottom: 3rem;
               margin-top: 3rem;
@@ -168,7 +176,7 @@
       </div>
     </div>
     <hr class="mb-5 mt-3" />
-    <footer class="container mt-5">
+    <footer class="containerLocal mt-5">
       <hr class="mb-5 mt-3" />
       <div class="row">
         <div class="col-12 col-md">
@@ -215,6 +223,10 @@
               href="https://podcasts.apple.com/ke/podcast/dj-g400-mixes/id1645709049"
               ><i class="fa-solid fa-podcast fa-xs"></i
             ></a>
+            <a
+              href="https://podcasts.apple.com/ke/podcast/dj-g400-mixes/id1645709049"
+              ><i class="fa-brands fa-spotify fa-xs"></i
+            ></a>
             <a href="https://www.youtube.com/channel/UC9HP_DqruMAplsz0-ynveaQ"
               ><i class="fa-brands fa-youtube fa-xs"></i
             ></a>
@@ -224,7 +236,7 @@
             <a href="https://hearthis.at/djg400/"
               ><img
                 style="margin-bottom: 0.7rem"
-                height="20"
+                height="12"
                 src="./image/hearthis.png"
             /></a>
           </div>
