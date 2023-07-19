@@ -58,11 +58,29 @@
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <script
       src="https://kit.fontawesome.com/215638c07f.js"
       crossorigin="anonymous"
     ></script>
+    <style>
+      /* Add this style to initially hide the navbar */
+      #navbar {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #000;
+        padding: 10px;
+        color: #fff;
+        text-align: center;
+        filter: opacity(0.8);
+      }
+      .blur {
+        filter: blur(8px);
+      }
+    </style>
   </head>
   <body>
     <div id="header">
@@ -70,10 +88,14 @@
         <nav>
           <img src="image/g400.png" class="logo" />
           <ul id="sidemenu">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#portfolio">Music</a></li>
-            <li><a href="#merchandise">Merchandise</a></li>
-            <li><a href="#orderFormContainer">Subscribe</a></li>
+            <li><a class="hover" href="./index.html">Home</a></li>
+            <li><a class="hover" href="#portfolio">Mixes</a></li>
+            <li>
+              <a class="hover" href="https://4ourpixels.github.io/ecommerce/"
+                >Merchandise</a
+              >
+            </li>
+            <li><a class="hover" href="#orderFormContainer">Subscribe</a></li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
@@ -91,36 +113,67 @@
         <h1 class="sub-title">Latest Mixes</h1>
         <div class="work-list">
           <div class="work">
-            <img src="./image/mixes.png" />
+            <img src="./image/hs07.png" />
             <div class="layer">
-              <h3>Hip Hop Saved My Life Vol 05</h3>
-              <p>Featuring the late Trouble, Lil Uzi Vert and South Memphis.</p>
-              <a
-                href="https://hearthis.at/djg400/dj-g400-hip-hop-saved-my-life-05/"
-                ><i class="fa-solid fa-link"></i
-              ></a>
+              <h3>Highjacked Season 07</h3>
+              <p>Featuring Roddy Rich, Drake, Lil Baby, YG, South Memphis...</p>
+              <div class="audio-player py-3 px-5">
+                <audio id="song">
+                  <source
+                    src="https://hearthis.at/djg400/dj-g400-highjacked-season-07-auido/listen.mp3?s=lge"
+                    type="audio/mpeg"
+                  />
+                  Your browser does not support the audio element.
+                </audio>
+                <div class="display-4" onclick="playPause()">
+                  <i class="fa-solid fa-play hover" id="controlIcon"></i>
+                </div>
+              </div>
             </div>
           </div>
           <div class="work">
             <img src="./image/lagos5.png" />
             <div class="layer">
-              <h3>Lagos To The Max</h3>
-              <p>Great vibes from Nigeria.</p>
-              <a href="https://hearthis.at/djg400/dj-g400-lagos-to-the-max-05/"
-                ><i class="fa-solid fa-link"></i
-              ></a>
+              <h3>Lagos To The Max 05</h3>
+              <p>Great Afrobeat vibes from Nigeria.</p>
+              <div class="audio-player py-3 px-5">
+                <audio id="song">
+                  <source
+                    src="https://hearthis.at/djg400/dj-g400-lagos-to-the-max-05/listen.mp3?s=klQ"
+                    type="audio/mpeg"
+                  />
+                  Your browser does not support the audio element.
+                </audio>
+                <div class="display-4" onclick="playPause()">
+                  <i class="fa-solid fa-play hover" id="controlIcon"></i>
+                </div>
+              </div>
             </div>
           </div>
           <div class="work">
             <img src="./image/mixes.png" />
             <div class="layer">
-              <h3>Highjacked Season 3</h3>
+              <h3>Hip Hop Saved My Life 05</h3>
               <p>
-                With a diverse range of styles and sounds, listen to the third
-                Highjacked installment.
+                With a diverse range of styles and sounds, listen to the fifth
+                HHSML installment.
               </p>
-              <a href="./mix.html"><i class="fa-solid fa-link"></i></a>
+              <div class="audio-player py-3 px-5">
+                <audio id="song">
+                  <source
+                    src="https://hearthis.at/djg400/dj-g400-hip-hop-saved-my-life-05/listen.mp3?s=Mxv"
+                    type="audio/mpeg"
+                  />
+                  Your browser does not support the audio element.
+                </audio>
+                <div class="display-4" onclick="playPause()">
+                  <i class="fa-solid fa-play hover" id="controlIcon"></i>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="containerLocal">
+            <a href="./mix.html" class="btn btn4 text-center mt-4">All Mixes</a>
           </div>
         </div>
       </div>
@@ -129,43 +182,62 @@
 
     <!------portfolio-->
     <div id="merchandise">
-      <div class="containerLocal border-bottom">
-        <h1 class="sub-title">Merchandise</h1>
+      <div class="containerLocal">
+        <h1 class="sub-title hover">Merchandise</h1>
         <div class="work-list">
           <div class="work">
-            <img src="./image/merchandise/araptrap2023.jpg" />
+            <img src="./image/merchandise/araptrap-gothic.png" />
             <div class="layer">
               <h3>Arap Trap 2023</h3>
-              <a href="https://4ourpixels.github.io/ecommerce/"
+              <a
+                href="https://4ourpixels.github.io/ecommerce/product-details.html"
                 ><i class="fa-solid fa-link"></i
               ></a>
             </div>
           </div>
           <div class="work">
-            <img src="./image/merchandise/araptrap202301.jpg" />
+            <img src="./image/merchandise/summer-400.png" />
             <div class="layer">
-              <h3>g400 2017</h3>
-              <a href="https://4ourpixels.github.io/ecommerce/"
+              <h3>Summer - 400 Miles Above</h3>
+              <a
+                href="https://4ourpixels.github.io/ecommerce/product-details-summer.html"
                 ><i class="fa-solid fa-link"></i
               ></a>
             </div>
           </div>
           <div class="work">
-            <img src="./image/merchandise/araptrap202302.jpg" />
+            <img src="./image/merchandise/4pixels.png" />
             <div class="layer">
-              <h3>g400 20217</h3>
-              <a href="https://4ourpixels.github.io/ecommerce/"
+              <h3>Four Pixels Legacy</h3>
+              <a
+                href="https://4ourpixels.github.io/ecommerce/product-details-uzi.html"
                 ><i class="fa-solid fa-link"></i
               ></a>
             </div>
           </div>
         </div>
+        <div class="containerLocal">
+          <a
+            href="https://4ourpixels.github.io/ecommerce/"
+            class="btn btn4 text-center mt-4"
+            >See More</a
+          >
+        </div>
       </div>
     </div>
+
+    <div class="containerLocal">
+      <div class="row">
+        <ul class="list-unstyled" id="episode-list"></ul>
+      </div>
+      <a href="#header" class="hover text-center">Back To Top</a>
+    </div>
+
     <footer class="containerLocal mt-5">
+      <hr />
       <div class="row">
         <div class="col-12 col-md">
-          <img class="mb-4" height="50" src="image/4logo.png" alt="" />
+          <img class="mb-4" height="50" src="image/4logo.png" />
           <small class="d-block mb-3 text-muted"
             >&copy;
             <a
@@ -228,6 +300,17 @@
         </div>
       </div>
     </footer>
+    <div id="navbar">
+      <div class="container px-5">
+        <input
+          class="w-100 mb-3"
+          type="range"
+          value="0"
+          id="mix_progress_bar"
+        />
+      </div>
+    </div>
+    <script src="./script.js"></script>
     <script>
       var tablinks = document.getElementsByClassName("tab-links");
       var tabcontents = document.getElementsByClassName("tab-contents");
@@ -271,6 +354,47 @@
           })
           .catch((error) => console.error("Error!", error.message));
       });
+    </script>
+    <script>
+      // Get a reference to the audio element
+      var progress = document.getElementById("mix_progress_bar");
+      var song = document.getElementById("song");
+      var controlIcon = document.getElementById("controlIcon");
+
+      song.onloadedmetadata = function () {
+        progress.max = song.duration;
+        progress.value = song.currentTime;
+      };
+
+      function playPause() {
+        var navbar = document.getElementById("navbar");
+        navbar.style.display = "block"; // Display the navbar when playPause is clicked
+
+        // Rest of the playPause function code
+        var song = document.getElementById("song");
+        var controlIcon = document.getElementById("controlIcon");
+        if (song.paused) {
+          song.play();
+          controlIcon.classList.add("fa-pause");
+          controlIcon.classList.remove("fa-play");
+        } else {
+          song.pause();
+          controlIcon.classList.remove("fa-pause");
+          controlIcon.classList.add("fa-play");
+        }
+      }
+
+      if (song.play) {
+        setInterval(() => {
+          progress.value = song.currentTime;
+        }, 500);
+      }
+
+      progress.onchange = function () {
+        song.currentTime = progress.value;
+        controlIcon.classList.add("fa-pause");
+        controlIcon.classList.remove("fa-play");
+      };
     </script>
   </body>
 </html>

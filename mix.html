@@ -51,7 +51,7 @@
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <script
       src="https://kit.fontawesome.com/215638c07f.js"
       crossorigin="anonymous"
@@ -79,12 +79,14 @@
         <nav>
           <img src="./image/g400.png" class="logo" />
           <ul id="sidemenu">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./djg400.html">Mixes</a></li>
+            <li><a class="hover" href="./index.html">Home</a></li>
+            <li><a class="hover" href="./djg400.html">Mixes</a></li>
             <li>
-              <a href="https://4ourpixels.github.io/ecommerce/">Merchandise</a>
+              <a class="hover" href="https://4ourpixels.github.io/ecommerce/"
+                >Merchandise</a
+              >
             </li>
-            <li><a href="./contact.html">Contact</a></li>
+            <li><a class="hover" href="./contact.html">Contact</a></li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
@@ -100,18 +102,10 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
               </span>
-              <span>2h 35m</span>
+              <span id="time">2h 35m</span>
               <span>Trap, Hip Hop, Rap</span>
-              <span>11 Aug 2017</span></span
+              <span id="date-released">11 Aug 2017</span></span
             >
-            <br />
-            <br />
-            A mix full of bangers and hits that are guaranteed to get you hyped.
-            The playlist <br />
-            features a mix of established artists and up-and-coming talent, with
-            a <br />
-            diverse range of styles and sounds. <br />
-            Arap Trap ouperforms the competition by a factor of 400.
           </p>
           <input class="my-5" type="range" value="0" id="mix_progress_bar" />
           <button
@@ -195,6 +189,10 @@
       function closemenu() {
         sidemenu.style.right = "-200px";
       }
+    </script>
+    <script>
+      const songTitle = document.getElementById("hero-title");
+      const songTitle = document.getElementById("hero-title");
     </script>
   </body>
 </html>
