@@ -82,16 +82,16 @@
           <img src="./image/4pixels.png" class="logo" />
           <ul id="sidemenu">
             <li>
-              <a style="color: inherit" href="./index.html">Home</a>
+              <a class="hover" href="./index.html">Home</a>
             </li>
             <li>
-              <a style="color: inherit" href="#about">About</a>
+              <a class="hover" href="./blog.html">Blog</a>
             </li>
             <li>
-              <a style="color: inherit" href="./services.html">Works</a>
+              <a class="hover" href="./portfolio.html">Portfolio</a>
             </li>
             <li>
-              <a style="color: inherit" href="./contact.html">Contact</a>
+              <a class="hover" href="./contact.html">Contact</a>
             </li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
@@ -126,6 +126,7 @@
     </div>
     <!------aboout------->
     <div id="about">
+      <h1 class="text-center hover sub-title">About Us</h1>
       <div class="containerLocal text-center">
         <h2>
           Creative agency specialising in
@@ -139,7 +140,7 @@
           <a class="underline hover" href="./motion-graphics-pricing.html"
             >animation</a
           >
-          and more.
+          and <a class="underline hover" href="./djg400.html">more</a>.
         </h2>
       </div>
       <div class="containerLocal">
@@ -320,7 +321,7 @@
             <a href="https://4ourpixels.github.io/ecommerce/"
               ><img
                 style="margin-bottom: 0.5rem; filter: opacity(0.7)"
-                height="23"
+                height="25"
                 src="./image/brands/g400.png"
             /></a>
             <a href="https://github.com/4ourpixels"
@@ -331,19 +332,19 @@
               ><i class="fa-solid fa-podcast fa-xs"></i
             ></a>
             <a
-              href="https://podcasts.apple.com/ke/podcast/dj-g400-mixes/id1645709049"
+              href="https://open.spotify.com/user/31a2pdxfva2uuvnr4iettetcayxy?si=mlOFeExWRA-I_kvngQtVBQ&utm_source=copy-link"
               ><i class="fa-brands fa-spotify fa-xs"></i
             ></a>
             <a href="https://www.youtube.com/channel/UC9HP_DqruMAplsz0-ynveaQ"
               ><i class="fa-brands fa-youtube fa-xs"></i
             ></a>
             <a href="https://www.mixcloud.com/djg400"
-              ><i class="fa-brands fa-mixcloud fa-xs"></i
+              ><i class="fa-brands fa-mixcloud"></i
             ></a>
             <a href="https://hearthis.at/djg400/"
               ><img
                 style="margin-bottom: 0.7rem"
-                height="12"
+                height="15"
                 src="./image/hearthis.png"
             /></a>
           </div>
@@ -371,7 +372,6 @@
       // Register event listener for changes in the media query
       mediaQuery.addListener(handleVideoSourceChange);
     </script>
-    <script src="./image/js.js"></script>
     <script>
       var tablinks = document.getElementsByClassName("tab-links");
       var tabcontents = document.getElementsByClassName("tab-contents");

@@ -494,7 +494,7 @@ nav .fa-solid {
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 1)
     ),
-    url(https://images.unsplash.com/photo-1533908279087-2448f4554f18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80);
+    url(https://images.pexels.com/photos/14001304/pexels-photo-14001304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
   background-size: cover;
   background-position: center;
 }
@@ -564,6 +564,7 @@ nav .fa-solid {
   cursor: pointer;
 }
 .hover:hover {
+  transition: ease-in 0.5s;
   color: #30d5c8;
 }
 
