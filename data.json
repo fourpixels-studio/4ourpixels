@@ -8,7 +8,7 @@
     "Artists": "Rae Sremmurd,  Young Dolph, Kent, jones, Madeintyo",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs01.jpg",
-    "thumbnailLg": "./image/mix-covers/.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "2"
   },
   {
@@ -20,7 +20,7 @@
     "Artists": "MGK, Ty Dolla $ign, Future, 2 Chainz, 21 Savage",
     "Cover": "./cover/hs02.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs02.jpg",
-    "thumbnailLg": "./image/mix-covers/.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "6"
   },
   {
@@ -44,7 +44,7 @@
     "Artists": "Lil Pump, Moneybag Yo, Lil Yatchy, Nicki Minaj, Konshens, Tyga",
     "Cover": "./cover/hs04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs04.jpg",
-    "thumbnailLg": "./image/mix-covers/.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "14"
   },
   {
@@ -56,7 +56,7 @@
     "Artists": "French Montana, Tory Lanez, Lil Mosey, Rich The Kid, Juice Wrld, Childish Gambino",
     "Cover": "./cover/hs05.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs05.jpg",
-    "thumbnailLg": "./image/mix-covers/.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "17"
   },
   {
@@ -68,7 +68,7 @@
     "Artists": "Gucci Mane, Key Glock, Young Dolph, Travis Scott, Khaligraph Jones, Smokepurpp, YNW Melly, YG",
     "Cover": "./cover/hs06.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs06.jpg",
-    "thumbnailLg": "./image/mix-covers/.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "23"
   },
   {
@@ -80,7 +80,7 @@
     "Artists": "Roddy Ricch, NAV, Gunna, Sheck Wes, Don Toliver,Yo Gotti, Megan Thee Stallion, Lil Uzi Vert",
     "Cover": "./cover/hs07.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs07.jpg",
-    "thumbnailLg": "./image/mix-covers/.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "24"
   },
   {
@@ -92,7 +92,7 @@
     "Artists": "",
     "Cover": "./cover/ae01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae01.jpg",
-    "thumbnailLg": "./image/mix-covers/.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "1"
   },
   {
@@ -104,7 +104,7 @@
     "Artists": "",
     "Cover": "./cover/ae02.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae02.jpg",
-    "thumbnailLg": "./image/mix-covers/.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "3"
   },
   {
@@ -116,7 +116,7 @@
     "Artists": "",
     "Cover": "./cover/ae03.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae03.jpg",
-    "thumbnailLg": "./image/mix-covers/.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "7"
   },
   {
@@ -128,7 +128,7 @@
     "Artists": "",
     "Cover": "./cover/ae04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae04.jpg",
-    "thumbnailLg": "./image/mix-covers/.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "9"
   },
   {
@@ -140,7 +140,7 @@
     "Artists": "",
     "Cover": "./cover/ae05.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae05.jpg",
-    "thumbnailLg": "./image/mix-covers/.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "12"
   },
   {
@@ -152,7 +152,7 @@
     "Artists": "",
     "Cover": "./cover/ae06.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae06.jpg",
-    "thumbnailLg": "./image/mix-covers/.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "22"
   },
   {
@@ -164,7 +164,7 @@
     "Artists": "",
     "Cover": "./cover/inferno-01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno01.jpg",
-    "thumbnailLg": "./image/mix-covers/rno01.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "4"
   },
   {
@@ -176,7 +176,7 @@
     "Artists": "",
     "Cover": "./cover/ci01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno02.jpg",
-    "thumbnailLg": "./image/mix-covers/rno02.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "5"
   },
   {
@@ -188,7 +188,7 @@
     "Artists": "",
     "Cover": "./cover/inderno01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno03.jpg",
-    "thumbnailLg": "./image/mix-covers/rno03.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "12"
   },
   {
@@ -200,7 +200,7 @@
     "Artists": "",
     "Cover": "./cover/ci04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno04.jpg",
-    "thumbnailLg": "./image/mix-covers/rno04.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "20"
   },
   {
@@ -212,7 +212,7 @@
     "Artists": "",
     "Cover": "./cover/mixconduct-1.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/mixcounduct01.jpg",
-    "thumbnailLg": "./image/mix-covers/ounduct01.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "2"
   },
   {
@@ -224,7 +224,7 @@
     "Artists": "",
     "Cover": "./cover/mixconduct-2.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/mixcounduct02.jpg",
-    "thumbnailLg": "./image/mix-covers/ounduct02.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "2"
   },
   {
@@ -248,7 +248,7 @@
     "Artists": "",
     "Cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/seanpaul.jpg",
-    "thumbnailLg": "./image/mix-covers/paul.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "16"
   },
   {
@@ -272,7 +272,7 @@
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/shuffle01.jpg",
-    "thumbnailLg": "./image/mix-covers/fle01.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "18"
   },
   {
@@ -296,7 +296,7 @@
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ntv01.jpg",
-    "thumbnailLg": "./image/mix-covers/1.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "25"
   },
   {
@@ -308,7 +308,7 @@
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ntv02.jpg",
-    "thumbnailLg": "./image/mix-covers/2.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "26"
   },
   {
@@ -320,7 +320,7 @@
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ntv03.jpg",
-    "thumbnailLg": "./image/mix-covers/3.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "27"
   },
   {
@@ -344,7 +344,7 @@
     "Artists": "",
     "Cover": "./cover/lagos01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos01.jpg",
-    "thumbnailLg": "./image/mix-covers/s01.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "30"
   },
   {
@@ -368,7 +368,7 @@
     "Artists": "",
     "Cover": "./cover/lagos03.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos03.jpg",
-    "thumbnailLg": "./image/mix-covers/s03.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "34"
   },
   {
@@ -380,7 +380,7 @@
     "Artists": "",
     "Cover": "./cover/lagos04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos04.jpg",
-    "thumbnailLg": "./image/mix-covers/s04.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "36"
   },
   {
@@ -404,7 +404,7 @@
     "Artists": "",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml01.jpg",
-    "thumbnailLg": "./image/mix-covers/l01.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "29"
   },
   {
@@ -416,7 +416,7 @@
     "Artists": "",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml02.jpg",
-    "thumbnailLg": "./image/mix-covers/l02.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "31"
   },
   {
@@ -440,7 +440,7 @@
     "Artists": "Blxst",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml04.jpg",
-    "thumbnailLg": "./image/mix-covers/l04.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "35"
   },
   {
@@ -452,7 +452,7 @@
     "Artists": "",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml05.jpg",
-    "thumbnailLg": "./image/mix-covers/hhsml05-bbg-lg.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bbg-lg.jpg",
     "id": "37"
   }
 ]
