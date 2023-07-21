@@ -7,31 +7,34 @@ fetch("./data.json")
     // Loop through the data and create list items
     data.forEach((episode) => {
       // Create the episode details
-      const title = `<h3 class="hover"><i class="fa-solid fa-play"></i> ${episode.Title}</h3>`;
+      const title = `<a class="hover underline h3" href="mix.html?id=${encodeURIComponent(
+        episode.id
+      )}">${episode.Title}</a><br/>`;
       // Add a click event listener to play the episode
       const audio = `<audio src="${episode.audio}"></audio>`;
       const album = `<p>Album: ${episode.Album}</p>`;
       const episodeNum = `<p>Episode: ${episode.Episode}</p>`;
       const genre = `<small>Genre: ${episode.Genre}</small><br/><br/>`;
       const artists = `<small>Artists: ${episode.Artists}</small>`;
-      const thumbnail = `<img loading="lazy" height="300" width="300" style="object-fit: cover;" alt="${episode.Title}" src="${episode.thumbnail}">`;
+      const thumbnail = `<img loading="lazy" height="100" width="100" style="object-fit: cover;" alt="${episode.Title}" src="${episode.thumbnail}">`;
 
       // Create the list item
       const listItem = `
-        <li class="mb-3 shadow rounded bg-dark">
-        <div class="container">
-            <div class="row p-5">
-                <div class="col">
+        <li class="mb-3">
+          <div class="container shadow rounded border border-dark">
+            <div class="row p-4">
+              <div class="col">
                 ${thumbnail}
-                </div>
-                <div class="col">
-                ${title}
-                ${audio}
+              </div>
+              <div class="col">
+                ${title} <br/>
                 ${genre}
+              </div>
+              <div class="col">
                 ${artists}
-                </div>
+              </div>
             </div>
-        </div>
+          </div>
         </li>
       `;
 

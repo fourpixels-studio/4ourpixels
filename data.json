@@ -5,9 +5,10 @@
     "Album": "Highjacked",
     "Episode": "1",
     "Genre": "Trap, Hip Hop, Rap",
-    "Artists": "Rae Sremmurd, Mustard, Niykee Heaton, Usher, Young Dolph, Kent, jones, Madeintyo, DJ Khaled, Belly, juicy J. Zaytoven, Future, Lil Durk, Young MA",
+    "Artists": "Rae Sremmurd,  Young Dolph, Kent, jones, Madeintyo",
     "Cover": "./cover/hs01.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/hs01.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/hs01.jpg",
+    "id": "2"
   },
   {
     "Title": "Highjacked Season 02",
@@ -17,7 +18,8 @@
     "Genre": "Trap, Hip Hop, Rap",
     "Artists": "",
     "Cover": "./cover/hs02.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/hs02.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/hs02.jpg",
+    "id": "6"
   },
   {
     "Title": "Highjacked Season 03",
@@ -27,7 +29,8 @@
     "Genre": "Trap, Hip Hop, Rap",
     "Artists": "",
     "Cover": "./cover/hs03.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/hs03.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/hs03.jpg",
+    "id": "10"
   },
   {
     "Title": "Highjacked Season 04",
@@ -37,7 +40,8 @@
     "Genre": "Trap, Hip Hop, Rap",
     "Artists": "",
     "Cover": "./cover/hs04.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/hs04.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/hs04.jpg",
+    "id": "14"
   },
   {
     "Title": "Highjacked Season 05",
@@ -47,7 +51,8 @@
     "Genre": "Trap, Hip Hop, Rap",
     "Artists": "",
     "Cover": "./cover/hs05.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/hs05.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/hs05.jpg",
+    "id": "17"
   },
   {
     "Title": "Highjacked Season 06",
@@ -57,7 +62,8 @@
     "Genre": "Trap, Hip Hop, Rap",
     "Artists": "",
     "Cover": "./cover/hs06.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/hs06.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/hs06.jpg",
+    "id": "23"
   },
   {
     "Title": "Highjacked Season 07",
@@ -67,7 +73,8 @@
     "Genre": "Trap, Hip Hop, Rap",
     "Artists": "Roddy Ricch, NAV, Gunna, Travis Scott, J Cole, Tory Lanez, Sheck Wes, Don Toliver, Luxury Tax 50, Cactus Jack, Yo Gotti, Megan Thee Stallion, Lil Uzi Vert, YBN Nahmir, G Eazy, Offset,",
     "Cover": "./cover/hs07.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/hs07.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/hs07.jpg",
+    "id": "24"
   },
   {
     "Title": "African Experience 01",
@@ -77,7 +84,8 @@
     "Genre": "Africa, Afro, EA",
     "Artists": "",
     "Cover": "./cover/ae01.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/ae01.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/ae01.jpg",
+    "id": "1"
   },
   {
     "Title": "African Experience 02",
@@ -87,7 +95,8 @@
     "Genre": "Africa, Afro, EA",
     "Artists": "",
     "Cover": "./cover/ae02.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/ae02.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/ae02.jpg",
+    "id": "3"
   },
   {
     "Title": "African Experience 03",
@@ -97,7 +106,8 @@
     "Genre": "Africa, Afro, EA",
     "Artists": "",
     "Cover": "./cover/ae03.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/ae03.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/ae03.jpg",
+    "id": "7"
   },
   {
     "Title": "African Experience 04",
@@ -107,7 +117,8 @@
     "Genre": "Africa, Afro, EA",
     "Artists": "",
     "Cover": "./cover/ae04.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/ae04.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/ae04.jpg",
+    "id": "9"
   },
   {
     "Title": "African Experience 05",
@@ -117,7 +128,8 @@
     "Genre": "Africa, Afro, EA",
     "Artists": "",
     "Cover": "./cover/ae05.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/ae05.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/ae05.jpg",
+    "id": "12"
   },
   {
     "Title": "African Experience 06",
@@ -127,7 +139,8 @@
     "Genre": "Africa, Afro, EA",
     "Artists": "",
     "Cover": "./cover/ae06.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/ae06.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/ae06.jpg",
+    "id": "22"
   },
   {
     "Title": "Club Inferno 01",
@@ -137,7 +150,8 @@
     "Genre": "Mashup, RnB, Dancehall, Hip Hop, Afro",
     "Artists": "",
     "Cover": "./cover/inferno-01.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/inferno01.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/inferno01.jpg",
+    "id": "4"
   },
   {
     "Title": "Club Inferno 02",
@@ -147,7 +161,8 @@
     "Genre": "Mashup, RnB, Dancehall, Hip Hop, Afro",
     "Artists": "",
     "Cover": "./cover/ci01.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/inferno02.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/inferno02.jpg",
+    "id": "5"
   },
   {
     "Title": "Club Inferno 03",
@@ -157,7 +172,8 @@
     "Genre": "Mashup, RnB, Dancehall, Hip Hop, Afro",
     "Artists": "",
     "Cover": "./cover/inderno01.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/inferno03.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/inferno03.jpg",
+    "id": "12"
   },
   {
     "Title": "Club Inferno 04",
@@ -167,7 +183,8 @@
     "Genre": "Mashup, RnB, Dancehall, Hip Hop, Afro",
     "Artists": "",
     "Cover": "./cover/ci04.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/inferno04.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/inferno04.jpg",
+    "id": "20"
   },
   {
     "Title": "Mixconduct Vol 01",
@@ -177,7 +194,8 @@
     "Genre": "Hip Hop, Rnb",
     "Artists": "",
     "Cover": "./cover/mixconduct-1.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/mixcounduct01.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/mixcounduct01.jpg",
+    "id": "2"
   },
   {
     "Title": "Mixconduct Vol 02",
@@ -187,7 +205,8 @@
     "Genre": "Hip Hop, Rnb",
     "Artists": "",
     "Cover": "./cover/mixconduct-2.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/mixcounduct02.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/mixcounduct02.jpg",
+    "id": "2"
   },
   {
     "Title": "Hood Love 01",
@@ -197,7 +216,8 @@
     "Genre": "RnB, Hip Hop, Rap",
     "Artists": "",
     "Cover": "./cover/hood-love-01.jpg",
-    "thumbnail": "./image/mix-covers/hoodlove/thumbnail-01.jpg"
+    "thumbnail": "./image/mix-covers/hoodlove/thumbnail-01.jpg",
+    "id": "39"
   },
   {
     "Title": "Sean Paul Mixtape",
@@ -207,7 +227,8 @@
     "Genre": "Dancehall, Pop",
     "Artists": "",
     "Cover": "./cover/seanpaul.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/seanpaul.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/seanpaul.jpg",
+    "id": "16"
   },
   {
     "Title": "Rihanna Mixtape",
@@ -217,7 +238,8 @@
     "Genre": "Dancehall, Pop, House, Edm, Hip Hop",
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/rihanna.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/rihanna.jpg",
+    "id": "19"
   },
   {
     "Title": "The Shuffle Vol 01",
@@ -227,7 +249,8 @@
     "Genre": "Old School, Rap, Hip Hop, Jams",
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/shuffle01.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/shuffle01.jpg",
+    "id": "18"
   },
   {
     "Title": "Local Classics Part 01",
@@ -237,7 +260,8 @@
     "Genre": "Kenyan Music",
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/local01.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/local01.jpg",
+    "id": "21"
   },
   {
     "Title": "NTV Set 01",
@@ -247,7 +271,8 @@
     "Genre": "Keyan Music, Hip Hop",
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/ntv01.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/ntv01.jpg",
+    "id": "25"
   },
   {
     "Title": "NTV Set 02",
@@ -257,7 +282,8 @@
     "Genre": "Hip Hop, Rap, Old School",
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/ntv02.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/ntv02.jpg",
+    "id": "26"
   },
   {
     "Title": "NTV Set 03",
@@ -267,7 +293,8 @@
     "Genre": "Crunk, Hop Hop",
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/ntv03.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/ntv03.jpg",
+    "id": "27"
   },
   {
     "Title": "NTV Set 04",
@@ -277,7 +304,8 @@
     "Genre": "Grime, Urban, Dancehall, Afrobeats",
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/ntv04.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/ntv04.jpg",
+    "id": "28"
   },
   {
     "Title": "Lagos To The Max 01",
@@ -287,7 +315,8 @@
     "Genre": "Afrobeats, Naija",
     "Artists": "",
     "Cover": "./cover/lagos01.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/lagos01.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/lagos01.jpg",
+    "id": "30"
   },
   {
     "Title": "Lagos To The Max 02",
@@ -297,7 +326,8 @@
     "Genre": "Afrobeats, Naija",
     "Artists": "",
     "Cover": "./cover/lagos02.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/lagos02.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/lagos02.jpg",
+    "id": "32"
   },
   {
     "Title": "Lagos To The Max 03",
@@ -307,7 +337,8 @@
     "Genre": "Afrobeats, Naija",
     "Artists": "",
     "Cover": "./cover/lagos03.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/lagos03.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/lagos03.jpg",
+    "id": "34"
   },
   {
     "Title": "Lagos To The Max 04",
@@ -317,7 +348,8 @@
     "Genre": "Afrobeats, Naija",
     "Artists": "",
     "Cover": "./cover/lagos04.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/lagos04.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/lagos04.jpg",
+    "id": "36"
   },
   {
     "Title": "Lagos To The Max 05",
@@ -327,7 +359,8 @@
     "Genre": "Afrobeats, Naija",
     "Artists": "",
     "Cover": "./cover/lagos05.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/lagos05.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/lagos05.jpg",
+    "id": "38"
   },
   {
     "Title": "Hip Hop Saved My Life 01",
@@ -337,7 +370,8 @@
     "Genre": "Hip Hop, Rap, Trap",
     "Artists": "",
     "Cover": "./cover/hs01.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/hhsml01.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/hhsml01.jpg",
+    "id": "29"
   },
   {
     "Title": "Hip Hop Saved My Life 02",
@@ -347,7 +381,8 @@
     "Genre": "Hip Hop, Rap, Trap",
     "Artists": "",
     "Cover": "./cover/hs01.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/hhsml02.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/hhsml02.jpg",
+    "id": "31"
   },
   {
     "Title": "Hip Hop Saved My Life 03",
@@ -357,7 +392,8 @@
     "Genre": "Hip Hop, Rap, Trap",
     "Artists": "",
     "Cover": "./cover/hs01.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/hhsml03.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/hhsml03.jpg",
+    "id": "33"
   },
   {
     "Title": "Hip Hop Saved My Life 04",
@@ -367,7 +403,8 @@
     "Genre": "Hip Hop, Rap, Trap",
     "Artists": "",
     "Cover": "./cover/hs01.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/hhsml04.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/hhsml04.jpg",
+    "id": "35"
   },
   {
     "Title": "Hip Hop Saved My Life 05",
@@ -377,6 +414,7 @@
     "Genre": "Hip Hop, Rap, Trap",
     "Artists": "",
     "Cover": "./cover/hs01.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/hhsml05.jpg"
+    "thumbnail": "./image/mix-covers/thumbnail/hhsml05.jpg",
+    "id": "37"
   }
 ]

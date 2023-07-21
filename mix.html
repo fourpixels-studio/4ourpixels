@@ -62,16 +62,6 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <style>
-      .btn-primary {
-        border-color: #d53030;
-        background-color: #d53030;
-      }
-      .btn-primary:hover {
-        border-color: #781f1f;
-        background-color: #781f1f;
-      }
-    </style>
   </head>
   <body>
     <div id="mix-header">
@@ -91,44 +81,55 @@
           </ul>
           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
-        <div class="header-text">
-          <p class="text-white small">DJ G400 Presents</p>
-          <h1 id="hero-title" class="sub-title">Highjacked Sn 03</h1>
-          <p id="mix-description">
-            <span class="w-50 small d-flex justify-content-between"
-              ><span>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </span>
-              <span id="time">2h 35m</span>
-              <span>Trap, Hip Hop, Rap</span>
-              <span id="date-released">11 Aug 2017</span></span
-            >
-          </p>
-          <input class="my-5" type="range" value="0" id="mix_progress_bar" />
-          <button
-            id="controlIcon"
-            onclick="playPause()"
-            class="btn btn-lg btn-primary"
-          >
-            Play Now
-            <i class="fa-solid fa-play text-white" id="controlIcon"></i>
-          </button>
-          <button class="btn btn-lg btn-secondary">Trailer</button>
-        </div>
+        <div id="episode-details" class="header-text"></div>
       </div>
     </div>
-    <div class="audio-player py-3 px-5">
-      <audio id="song">
-        <source
-          src="https://hearthis.at/djg400/dj-g400-highjacked-season-07-auido/listen.mp3?s=lge"
-          type="audio/mpeg"
-        />
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+
+    <script>
+      // JavaScript code to load the episode details from the JSON data
+      const mixHeader = document.getElementById("mix-header");
+      const urlParams = new URLSearchParams(window.location.search);
+      const episodeId = urlParams.get("id");
+
+      // Load the JSON data
+      fetch("./data.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const episode = data.find((episode) => episode.id === episodeId);
+          if (episode) {
+            const episodeDetails = document.getElementById("episode-details");
+            episodeDetails.innerHTML = `
+            <p class="text-white small">DJ G400 Presents</p>
+            <div class="sub-title" onclick="playPause()">
+              <i class="fa-solid fa-play hover" id="controlIcon"></i>
+                ${episode.Album}
+            </div>
+            <p class="text-white">Episode: ${episode.Episode}</p>
+            <h6 class=" text-white">Genre: ${episode.Genre}</h6>
+            <h6 class=" text-white">Artists: ${episode.Artists}</h6>
+            <input class="my-5" type="range" value="0" id="mix_progress_bar" />
+            <div class="audio-player py-3 px-5">
+              <audio id="song">
+                <source
+                  src="${episode.audio}"
+                  type="audio/mpeg"
+                />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          `;
+            mixHeader.backgroundImage.src = episode.Cover;
+          } else {
+            const episodeDetails = document.getElementById("episode-details");
+            episodeDetails.innerHTML =
+              "<p class='alert alert-dark text-center'>Episode not found.</p>";
+          }
+        })
+        .catch((error) => {
+          console.error(`Error loading JSON data: ${error}`);
+        });
+    </script>
+
     <script>
       // Get a reference to the audio element
       var progress = document.getElementById("mix_progress_bar");
@@ -152,7 +153,7 @@
         }
       }
 
-      if (song.played) {
+      if (song.play) {
         setInterval(() => {
           progress.value = song.currentTime;
         }, 500);
@@ -164,7 +165,7 @@
         controlIcon.classList.remove("fa-play");
       };
     </script>
-    <script src="./image/js.js"></script>
+
     <script>
       var tablinks = document.getElementsByClassName("tab-links");
       var tabcontents = document.getElementsByClassName("tab-contents");
@@ -180,6 +181,7 @@
         document.getElementById(tabname).classList.add("active-tab");
       }
     </script>
+
     <script>
       var sidemenu = document.getElementById("sidemenu");
 
@@ -189,10 +191,6 @@
       function closemenu() {
         sidemenu.style.right = "-200px";
       }
-    </script>
-    <script>
-      const songTitle = document.getElementById("hero-title");
-      const songTitle = document.getElementById("hero-title");
     </script>
   </body>
 </html>
