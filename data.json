@@ -8,6 +8,7 @@
     "Artists": "Rae Sremmurd,  Young Dolph, Kent, jones, Madeintyo",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs01.jpg",
+    "thumbnailLg": "./image/mix-covers/.jpg",
     "id": "2"
   },
   {
@@ -16,9 +17,10 @@
     "Album": "Highjacked",
     "Episode": "2",
     "Genre": "Trap, Hip Hop, Rap",
-    "Artists": "",
+    "Artists": "MGK, Ty Dolla $ign, Future, 2 Chainz, 21 Savage",
     "Cover": "./cover/hs02.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs02.jpg",
+    "thumbnailLg": "./image/mix-covers/.jpg",
     "id": "6"
   },
   {
@@ -27,9 +29,10 @@
     "Album": "Highjacked",
     "Episode": "3",
     "Genre": "Trap, Hip Hop, Rap",
-    "Artists": "",
+    "Artists": "Big Sean, Kodack Black, Ayo & Teo, Migos, PnB Rock",
     "Cover": "./cover/hs03.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs03.jpg",
+    "thumbnailLg": "./image/mix-covers/highjacked-03-lg.jpg",
     "id": "10"
   },
   {
@@ -38,9 +41,10 @@
     "Album": "Highjacked",
     "Episode": "4",
     "Genre": "Trap, Hip Hop, Rap",
-    "Artists": "",
+    "Artists": "Lil Pump, Moneybag Yo, Lil Yatchy, Nicki Minaj, Konshens, Tyga",
     "Cover": "./cover/hs04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs04.jpg",
+    "thumbnailLg": "./image/mix-covers/.jpg",
     "id": "14"
   },
   {
@@ -49,9 +53,10 @@
     "Album": "Highjacked",
     "Episode": "5",
     "Genre": "Trap, Hip Hop, Rap",
-    "Artists": "",
+    "Artists": "French Montana, Tory Lanez, Lil Mosey, Rich The Kid, Juice Wrld, Childish Gambino",
     "Cover": "./cover/hs05.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs05.jpg",
+    "thumbnailLg": "./image/mix-covers/.jpg",
     "id": "17"
   },
   {
@@ -60,9 +65,10 @@
     "Album": "Highjacked",
     "Episode": "6",
     "Genre": "Trap, Hip Hop, Rap",
-    "Artists": "",
+    "Artists": "Gucci Mane, Key Glock, Young Dolph, Travis Scott, Khaligraph Jones, Smokepurpp, YNW Melly, YG",
     "Cover": "./cover/hs06.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs06.jpg",
+    "thumbnailLg": "./image/mix-covers/.jpg",
     "id": "23"
   },
   {
@@ -71,9 +77,10 @@
     "Album": "Highjacked",
     "Episode": "7",
     "Genre": "Trap, Hip Hop, Rap",
-    "Artists": "Roddy Ricch, NAV, Gunna, Travis Scott, J Cole, Tory Lanez, Sheck Wes, Don Toliver, Luxury Tax 50, Cactus Jack, Yo Gotti, Megan Thee Stallion, Lil Uzi Vert, YBN Nahmir, G Eazy, Offset,",
+    "Artists": "Roddy Ricch, NAV, Gunna, Sheck Wes, Don Toliver,Yo Gotti, Megan Thee Stallion, Lil Uzi Vert",
     "Cover": "./cover/hs07.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs07.jpg",
+    "thumbnailLg": "./image/mix-covers/.jpg",
     "id": "24"
   },
   {
@@ -85,6 +92,7 @@
     "Artists": "",
     "Cover": "./cover/ae01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae01.jpg",
+    "thumbnailLg": "./image/mix-covers/.jpg",
     "id": "1"
   },
   {
@@ -96,6 +104,7 @@
     "Artists": "",
     "Cover": "./cover/ae02.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae02.jpg",
+    "thumbnailLg": "./image/mix-covers/.jpg",
     "id": "3"
   },
   {
@@ -107,6 +116,7 @@
     "Artists": "",
     "Cover": "./cover/ae03.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae03.jpg",
+    "thumbnailLg": "./image/mix-covers/.jpg",
     "id": "7"
   },
   {
@@ -118,6 +128,7 @@
     "Artists": "",
     "Cover": "./cover/ae04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae04.jpg",
+    "thumbnailLg": "./image/mix-covers/.jpg",
     "id": "9"
   },
   {
@@ -129,6 +140,7 @@
     "Artists": "",
     "Cover": "./cover/ae05.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae05.jpg",
+    "thumbnailLg": "./image/mix-covers/.jpg",
     "id": "12"
   },
   {
@@ -140,6 +152,7 @@
     "Artists": "",
     "Cover": "./cover/ae06.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae06.jpg",
+    "thumbnailLg": "./image/mix-covers/.jpg",
     "id": "22"
   },
   {
@@ -151,6 +164,7 @@
     "Artists": "",
     "Cover": "./cover/inferno-01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno01.jpg",
+    "thumbnailLg": "./image/mix-covers/rno01.jpg",
     "id": "4"
   },
   {
@@ -162,6 +176,7 @@
     "Artists": "",
     "Cover": "./cover/ci01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno02.jpg",
+    "thumbnailLg": "./image/mix-covers/rno02.jpg",
     "id": "5"
   },
   {
@@ -173,6 +188,7 @@
     "Artists": "",
     "Cover": "./cover/inderno01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno03.jpg",
+    "thumbnailLg": "./image/mix-covers/rno03.jpg",
     "id": "12"
   },
   {
@@ -184,6 +200,7 @@
     "Artists": "",
     "Cover": "./cover/ci04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno04.jpg",
+    "thumbnailLg": "./image/mix-covers/rno04.jpg",
     "id": "20"
   },
   {
@@ -195,6 +212,7 @@
     "Artists": "",
     "Cover": "./cover/mixconduct-1.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/mixcounduct01.jpg",
+    "thumbnailLg": "./image/mix-covers/ounduct01.jpg",
     "id": "2"
   },
   {
@@ -206,6 +224,7 @@
     "Artists": "",
     "Cover": "./cover/mixconduct-2.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/mixcounduct02.jpg",
+    "thumbnailLg": "./image/mix-covers/ounduct02.jpg",
     "id": "2"
   },
   {
@@ -217,6 +236,7 @@
     "Artists": "",
     "Cover": "./cover/hood-love-01.jpg",
     "thumbnail": "./image/mix-covers/hoodlove/thumbnail-01.jpg",
+    "thumbnailLg": "./image/mix-covers/hood-love-bg-lg.jpg",
     "id": "39"
   },
   {
@@ -228,17 +248,19 @@
     "Artists": "",
     "Cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/seanpaul.jpg",
+    "thumbnailLg": "./image/mix-covers/paul.jpg",
     "id": "16"
   },
   {
     "Title": "Rihanna Mixtape",
     "audio": "https://hearthis.at/djg400/dj-g400-rihanna-mixtape-audio/listen.mp3?s=u7Z",
-    "Album": "Rihanna",
+    "Album": "Rihanna Mixtape",
     "Episode": "1",
     "Genre": "Dancehall, Pop, House, Edm, Hip Hop",
     "Artists": "",
-    "cover": "./cover/seanpaul.jpg",
+    "cover": "./cover/rihanna.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/rihanna.jpg",
+    "thumbnailLg": "./image/mix-covers/rihanna-bg-lg.jpg",
     "id": "19"
   },
   {
@@ -250,6 +272,7 @@
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/shuffle01.jpg",
+    "thumbnailLg": "./image/mix-covers/fle01.jpg",
     "id": "18"
   },
   {
@@ -261,6 +284,7 @@
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/local01.jpg",
+    "thumbnailLg": "./image/mix-covers/l01.jpg",
     "id": "21"
   },
   {
@@ -272,6 +296,7 @@
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ntv01.jpg",
+    "thumbnailLg": "./image/mix-covers/1.jpg",
     "id": "25"
   },
   {
@@ -283,6 +308,7 @@
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ntv02.jpg",
+    "thumbnailLg": "./image/mix-covers/2.jpg",
     "id": "26"
   },
   {
@@ -294,6 +320,7 @@
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ntv03.jpg",
+    "thumbnailLg": "./image/mix-covers/3.jpg",
     "id": "27"
   },
   {
@@ -305,6 +332,7 @@
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ntv04.jpg",
+    "thumbnailLg": "./image/mix-covers/4.jpg",
     "id": "28"
   },
   {
@@ -316,6 +344,7 @@
     "Artists": "",
     "Cover": "./cover/lagos01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos01.jpg",
+    "thumbnailLg": "./image/mix-covers/s01.jpg",
     "id": "30"
   },
   {
@@ -327,6 +356,7 @@
     "Artists": "",
     "Cover": "./cover/lagos02.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos02.jpg",
+    "thumbnailLg": "./image/mix-covers/s02.jpg",
     "id": "32"
   },
   {
@@ -338,6 +368,7 @@
     "Artists": "",
     "Cover": "./cover/lagos03.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos03.jpg",
+    "thumbnailLg": "./image/mix-covers/s03.jpg",
     "id": "34"
   },
   {
@@ -349,6 +380,7 @@
     "Artists": "",
     "Cover": "./cover/lagos04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos04.jpg",
+    "thumbnailLg": "./image/mix-covers/s04.jpg",
     "id": "36"
   },
   {
@@ -360,6 +392,7 @@
     "Artists": "",
     "Cover": "./cover/lagos05.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos05.jpg",
+    "thumbnailLg": "./image/mix-covers/lagos-05.jpg",
     "id": "38"
   },
   {
@@ -371,6 +404,7 @@
     "Artists": "",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml01.jpg",
+    "thumbnailLg": "./image/mix-covers/l01.jpg",
     "id": "29"
   },
   {
@@ -382,6 +416,7 @@
     "Artists": "",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml02.jpg",
+    "thumbnailLg": "./image/mix-covers/l02.jpg",
     "id": "31"
   },
   {
@@ -389,10 +424,11 @@
     "audio": "https://hearthis.at/djg400/dj-g400-hip-hop-saved-my-life-03/listen.mp3?s=5PJ",
     "Album": "Hip Hop Saved My Life ",
     "Episode": "3",
-    "Genre": "Hip Hop, Rap, Trap",
-    "Artists": "",
+    "Genre": "RnB, Hood Love, Hip Hop",
+    "Artists": "Blxst, Chris Brown, Ty Dolla $ign, Pop Smoke",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml03.jpg",
+    "thumbnailLg": "./image/mix-covers/hhsml03-bg-lg.jpg",
     "id": "33"
   },
   {
@@ -401,9 +437,10 @@
     "Album": "Hip Hop Saved My Life ",
     "Episode": "4",
     "Genre": "Hip Hop, Rap, Trap",
-    "Artists": "",
+    "Artists": "Blxst",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml04.jpg",
+    "thumbnailLg": "./image/mix-covers/l04.jpg",
     "id": "35"
   },
   {
@@ -415,6 +452,7 @@
     "Artists": "",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml05.jpg",
+    "thumbnailLg": "./image/mix-covers/hhsml05-bbg-lg.jpg",
     "id": "37"
   }
 ]

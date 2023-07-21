@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>4our Pixels - Highjacked</title>
+    <title id="page_title">DJ G400</title>
     <!-- Favicon for all devices -->
     <link
       rel="icon"
@@ -52,10 +52,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
-    <script
-      src="https://kit.fontawesome.com/215638c07f.js"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
-    ></script>
+      referrerpolicy="no-referrer"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -69,17 +72,25 @@
         <nav>
           <img src="./image/g400.png" class="logo" />
           <ul id="sidemenu">
-            <li><a class="hover" href="./index.html">Home</a></li>
-            <li><a class="hover" href="./djg400.html">Mixes</a></li>
+            <li><a class="hover text-white" href="./index.html">Home</a></li>
             <li>
-              <a class="hover" href="https://4ourpixels.github.io/ecommerce/"
-                >Merchandise</a
+              <a class="hover text-white" href="./djg400.html#allMixes"
+                >Mixes</a
               >
             </li>
-            <li><a class="hover" href="./contact.html">Contact</a></li>
-            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            <li>
+              <a class="hover text-white" href="./contact.html">Contact</a>
+            </li>
+            <li>
+              <a
+                class="hover text-white"
+                href="https://4ourpixels.github.io/ecommerce/"
+                >Merch</a
+              >
+            </li>
+            <i class="fa-solid text-white fa-xmark" onclick="closemenu()"></i>
           </ul>
-          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          <i class="fa-solid text-white fa-bars" onclick="openmenu()"></i>
         </nav>
         <div id="episode-details" class="header-text"></div>
       </div>
@@ -87,6 +98,7 @@
 
     <script>
       // JavaScript code to load the episode details from the JSON data
+      const pageTitle = document.getElementById("page_title");
       const mixHeader = document.getElementById("mix-header");
       const urlParams = new URLSearchParams(window.location.search);
       const episodeId = urlParams.get("id");
@@ -98,27 +110,33 @@
           const episode = data.find((episode) => episode.id === episodeId);
           if (episode) {
             const episodeDetails = document.getElementById("episode-details");
+            mixHeader.style.background = `linear-gradient(rgba(0, 0, 0, 0.7), #000000d6),url(${episode.thumbnailLg})`;
+            mixHeader.style.backgroundSize = "cover";
+            mixHeader.style.backgroundPosition = "center";
+            mixHeader.style.width = "100%";
+            mixHeader.style.height = "100vh";
             episodeDetails.innerHTML = `
-            <p class="text-white small">DJ G400 Presents</p>
-            <div class="sub-title" onclick="playPause()">
-              <i class="fa-solid fa-play hover" id="controlIcon"></i>
-                ${episode.Album}
-            </div>
-            <p class="text-white">Episode: ${episode.Episode}</p>
-            <h6 class=" text-white">Genre: ${episode.Genre}</h6>
-            <h6 class=" text-white">Artists: ${episode.Artists}</h6>
-            <input class="my-5" type="range" value="0" id="mix_progress_bar" />
-            <div class="audio-player py-3 px-5">
-              <audio id="song">
-                <source
-                  src="${episode.audio}"
-                  type="audio/mpeg"
-                />
-                Your browser does not support the audio element.
-              </audio>
-            </div>
-          `;
-            mixHeader.backgroundImage.src = episode.Cover;
+              <small class="text-white"><a href="./djg400.html#allMixes" class="underline hover">&#8592; All Mixes</a> / DJ G400</small>
+              <div class="sub-title">${episode.Album}</div>
+              <small class="text-white">Episode: ${episode.Episode}</small>
+              <div class="row">
+                <div class="display-1 mt-3 text-white" onclick="playPause()">
+                  <i class="fa-solid fa-play hover" id="controlIcon"></i>
+                </div>
+                <h6 class="text-white float-end">#${episode.Genre}</h6>
+              </div>
+              <div class="audio-player">
+                <audio id="song">
+                  <source src="${episode.audio}" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+              <hr class="text-white"/>
+              <div class="float-end">
+                <h6 class="text-white">Featured Artists: ${episode.Artists}</h6>
+              </div>
+            `;
+            pageTitle.innerHTML = `DJ G400 - ${episode.Title}`;
           } else {
             const episodeDetails = document.getElementById("episode-details");
             episodeDetails.innerHTML =
@@ -128,20 +146,12 @@
         .catch((error) => {
           console.error(`Error loading JSON data: ${error}`);
         });
-    </script>
 
-    <script>
-      // Get a reference to the audio element
-      var progress = document.getElementById("mix_progress_bar");
-      var song = document.getElementById("song");
-      var controlIcon = document.getElementById("controlIcon");
-
-      song.onloadedmetadata = function () {
-        progress.max = song.duration;
-        progress.value = song.currentTime;
-      };
-
+      // Move the playPause() function outside of the DOMContentLoaded event
       function playPause() {
+        var song = document.getElementById("song");
+        var controlIcon = document.getElementById("controlIcon");
+
         if (song.paused) {
           song.play();
           controlIcon.classList.add("fa-pause");
@@ -153,17 +163,32 @@
         }
       }
 
-      if (song.play) {
-        setInterval(() => {
-          progress.value = song.currentTime;
-        }, 500);
-      }
+      document.addEventListener("DOMContentLoaded", function () {
+        // Get a reference to the audio element
+        var progress = document.getElementById("mix_progress_bar");
+        var song = document.getElementById("song");
+        var controlIcon = document.getElementById("controlIcon");
 
-      progress.onchange = function () {
-        song.currentTime = progress.value;
-        controlIcon.classList.add("fa-pause");
-        controlIcon.classList.remove("fa-play");
-      };
+        song.onloadedmetadata = function () {
+          progress.max = song.duration;
+          progress.value = song.currentTime;
+        };
+
+        // Update progress bar continuously as audio plays
+        song.ontimeupdate = function () {
+          progress.value = song.currentTime;
+        };
+
+        progress.oninput = function () {
+          song.currentTime = progress.value;
+        };
+
+        if (song.play) {
+          setInterval(() => {
+            progress.value = song.currentTime;
+          }, 500);
+        }
+      });
     </script>
 
     <script>
