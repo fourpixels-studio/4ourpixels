@@ -1,420 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>4our Pixels - Creative Agency</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
-    <!-- Favicon for all devices -->
-    <link
-      rel="icon"
-      type="image/x-icon"
-      sizes="32x32"
-      href="./image/favicon/favicon.ico"
+    <meta
+      name="description"
+      content="Authentic Mtumba Shoes, Standard Quality"
     />
+    <meta name="author" content="Lorenzos Store" />
+    <title>Lorenzos Store - Authentic Mtumba Shoes, Standard Quality</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
     <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./image/favicon/favicon-16x16.png"
-    />
-
-    <!-- iOS specific favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./image/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="./image/favicon/apple-touch-icon.png"
-    />
-
-    <!-- Android Chrome specific favicon -->
-    <link rel="manifest" href="./image/favicon/site.webmanifest" />
-    <meta name="theme-color" content="#30d5c8" />
-
-    <!-- Microsoft specific favicon -->
-    <meta name="msapplication-TileImage" content="./image/favicon/4white.png" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-
-    <!-- Other favicons -->
-    <link
-      rel="mask-icon"
-      href="./image/favicon//image/favicon/4white.png"
-      color="#30d5c8"
-    />
-    <meta name="msapplication-config" content="./browserconfig.xml" />
-    <meta name="theme-color" content="#30d5c8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <script
-      src="https://kit.fontawesome.com/215638c07f.js"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
-    ></script>
+      referrerpolicy="no-referrer"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="./css/new.css" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="#header_four_pixels">
-      <video autoplay muted loop id="video-background">
-        <source
-          id="video-element"
-          src="./video/portrait.mp4"
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video>
-
-      <div class="containerLocal">
-        <nav>
-          <img src="./image/4pixels.png" class="logo" />
-          <ul id="sidemenu">
-            <li>
-              <a class="hover" href="./index.html">Home</a>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#!"
+          ><img height="50" src="./assets/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
             </li>
-            <li>
-              <a class="hover" href="./blog.html">Blog</a>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
             </li>
-            <li>
-              <a class="hover" href="./portfolio.html">Portfolio</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Shop</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#!">All Products</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+              </ul>
             </li>
-            <li>
-              <a class="hover" href="./contact.html">Contact</a>
-            </li>
-            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
-          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-          <small>Creative Agency</small>
-          <h1 id="hero-title" class="sub-title hover">
-            Welcome to<br />
-            <span>4our</span> Pixels
-          </h1>
-        </div>
-      </div>
-    </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <div
-      style="display: flex; justify-content: center; align-items: center"
-      class="container text-center"
-    >
-      <a
-        style="text-align: center"
-        href="#about"
-        class="small underline hover text-center"
-        >Scroll <br />
-        &darr;</a
-      >
-    </div>
-    <!------aboout------->
-    <div id="about">
-      <h1 class="text-center hover sub-title">About Us</h1>
-      <div class="containerLocal text-center">
-        <h2>
-          Creative agency specialising in
-          <a class="underline hover" href="./graphic-design-pricing.html"
-            >graphic design,</a
-          >
-          <br />
-          <a class="underline hover" href="./web-app-development-pricing.html"
-            >web/app development,</a
-          >
-          <a class="underline hover" href="./motion-graphics-pricing.html"
-            >animation</a
-          >
-          and <a class="underline hover" href="./djg400.html">more</a>.
-        </h2>
-      </div>
-      <div class="containerLocal">
-        <hr />
-        <hr />
-        <hr />
-        <hr />
-      </div>
-    </div>
-
-    <!------portfolio-->
-    <div class="containerLocal">
-      <div class="row">
-        <div class="col mb-5">
-          <h1 class="sub-title hover">
-            We offer several <br />
-            services for <span class="legacy-color">you.</span>
-          </h1>
-        </div>
-
-        <div class="col-6">
-          <ol class="list-unstyled">
-            <li>
-              <h2 class="hover">
-                <span class="legacy-color">01.</span> Web/App Development
-              </h2>
-              <p class="text-muted">
-                Tailored design packages to meet your specific needs. Web and
-                app development services.
-              </p>
-              <a
-                class="link text-muted underline small"
-                href="./web-app-development-pricing.html"
-                >Learn more</a
+          <div class="d-flex">
+            <div onclick="toggleCartDetails()" class="btn btn-outline-dark">
+              <i class="bi-cart-fill me-1"></i>
+              Cart
+              <span
+                id="cart-count"
+                class="badge bg-dark text-white ms-1 rounded-pill"
+                >0</span
               >
-            </li>
-            <hr />
-            <li>
-              <h2 class="hover">
-                <span class="legacy-color">02.</span> Graphic Design
-              </h2>
-              <p class="text-muted">
-                Professional graphic design services for logos, branding, and
-                print materials.
-              </p>
-              <a
-                class="link text-muted underline small"
-                href="./graphic-design-pricing.html"
-                >Learn more</a
-              >
-            </li>
-            <hr />
-            <li class="mb-5">
-              <h2 class="hover">
-                <span class="legacy-color">03.</span> Motion Graphics
-              </h2>
-              <p class="text-muted">
-                Engaging motion graphics and animations for videos,
-                presentations, and websites.
-              </p>
-              <a
-                class="link text-muted underline small"
-                href="./motion-graphics-pricing.html"
-                >Learn more</a
-              >
-            </li>
-            <hr />
-            <li class="mb-5">
-              <h2 class="hover">
-                <span class="legacy-color">04.</span> DJ G400
-              </h2>
-              <p class="text-muted">
-                Playlists, mixes, music and DJ services by DJ G400.
-              </p>
-              <a class="link text-muted underline small" href="./djg400.html"
-                >Learn more</a
-              >
-            </li>
-          </ol>
-        </div>
-      </div>
-    </div>
-    <div class="containerLocal">
-      <hr />
-      <hr />
-      <hr />
-      <hr />
-    </div>
-    <div class="containerLocal">
-      <h1 class="mt-5 text-center sub-title">Blogs</h1>
-      <div class="containerLocal">
-        <div class="work-list">
-          <div class="work">
-            <img
-              class="greyscale"
-              style="
-                height: 300px;
-                width: 100%;
-                object-fit: cover;
-                border-radius: 0px;
-              "
-              src="https://images.unsplash.com/photo-1533908279087-2448f4554f18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80"
-            />
-            <div class="layer">
-              <h3>
-                Unleashing the Power of Web Development: <br />
-                A 4our Pixels Guide.
-              </h3>
-              <a href="./web_blog.html"
-                ><i style="cursor: pointer" class="fa-solid fa-link"></i
-              ></a>
             </div>
-            <h6 class="mt-4 text-center">Web/App Development</h6>
-          </div>
-          <div class="work">
-            <img
-              class="greyscale"
-              style="
-                height: 300px;
-                width: 100%;
-                object-fit: cover;
-                border-radius: 0px;
-              "
-              src="https://images.pexels.com/photos/14001304/pexels-photo-14001304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            />
-            <div class="layer">
-              <h3>
-                Introducing Python's Image Compressing App: Your All-in-One
-                Solution.
-              </h3>
-              <a href="./image_compression_blog.html"
-                ><i style="cursor: pointer" class="fa-solid fa-link"></i
-              ></a>
-            </div>
-            <h6 class="mt-4 text-center">Image Compression.</h6>
           </div>
         </div>
       </div>
-    </div>
-    <footer class="containerLocal mt-5">
-      <hr />
-      <hr />
-      <hr />
-      <hr />
-      <hr class="mb-5 mt-3" />
-      <div class="row">
-        <div class="col-12 col-md">
-          <img class="mb-4" height="50" src="image/4logo.png" alt="" />
-          <small class="d-block mb-3 text-muted"
-            >&copy;
-            <a
-              class="underline link text-muted"
-              href="https://4ourpixels.github.io/4ourpixels/"
-              >4our Pixels</a
-            >
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
-          </small>
+    </nav>
+    <!-- Header-->
+    <header id="banner" class="py-5">
+      <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+          <h1 class="display-4 fw-bolder">Lorenzos Store</h1>
+
+          <p class="lead fw-normal text-white-50 mb-0">
+            Authentic Mtumba Shoes, Standard Quality
+          </p>
         </div>
-        <div class="col-6 col-md">
-          <p>Social Media</p>
-          <div class="social-icons">
-            <a href="https://www.instagram.com/4ourpixels"
-              ><i class="fa-brands fa-instagram fa-xs"></i
-            ></a>
-            <a href="https://www.twitter.com/4ourpixels"
-              ><i class="fa-brands fa-twitter fa-xs"></i
-            ></a>
-            <a href="https://www.threads.net/@4ourpixels"
-              ><i class="fa-solid fa-at fa-xs"></i
-            ></a>
-          </div>
+      </div>
+    </header>
+    <!-- Section-->
+    <section class="py-5">
+      <div id="cart-details" class="container-fluid hidden">
+        <h1 id="total-items-in-cart">Total Items In Cart (0)</h1>
+        <hr />
+        <div class="row">
+          <table class="table table-responsive table-striped table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Image</th>
+                <th scope="col">Shoe</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+                <th scope="col">Remove</th>
+              </tr>
+            </thead>
+            <tbody id="cart-info"></tbody>
+            <tfoot>
+              <tr>
+                <td>Sub Total</td>
+                <td class="fw-bold" id="sub-total">$0</td>
+              </tr>
+            </tfoot>
+          </table>
+          <button
+            id="lipa-na-mpesa-btn"
+            class="btn w-100 btn-success"
+            onclick="pay()"
+          >
+            Lipa Na Mpesa
+          </button>
+          <div id="paypal-button-container"></div>
         </div>
-        <div class="col-6 col-md">
-          <p>Resources</p>
-          <div class="social-icons">
-            <a href="https://4ourpixels.github.io/ecommerce/"
-              ><img
-                style="margin-bottom: 0.5rem; filter: opacity(0.7)"
-                height="25"
-                src="./image/brands/g400.png"
-            /></a>
-            <a href="https://github.com/4ourpixels"
-              ><i class="fa-brands fa-github fa-xs"></i
-            ></a>
-            <a
-              href="https://podcasts.apple.com/ke/podcast/dj-g400-mixes/id1645709049"
-              ><i class="fa-solid fa-podcast fa-xs"></i
-            ></a>
-            <a
-              href="https://open.spotify.com/user/31a2pdxfva2uuvnr4iettetcayxy?si=mlOFeExWRA-I_kvngQtVBQ&utm_source=copy-link"
-              ><i class="fa-brands fa-spotify fa-xs"></i
-            ></a>
-            <a href="https://www.youtube.com/channel/UC9HP_DqruMAplsz0-ynveaQ"
-              ><i class="fa-brands fa-youtube fa-xs"></i
-            ></a>
-            <a href="https://www.mixcloud.com/djg400"
-              ><i class="fa-brands fa-mixcloud"></i
-            ></a>
-            <a href="https://hearthis.at/djg400/"
-              ><img
-                style="margin-bottom: 0.7rem"
-                height="15"
-                src="./image/hearthis.png"
-            /></a>
-          </div>
+      </div>
+      <div class="container px-4 px-lg-5 mt-5">
+        <div
+          id="products"
+          class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+        >
+          <!-- Product image-->
+
+          <!-- Product details d-->
+
+          <!-- Product actions-->
         </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Lorenzos Store 2023. Website by
+          <a
+            class="link text-white"
+            href="https://4ourpixels.github.io/4ourpixels/"
+            >4our Pixels</a
+          >
+        </p>
       </div>
     </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="./lorenzo.js"></script>
+    <script src="./app.js"></script>
     <script>
-      // Check if the media query matches
-      function handleVideoSourceChange(mq) {
-        if (mq.matches) {
-          // Set the video source for small screens
-          document.getElementById("video-element").src = "./video/portrait.mp4";
+      // Function to toggle the cart-details element
+      function toggleCartDetails() {
+        var cartDetails = document.getElementById("cart-details");
+        if (cartDetails.classList.contains("hidden")) {
+          cartDetails.classList.remove("hidden");
         } else {
-          // Set the video source for larger screens
-          document.getElementById("video-element").src = "./video/720.mp4";
+          cartDetails.classList.add("hidden");
         }
       }
-
-      // Create a media query
-      const mediaQuery = window.matchMedia("(max-width: 600px)");
-
-      // Call the function initially
-      handleVideoSourceChange(mediaQuery);
-
-      // Register event listener for changes in the media query
-      mediaQuery.addListener(handleVideoSourceChange);
-    </script>
-    <script>
-      var tablinks = document.getElementsByClassName("tab-links");
-      var tabcontents = document.getElementsByClassName("tab-contents");
-
-      function opentab(tabname) {
-        for (tablink of tablinks) {
-          tablink.classList.remove("active-link");
-        }
-        for (tabcontent of tabcontents) {
-          tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-      }
-    </script>
-    <script>
-      var sidemenu = document.getElementById("sidemenu");
-
-      function openmenu() {
-        sidemenu.style.right = "0";
-      }
-      function closemenu() {
-        sidemenu.style.right = "-200px";
-      }
-    </script>
-    <script>
-      const scriptURL =
-        "https://script.google.com/macros/s/AKfycbwLq3Nzvc_DU_3lJQD3jU3RTljc6XdwQJmOlNrcgZmDSIhyjITbEOH9Y4T4_UTej5YG6Q/exec";
-      const form = document.forms["submit-to-google-sheet"];
-      const msg = document.getElementById("msg");
-
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) => {
-            msg.innerHTML = "Message sent successfully!";
-            setTimeout(function () {
-              msg.innerHTML = "";
-            }, 5000);
-            form.reset();
-          })
-          .catch((error) => console.error("Error!", error.message));
-      });
     </script>
   </body>
 </html>
