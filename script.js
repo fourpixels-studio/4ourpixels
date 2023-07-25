@@ -2,9 +2,12 @@
 fetch("./data.json")
   .then((response) => response.json())
   .then((data) => {
+    // Sort the data based on the latest ID number (assuming "id" is a numerical value)
+    data.sort((a, b) => b.id - a.id);
+
     let html = "";
 
-    // Loop through the data and create list items
+    // Loop through the sorted data and create list items
     data.forEach((episode) => {
       // Create the episode details
       const title = `<a class="hover underline h3" href="mix.html?id=${encodeURIComponent(
@@ -20,22 +23,18 @@ fetch("./data.json")
 
       // Create the list item
       const listItem = `
-        <li class="mb-3">
-          <div class="container shadow rounded border border-dark">
-            <div class="row p-4">
-              <div class="col">
-                ${thumbnail}
-              </div>
-              <div class="col">
-                ${title} <br/>
-                ${genre}
-              </div>
-              <div class="col">
-                ${artists}
-              </div>
-            </div>
-          </div>
-        </li>
+        <tr>
+          <th scope="row"><img height="70" width="70" src="${
+            episode.thumbnail
+          }"/></th>
+          <td>
+            <a class="hover underline" href="mix.html?id=${encodeURIComponent(
+              episode.id
+            )}">
+          ${episode.Album} 0${episode.Episode}</a></td>
+          <td>${episode.Genre}</td>
+          <td>${episode.Artists}</td>
+        </tr>
       `;
 
       // Append the list item to the HTML variable

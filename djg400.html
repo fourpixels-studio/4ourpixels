@@ -108,40 +108,6 @@
     </div>
 
     <!------portfolio-->
-    <div id="portfolio">
-      <div class="containerLocal">
-        <h1 class="sub-title">Latest Mixes</h1>
-        <div class="work-list">
-          <div class="work">
-            <img src="./image/hs07.png" />
-            <div class="layer">
-              <h3>Highjacked Season 07</h3>
-              <p>Featuring Roddy Rich, Drake, Lil Baby, YG, South Memphis...</p>
-            </div>
-          </div>
-          <div class="work">
-            <img src="./image/lagos5.png" />
-            <div class="layer">
-              <h3>Lagos To The Max 05</h3>
-              <p>Great Afrobeat vibes from Nigeria.</p>
-            </div>
-          </div>
-          <div class="work">
-            <img src="./image/mixes.png" />
-            <div class="layer">
-              <h3>Hip Hop Saved My Life 05</h3>
-              <p>
-                With a diverse range of styles and sounds, listen to the fifth
-                HHSML installment.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!------contact-->
-
-    <!------portfolio-->
     <div id="merchandise">
       <div class="containerLocal">
         <h1 class="sub-title hover">Merchandise</h1>
@@ -181,9 +147,93 @@
     </div>
     <div id="allMixes" class="containerLocal">
       <h1 class="sub-title my-5 hover">All Mixes</h1>
-      <div class="row">
-        <ul class="list-unstyled" id="episode-list"></ul>
+      <div class="bd-example-snippet bd-code-snippet">
+        <nav>
+          <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+            <button
+              class="nav-link text-muted active"
+              id="nav-latest-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-latest"
+              type="button"
+              role="tab"
+              aria-controls="nav-latest"
+              aria-selected="true"
+            >
+              Latest
+            </button>
+            <button
+              class="nav-link text-muted"
+              id="nav-popular-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-popular"
+              type="button"
+              role="tab"
+              aria-controls="nav-popular"
+              aria-selected="false"
+              tabindex="-1"
+            >
+              Popular
+            </button>
+            <button
+              class="nav-link text-muted"
+              id="nav-genre-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-genre"
+              type="button"
+              role="tab"
+              aria-controls="nav-genre"
+              aria-selected="false"
+              tabindex="-1"
+            >
+              Genre
+            </button>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div
+            class="tab-pane fade active show"
+            id="nav-latest"
+            role="tabpanel"
+            aria-labelledby="nav-latest-tab"
+          >
+            <div class="container-fluid">
+              <div class="row">
+                <table class="table text-white table-responsive table-black">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col">Title</th>
+                      <th scope="col">Genre</th>
+                      <th scope="col">Artists</th>
+                    </tr>
+                  </thead>
+                  <tbody id="episode-list">
+                    <!-- Mix Object rendered here -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-popular"
+            role="tabpanel"
+            aria-labelledby="nav-popular-tab"
+          >
+            <h1 class="mb-5 hover">Coming Soon</h1>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-genre"
+            role="tabpanel"
+            aria-labelledby="nav-genre-tab"
+          >
+            <h1 class="mb-5 hover">Coming Soon</h1>
+          </div>
+        </div>
       </div>
+
       <a href="#header" class="hover text-center">Back To Top</a>
     </div>
 
@@ -346,5 +396,18 @@
         controlIcon.classList.remove("fa-play");
       };
     </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"
+      integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"
+      integrity="sha512-VK2zcvntEufaimc+efOYi622VN5ZacdnufnmX7zIhCPmjhKnOi9ZDMtg1/ug5l183f19gG1/cBstPO4D8N/Img=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script></script>
   </body>
 </html>
