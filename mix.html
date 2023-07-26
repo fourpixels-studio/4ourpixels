@@ -79,7 +79,11 @@
               >
             </li>
             <li>
-              <a class="hover text-white" href="./contact.html">Contact</a>
+              <a
+                class="hover text-white"
+                href="https://4ourpixels.github.io/ecommerce/products.html"
+                >Shop</a
+              >
             </li>
             <li>
               <a
@@ -92,103 +96,74 @@
           </ul>
           <i class="fa-solid text-white fa-bars" onclick="openmenu()"></i>
         </nav>
-        <div id="episode-details" class="header-text"></div>
+        <div id="episode-details" class="header-text">
+          <small class="text-white"
+            ><a href="./djg400.html#allMixes" class="underline hover">Mixes</a>
+            / DJ G400</small
+          >
+          <div id="episode-title" class="sub-title"></div>
+          <h6 id="episode-number" class="text-white"></h6>
+          <div class="row">
+            <div class="display-1 mt-3 text-white" onclick="playPause()">
+              <i class="fa-solid fa-play hover" id="controlIcon"></i>
+            </div>
+            <h6 id="episode-genre" class="text-white float-end"></h6>
+          </div>
+          <div class="audio-player">
+            <audio id="song">
+              <source type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+          <input
+            class="float-end hidden"
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            value="1"
+            id="volume_control"
+            oninput="changeVolume()"
+          />
+          <input
+            class="mb-5 w-100"
+            type="range"
+            value="0"
+            id="mix_progress_bar"
+          />
+          <div class="float-end">
+            <h6 id="episode-artists" class="text-white"></h6>
+          </div>
+        </div>
       </div>
     </div>
-
     <script>
-      // JavaScript code to load the episode details from the JSON data
-      const pageTitle = document.getElementById("page_title");
-      const mixHeader = document.getElementById("mix-header");
-      const urlParams = new URLSearchParams(window.location.search);
-      const episodeId = urlParams.get("id");
+      var song = document.getElementById("song");
+      var progress = document.getElementById("mix_progress_bar");
 
-      // Load the JSON data
-      fetch("./data.json")
-        .then((response) => response.json())
-        .then((data) => {
-          const episode = data.find((episode) => episode.id === episodeId);
-          if (episode) {
-            const episodeDetails = document.getElementById("episode-details");
-            mixHeader.style.background = `linear-gradient(rgba(0, 0, 0, 0.7), #000000d6),url(${episode.thumbnailLg})`;
-            mixHeader.style.backgroundSize = "cover";
-            mixHeader.style.backgroundPosition = "center";
-            mixHeader.style.width = "100%";
-            mixHeader.style.height = "100vh";
-            episodeDetails.innerHTML = `
-              <small class="text-white"><a href="./djg400.html#allMixes" class="underline hover">&#8592; All Mixes</a> / DJ G400</small>
-              <div class="sub-title">${episode.Album}</div>
-              <small class="text-white">Episode: ${episode.Episode}</small>
-              <div class="row">
-                <div class="display-1 mt-3 text-white" onclick="playPause()">
-                  <i class="fa-solid fa-play hover" id="controlIcon"></i>
-                </div>
-                <h6 class="text-white float-end">#${episode.Genre}</h6>
-              </div>
-              <div class="audio-player">
-                <audio id="song">
-                  <source src="${episode.audio}" type="audio/mpeg" />
-                  Your browser does not support the audio element.
-                </audio>
-              </div>
-              <hr class="text-white"/>
-              <div class="float-end">
-                <h6 class="text-white">Featured Artists: ${episode.Artists}</h6>
-              </div>
-            `;
-            pageTitle.innerHTML = `DJ G400 - ${episode.Title}`;
-          } else {
-            const episodeDetails = document.getElementById("episode-details");
-            episodeDetails.innerHTML =
-              "<p class='alert alert-dark text-center'>Episode not found.</p>";
-          }
-        })
-        .catch((error) => {
-          console.error(`Error loading JSON data: ${error}`);
-        });
+      song.onloadedmetadata = function () {
+        progress.max = song.duration;
+        progress.value = 0; // Start the progress at 0
+      };
 
-      // Move the playPause() function outside of the DOMContentLoaded event
-      function playPause() {
-        var song = document.getElementById("song");
-        var controlIcon = document.getElementById("controlIcon");
+      song.ontimeupdate = function () {
+        progress.value = song.currentTime;
+      };
 
-        if (song.paused) {
-          song.play();
-          controlIcon.classList.add("fa-pause");
-          controlIcon.classList.remove("fa-play");
-        } else {
-          song.pause();
-          controlIcon.classList.remove("fa-pause");
-          controlIcon.classList.add("fa-play");
-        }
-      }
+      progress.oninput = function () {
+        song.currentTime = progress.value;
+      };
 
-      document.addEventListener("DOMContentLoaded", function () {
-        // Get a reference to the audio element
-        var progress = document.getElementById("mix_progress_bar");
-        var song = document.getElementById("song");
-        var controlIcon = document.getElementById("controlIcon");
-
-        song.onloadedmetadata = function () {
-          progress.max = song.duration;
+      var interval;
+      song.onplay = function () {
+        interval = setInterval(() => {
           progress.value = song.currentTime;
-        };
+        }, 500);
+      };
 
-        // Update progress bar continuously as audio plays
-        song.ontimeupdate = function () {
-          progress.value = song.currentTime;
-        };
-
-        progress.oninput = function () {
-          song.currentTime = progress.value;
-        };
-
-        if (song.play) {
-          setInterval(() => {
-            progress.value = song.currentTime;
-          }, 500);
-        }
-      });
+      song.onpause = song.onended = function () {
+        clearInterval(interval);
+      };
     </script>
 
     <script>
@@ -217,5 +192,30 @@
         sidemenu.style.right = "-200px";
       }
     </script>
+
+    <script>
+      function playPause() {
+        var song = document.getElementById("song");
+        var controlIcon = document.getElementById("controlIcon");
+
+        if (song.paused) {
+          song.play();
+          controlIcon.classList.add("fa-pause");
+          controlIcon.classList.remove("fa-play");
+        } else {
+          song.pause();
+          controlIcon.classList.remove("fa-pause");
+          controlIcon.classList.add("fa-play");
+        }
+      }
+
+      function updateProgressBar() {
+        var song = document.getElementById("song");
+        var progress = document.getElementById("mix_progress_bar");
+        progress.value = song.currentTime;
+      }
+    </script>
+
+    <script src="./mix.js"></script>
   </body>
 </html>
