@@ -15,6 +15,7 @@ fetch("./data.json")
     const episode = data.find((episode) => episode.id === episodeId);
     if (episode) {
       const episodeDetails = document.getElementById("episode-details");
+
       mixHeader.style.background = `linear-gradient(rgba(0, 0, 0, 0.3), #000000d6),url(${episode.thumbnailLg})`;
       mixHeader.style.backgroundSize = "cover";
       mixHeader.style.backgroundPosition = "center";
@@ -25,6 +26,15 @@ fetch("./data.json")
       episodeNumber.innerHTML = `Episode 0${episode.Episode}`;
       episodeGenre.innerHTML = `#${episode.Genre}`;
       episodeArtists.innerHTML = `Featured Artists: ${episode.Artists}`;
+
+      const hoverElements = document.querySelectorAll(".hover");
+      const logo = document.getElementById("logo");
+      logo.style = `${episode.hue}`;
+
+      for (let i = 0; i < hoverElements.length; i++) {
+        hoverElements[i].style.color = `${episode.color}`; // You can change 'red' to any desired color
+      }
+
       // Set the new audio source URL
       const episodeSource = document.getElementById("song");
       var newAudioSource = `${episode.audio}`;
