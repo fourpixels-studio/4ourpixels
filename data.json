@@ -12,11 +12,13 @@
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "2"
+    "id": "2",
+    "date": ""
   },
   {
     "Title": "Highjacked Season 02",
     "audio": "https://hearthis.at/djg400/dj-g400-highjacked-season-02-audio./listen.mp3?s=etS",
+
     "Album": "Highjacked",
     "Episode": 2,
     "color": "#e71f35",
@@ -27,11 +29,13 @@
     "Cover": "./cover/hs02.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs02.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "6"
+    "id": "6",
+    "date": ""
   },
   {
     "Title": "Highjacked Season 03",
     "audio": "https://hearthis.at/djg400/dj-g400-highjacked-season-03-audio/listen.mp3?s=LrQ",
+
     "Album": "Highjacked",
     "Episode": 3,
     "color": "#ff1912",
@@ -42,10 +46,12 @@
     "Cover": "./cover/hs03.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs03.jpg",
     "thumbnailLg": "./image/mix-covers/highjacked-03-lg.jpg",
-    "id": "10"
+    "id": "10",
+    "date": ""
   },
   {
     "Title": "Highjacked Season 04",
+
     "audio": "https://hearthis.at/djg400/dj-g400-highjacked-season-04-audio/listen.mp3?s=NGb",
     "Album": "Highjacked",
     "Episode": 4,
@@ -57,7 +63,8 @@
     "Cover": "./cover/hs04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "14"
+    "id": "14",
+    "date": ""
   },
   {
     "Title": "Highjacked Season 05",
@@ -72,7 +79,8 @@
     "Cover": "./cover/hs05.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs05.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "17"
+    "id": "17",
+    "date": ""
   },
   {
     "Title": "Highjacked Season 06",
@@ -87,7 +95,8 @@
     "Cover": "./cover/hs06.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs06.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "23"
+    "id": "23",
+    "date": "25 Oct 2019"
   },
   {
     "Title": "Highjacked Season 07",
@@ -102,7 +111,8 @@
     "Cover": "./cover/hs07.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs07.jpg",
     "thumbnailLg": "./image/mix-covers/highjacked-07-lg.jpg",
-    "id": "24"
+    "id": "24",
+    "date": "26 Jul 2022"
   },
   {
     "Title": "African Experience 01",
@@ -117,11 +127,13 @@
     "Cover": "./cover/ae01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae01.jpg",
     "thumbnailLg": "./image/mix-covers/ae02-landscape.jpg",
-    "id": "1"
+    "id": "1",
+    "date": ""
   },
   {
     "Title": "African Experience 02",
     "audio": "https://hearthis.at/djg400/dj-g400-an-african-experience-02-audio/listen.mp3?s=qpc",
+
     "Album": "African Experience ",
     "Episode": 2,
     "color": "#090f50",
@@ -132,11 +144,13 @@
     "Cover": "./cover/ae02.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae02.jpg",
     "thumbnailLg": "./image/mix-covers/ae02-landscape.jpg",
-    "id": "3"
+    "id": "3",
+    "date": ""
   },
   {
     "Title": "African Experience 03",
     "audio": "https://hearthis.at/djg400/dj-g400-an-african-experience-03-audio./listen.mp3?s=fzq",
+
     "Album": "African Experience ",
     "Episode": 3,
     "color": "#",
@@ -147,11 +161,13 @@
     "Cover": "./cover/ae03.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae03.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "7"
+    "id": "7",
+    "date": ""
   },
   {
     "Title": "African Experience 04",
     "audio": "https://hearthis.at/djg400/dj-g400-an-african-experience-04-audio/listen.mp3?s=dwM",
+
     "Album": "African Experience ",
     "Episode": 4,
     "color": "#a8900c",
@@ -162,7 +178,8 @@
     "Cover": "./cover/ae04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "9"
+    "id": "9",
+    "date": ""
   },
   {
     "Title": "African Experience 05",
@@ -177,11 +194,13 @@
     "Cover": "./cover/ae05.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae05.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "12"
+    "id": "12",
+    "date": ""
   },
   {
     "Title": "African Experience 06",
     "audio": "https://hearthis.at/djg400/dj-g400-an-african-experience-06-audio/listen.mp3?s=9VZ",
+
     "Album": "African Experience ",
     "Episode": 6,
     "color": "#eb4103",
@@ -192,7 +211,8 @@
     "Cover": "./cover/ae06.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae06.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "22"
+    "id": "22",
+    "date": ""
   },
   {
     "Title": "Club Inferno 01",
@@ -207,11 +227,13 @@
     "Cover": "./cover/inferno-01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "4"
+    "id": "4",
+    "date": ""
   },
   {
     "Title": "Club Inferno 02",
     "audio": "\nhttps://hearthis.at/djg400/dj-g400-club-inferno-02-audio/listen.mp3?s=eya",
+
     "Album": "Club Inferno",
     "Episode": 2,
     "color": "#d6450e",
@@ -222,7 +244,8 @@
     "Cover": "./cover/ci01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno02.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "5"
+    "id": "5",
+    "date": ""
   },
   {
     "Title": "Club Inferno 03",
@@ -237,11 +260,13 @@
     "Cover": "./cover/inderno01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno03.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "12"
+    "id": "12",
+    "date": ""
   },
   {
     "Title": "Club Inferno 04",
     "audio": "https://hearthis.at/djg400/dj-g400-club-inferno-04-audio/listen.mp3?s=fgP",
+
     "Album": "Club Inferno",
     "Episode": 4,
     "color": "#",
@@ -252,7 +277,8 @@
     "Cover": "./cover/ci04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "20"
+    "id": "20",
+    "date": ""
   },
   {
     "Title": "Mixconduct Vol 01",
@@ -267,7 +293,8 @@
     "Cover": "./cover/mixconduct-1.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/mixconduct-01.jpg",
     "thumbnailLg": "./image/mix-covers/mixconduct-01-landscape.jpg",
-    "id": "2"
+    "id": "2",
+    "date": ""
   },
   {
     "Title": "Mixconduct Vol 02",
@@ -282,7 +309,8 @@
     "Cover": "./cover/mixconduct-2.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/mixconduct-02.jpg",
     "thumbnailLg": "./image/mix-covers/mixconduct-02-landscape.jpg",
-    "id": "2"
+    "id": "2",
+    "date": ""
   },
   {
     "Title": "Hood Love 01",
@@ -297,7 +325,8 @@
     "Cover": "./cover/hood-love-01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hoodlove-01.jpg",
     "thumbnailLg": "./image/mix-covers/hood-love-bg-lg.jpg",
-    "id": "13"
+    "id": "13",
+    "date": ""
   },
   {
     "Title": "Sean Paul Mixtape",
@@ -312,7 +341,8 @@
     "Cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/seanpaul.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "16"
+    "id": "16",
+    "date": ""
   },
   {
     "Title": "Rihanna Mixtape",
@@ -327,7 +357,8 @@
     "cover": "./cover/rihanna.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/rihanna.jpg",
     "thumbnailLg": "./image/mix-covers/rihanna-bg-lg.jpg",
-    "id": "19"
+    "id": "19",
+    "date": ""
   },
   {
     "Title": "The Shuffle Vol 01",
@@ -342,7 +373,8 @@
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/shuffle01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "18"
+    "id": "18",
+    "date": ""
   },
   {
     "Title": "Local Classics Part 01",
@@ -357,7 +389,8 @@
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/local01.jpg",
     "thumbnailLg": "./image/mix-covers/l01.jpg",
-    "id": "21"
+    "id": "21",
+    "date": ""
   },
   {
     "Title": "NTV Set 01",
@@ -372,7 +405,8 @@
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ntv-01.jpg",
     "thumbnailLg": "./image/mix-covers/ntv-04-lg.jpg",
-    "id": "25"
+    "id": "25",
+    "date": "26 May 2020"
   },
   {
     "Title": "NTV Set 02",
@@ -387,7 +421,8 @@
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ntv-02.jpg",
     "thumbnailLg": "./image/mix-covers/ntv-04-lg.jpg",
-    "id": "26"
+    "id": "26",
+    "date": "8 Jun 2020"
   },
   {
     "Title": "NTV Set 03",
@@ -402,7 +437,8 @@
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ntv-03.jpg",
     "thumbnailLg": "./image/mix-covers/ntv-04-lg.jpg",
-    "id": "27"
+    "id": "27",
+    "date": "8 Jun 2020"
   },
   {
     "Title": "NTV Set 04",
@@ -417,7 +453,8 @@
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ntv-04.jpg",
     "thumbnailLg": "./image/mix-covers/ntv-04-lg.jpg",
-    "id": "28"
+    "id": "28",
+    "date": "8 Jul 2020"
   },
   {
     "Title": "Lagos To The Max 01",
@@ -432,7 +469,8 @@
     "Cover": "./cover/lagos01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "30"
+    "id": "30",
+    "date": "16 Sep 2022"
   },
   {
     "Title": "Lagos To The Max 02",
@@ -447,7 +485,8 @@
     "Cover": "./cover/lagos02.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos02.jpg",
     "thumbnailLg": "./image/mix-covers/s02.jpg",
-    "id": "32"
+    "id": "32",
+    "date": "27 Sep 2022"
   },
   {
     "Title": "Lagos To The Max 03",
@@ -462,7 +501,8 @@
     "Cover": "./cover/lagos03.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos03.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "34"
+    "id": "34",
+    "date": "27 Sep 2022"
   },
   {
     "Title": "Lagos To The Max 04",
@@ -477,7 +517,8 @@
     "Cover": "./cover/lagos04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "36"
+    "id": "36",
+    "date": "9 Oct 2022"
   },
   {
     "Title": "Lagos To The Max 05",
@@ -492,7 +533,8 @@
     "Cover": "./cover/lagos05.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos05.jpg",
     "thumbnailLg": "./image/mix-covers/lagos-05.jpg",
-    "id": "38"
+    "id": "38",
+    "date": "20 Oct 2022"
   },
   {
     "Title": "Hip Hop Saved My Life 01",
@@ -507,7 +549,8 @@
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "29"
+    "id": "29",
+    "date": "16 Sep 2022"
   },
   {
     "Title": "Hip Hop Saved My Life 02",
@@ -522,7 +565,8 @@
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml02.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "31"
+    "id": "31",
+    "date": "27 Sep 2022"
   },
   {
     "Title": "Hip Hop Saved My Life 03",
@@ -537,7 +581,8 @@
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml03.jpg",
     "thumbnailLg": "./image/mix-covers/hhsml03-bg-lg.jpg",
-    "id": "33"
+    "id": "33",
+    "date": "4 Oct 2022"
   },
   {
     "Title": "Hip Hop Saved My Life 04",
@@ -552,7 +597,8 @@
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "35"
+    "id": "35",
+    "date": "14 Oct 2022"
   },
   {
     "Title": "Hip Hop Saved My Life 05",
@@ -567,6 +613,7 @@
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml05.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bbg-lg.jpg",
-    "id": "37"
+    "id": "37",
+    "date": "26 Oct 2022"
   }
 ]

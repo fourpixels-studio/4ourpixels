@@ -33,7 +33,7 @@ fetch("./data.json")
             )}">
           ${episode.Album} 0${episode.Episode}</a></td>
           <td>${episode.Genre}</td>
-          <td>${episode.Artists}</td>
+          <td>${episode.date}</td>
         </tr>
       `;
 
