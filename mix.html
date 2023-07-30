@@ -75,7 +75,7 @@
             <li><a class="hover text-white" href="./index.html">Home</a></li>
             <li>
               <a class="hover text-white" href="./djg400.html#allMixes"
-                >Mixes</a
+                >Music</a
               >
             </li>
             <li>
@@ -85,22 +85,15 @@
                 >Shop</a
               >
             </li>
-            <li>
-              <a
-                class="hover text-white"
-                href="https://4ourpixels.github.io/ecommerce/"
-                >Merch</a
-              >
-            </li>
             <i class="fa-solid text-white fa-xmark" onclick="closemenu()"></i>
           </ul>
           <i class="fa-solid text-white fa-bars" onclick="openmenu()"></i>
         </nav>
         <div id="episode-details" class="header-text">
-          <small class="text-white"
-            ><a href="./djg400.html#allMixes" class="underline hover">Mixes</a>
-            / DJ G400</small
-          >
+          <h6 class="text-white">
+            <button onclick="goBack()" class="btn-none hover">Back</button> / DJ
+            G400
+          </h6>
           <div id="episode-title" class="sub-title"></div>
           <h6 id="episode-number" class="text-white"></h6>
           <div class="row">
@@ -213,6 +206,11 @@
         var song = document.getElementById("song");
         var progress = document.getElementById("mix_progress_bar");
         progress.value = song.currentTime;
+      }
+    </script>
+    <script>
+      function goBack() {
+        history.back();
       }
     </script>
 

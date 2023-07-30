@@ -642,3 +642,10 @@ nav .fa-solid {
   border-radius: 50%;
   background: #30d5c8;
 }
+.btn-none {
+  background: none;
+  border: none;
+}
+.btn-none:hover {
+  text-decoration: underline;
+}
