@@ -25,7 +25,7 @@ fetch("./data.json")
       mixHeader.style.height = "100vh";
       pageTitle.innerHTML = `DJ G400 - ${episode.Title}`;
       episodeTitle.innerHTML = `${episode.Title}`;
-      episodeGenre.innerHTML = `Other ${episode.Genre} Mixes`;
+      episodeGenre.innerHTML = `Other ${episode.Genre} Mixes By DJ G400`;
       episodeArtists.innerHTML = `${episode.Artists}`;
       similarMixes.innerHTML = `${episode.Title}`;
       dateReleased.innerHTML = `Released: ${episode.date}`;
