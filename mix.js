@@ -2,9 +2,11 @@
 const pageTitle = document.getElementById("page_title");
 const mixHeader = document.getElementById("mix-header");
 const episodeTitle = document.getElementById("episode-title");
-const episodeNumber = document.getElementById("episode-number");
 const episodeGenre = document.getElementById("episode-genre");
 const episodeArtists = document.getElementById("episode-artists");
+const similarMixes = document.getElementById("similar-mixes");
+const breadcrumb = document.getElementById("breadcrumb");
+const dateReleased = document.getElementById("date-released");
 const urlParams = new URLSearchParams(window.location.search);
 const episodeId = urlParams.get("id");
 
@@ -22,18 +24,33 @@ fetch("./data.json")
       mixHeader.style.width = "100%";
       mixHeader.style.height = "100vh";
       pageTitle.innerHTML = `DJ G400 - ${episode.Title}`;
-      episodeTitle.innerHTML = `${episode.Album}`;
-      episodeNumber.innerHTML = `Episode 0${episode.Episode}`;
-      episodeGenre.innerHTML = `#${episode.Genre}`;
-      episodeArtists.innerHTML = `Featured Artists: ${episode.Artists}`;
+      episodeTitle.innerHTML = `${episode.Title}`;
+      episodeGenre.innerHTML = `Similar ${episode.Genre} Mixes`;
+      episodeArtists.innerHTML = `${episode.Artists}`;
+      similarMixes.innerHTML = `${episode.Title}`;
+      dateReleased.innerHTML = `Released: ${episode.date}`;
+      breadcrumb.innerHTML = `
+
+            <button onclick="goBack()" 
+              class="btn-none hover">DJ G400 Mixes
+            </button> 
+            / ${episode.Album}
+            / Vol 0${episode.Episode}
+
+            `;
 
       const hoverElements = document.querySelectorAll(".hover");
+      console.log("logo");
       const logo = document.getElementById("logo");
-      logo.style = `${episode.hue}`;
+      logo.style.fill = `${episode.color}`;
+      console.log("done");
 
       for (let i = 0; i < hoverElements.length; i++) {
         hoverElements[i].style.color = `${episode.color}`; // You can change 'red' to any desired color
       }
+
+      const volumeControlThumb = document.getElementById("mix_progress_bar");
+      volumeControlThumb.style.backgroundColor = `${episode.color}`;
 
       // Set the new audio source URL
       const episodeSource = document.getElementById("song");

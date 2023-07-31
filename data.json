@@ -35,7 +35,6 @@
   {
     "Title": "Highjacked Season 03",
     "audio": "https://hearthis.at/djg400/dj-g400-highjacked-season-03-audio/listen.mp3?s=LrQ",
-
     "Album": "Highjacked",
     "Episode": 3,
     "color": "#ff1912",
@@ -113,6 +112,22 @@
     "thumbnailLg": "./image/mix-covers/highjacked-07-lg.jpg",
     "id": "24",
     "date": "26 Jul 2022"
+  },
+  {
+    "Title": "Highjacked Season 08",
+    "audio": "https://hearthis.at/djg400/dj-g400-highjacked-season-07-auido/listen.mp3?s=lge",
+    "Album": "Highjacked",
+    "Episode": 8,
+    "color": "#fcbb30",
+    "hue": "filter: hue-rotate(220deg);",
+    "popular": 5,
+    "Genre": "Trap",
+    "Artists": "Gunna, Don Toliver,Yo Gotti, Megan Thee Stallion, Lil Uzi Vert, Pop Smoke, Skepta, Dave, Lil Skies, Wiz Khalifa, Young Dolph, Key Glock, Snupe Bandz, Big Moochie Grape, Jay Fizzle, PaperRoute Woo, Lil Baby, Big Uncc",
+    "Cover": "./cover/hs08.jpg",
+    "thumbnail": "./image/mix-covers/thumbnail/hs08.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
+    "id": "39",
+    "date": "1 Sep 2023"
   },
   {
     "Title": "African Experience 01",
@@ -212,7 +227,7 @@
     "thumbnail": "./image/mix-covers/thumbnail/ae06.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "22",
-    "date": ""
+    "date": "22 Sep 2019"
   },
   {
     "Title": "Club Inferno 01",
@@ -381,16 +396,16 @@
     "audio": "https://hearthis.at/djg400/dj-g400-local-classics-part-01-audio/listen.mp3?s=C6u",
     "Album": "Local Classics",
     "Episode": 1,
-    "color": "#",
+    "color": "#fff",
     "hue": "",
-    "popular": 1,
+    "popular": 5,
     "Genre": "Kenyan Music",
-    "Artists": "",
-    "cover": "./cover/seanpaul.jpg",
+    "Artists": "Sauti Sol, Nonini, Jua Cali, Bamboo, Kleptomaniax, P-Unit, Bobby Mapesa, Abbas Kubaff, Calif Records",
+    "Cover": "./cover/local01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/local01.jpg",
-    "thumbnailLg": "./image/mix-covers/l01.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "21",
-    "date": ""
+    "date": "29 July 2019"
   },
   {
     "Title": "NTV Set 01",
@@ -532,7 +547,7 @@
     "Artists": "Tems, Adekunle Gold, Ayra Starr, Wizkid, Maleek Berry, Burna Boy, Tiwa Savage, Fireboy DML, Mr Eazi",
     "Cover": "./cover/lagos05.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos05.jpg",
-    "thumbnailLg": "./image/mix-covers/lagos-05.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "38",
     "date": "20 Oct 2022"
   },
@@ -571,7 +586,7 @@
   {
     "Title": "Hip Hop Saved My Life 03",
     "audio": "https://hearthis.at/djg400/dj-g400-hip-hop-saved-my-life-03/listen.mp3?s=5PJ",
-    "Album": "Hip Hop Saved My Life ",
+    "Album": "Hip Hop Saved My Life",
     "Episode": 3,
     "color": "#39ffba",
     "hue": "",
@@ -612,8 +627,24 @@
     "Artists": "Trouble, Boosie Badazz, Playboi Carti, City Girls, Big Sean, Post Malone, Drake, Skepta, Young Bleu",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml05.jpg",
-    "thumbnailLg": "./image/mix-covers/djg400-bbg-lg.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "37",
     "date": "26 Oct 2022"
+  },
+  {
+    "Title": "Local Classics 02",
+    "audio": "https://hearthis.at/djg400/dj-g400-local-classics-part-01-audio/listen.mp3?s=C6u",
+    "Album": "Local Classics",
+    "Episode": 2,
+    "color": "#f4f4f4",
+    "hue": "",
+    "popular": 2,
+    "Genre": "Kenyan Music",
+    "Artists": "Sauti Sol, Nonini, Jua Cali, Bamboo, Kleptomaniax, P-Unit, Bobby Mapesa, Abbas Kubaff, Calif Records",
+    "Cover": "./cover/local02.jpg",
+    "thumbnail": "./image/mix-covers/thumbnail/local02.jpg",
+    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
+    "id": "40",
+    "date": "1 Oct 23"
   }
 ]
