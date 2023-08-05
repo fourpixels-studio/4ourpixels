@@ -19,7 +19,10 @@ fetch("./data.json")
       const episodeDetails = document.getElementById("episode-details");
 
       const themeColor = document.getElementById("theme-color");
-      themeColor.setAttribute("content", `${episode.color}`);
+
+      newthemeColor = episode.color;
+      themeColor.setAttribute("content", newthemeColor);
+
       mixHeader.style.background = `linear-gradient(rgba(0, 0, 0, 0.3), #000000d6),url(${episode.thumbnailLg})`;
       mixHeader.style.backgroundSize = "cover";
       mixHeader.style.backgroundPosition = "center";
