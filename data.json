@@ -4,21 +4,21 @@
     "audio": "https://hearthis.at/djg400/dj-g400-highjacked-season-01-audio/listen.mp3?s=C6f",
     "Album": "Highjacked",
     "Episode": 1,
-    "color": "#",
+    "color": "#ffcc33",
     "hue": "",
     "popular": 1,
-    "Genre": "Trap, Hip Hop, Rap",
-    "Artists": "Rae Sremmurd,  Young Dolph, Kent, jones, Madeintyo",
+    "Genre": "Trap",
+    "Artists": "Rae Sremmurd, Young Dolph, Kent, jones, Madeintyo",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs01.jpg",
-    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
+    "thumbnailLg": "",
     "id": "2",
-    "date": ""
+    "date": "23 Dec 2016",
+    "tracklist": ""
   },
   {
     "Title": "Highjacked Season 02",
     "audio": "https://hearthis.at/djg400/dj-g400-highjacked-season-02-audio./listen.mp3?s=etS",
-
     "Album": "Highjacked",
     "Episode": 2,
     "color": "#e71f35",
@@ -30,7 +30,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs02.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "6",
-    "date": ""
+    "date": "13 Mar 2017",
+    "tracklist": ""
   },
   {
     "Title": "Highjacked Season 03",
@@ -46,11 +47,11 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs03.jpg",
     "thumbnailLg": "./image/mix-covers/highjacked-03-lg.jpg",
     "id": "10",
-    "date": ""
+    "date": "12 Aug 2017",
+    "tracklist": ""
   },
   {
     "Title": "Highjacked Season 04",
-
     "audio": "https://hearthis.at/djg400/dj-g400-highjacked-season-04-audio/listen.mp3?s=NGb",
     "Album": "Highjacked",
     "Episode": 4,
@@ -63,14 +64,15 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "14",
-    "date": ""
+    "date": "09 Jul 2018",
+    "tracklist": ""
   },
   {
     "Title": "Highjacked Season 05",
     "audio": "https://hearthis.at/djg400/dj-g400-highjacked-season-05-audio/listen.mp3?s=6zE",
     "Album": "Highjacked",
     "Episode": 5,
-    "color": "#",
+    "color": "#00fe60",
     "hue": "",
     "popular": 5,
     "Genre": "Trap, Hip Hop, Rap",
@@ -79,7 +81,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs05.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "17",
-    "date": ""
+    "date": "30 Dec 2018",
+    "tracklist": ""
   },
   {
     "Title": "Highjacked Season 06",
@@ -95,7 +98,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs06.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "23",
-    "date": "25 Oct 2019"
+    "date": "25 Oct 2019",
+    "tracklist": ""
   },
   {
     "Title": "Highjacked Season 07",
@@ -111,7 +115,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs07.jpg",
     "thumbnailLg": "./image/mix-covers/highjacked-07-lg.jpg",
     "id": "24",
-    "date": "26 Jul 2022"
+    "date": "04 May 2020",
+    "tracklist": ""
   },
   {
     "Title": "Highjacked Season 08",
@@ -127,79 +132,81 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs08.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "39",
-    "date": "1 Sep 2023"
+    "date": "01 Sep 2023",
+    "tracklist": ""
   },
   {
     "Title": "African Experience 01",
     "audio": "",
-    "Album": "African Experience ",
+    "Album": "African Experience",
     "Episode": 1,
     "color": "#c57d24",
     "hue": "",
     "popular": 1,
-    "Genre": "Africa, Afro, EA",
+    "Genre": "East Africa, Afrobeats",
     "Artists": "Evie Vara, Octopizzo",
     "Cover": "./cover/ae01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae01.jpg",
-    "thumbnailLg": "./image/mix-covers/ae02-landscape.jpg",
+    "thumbnailLg": "",
     "id": "1",
-    "date": ""
+    "date": "07 Sep 2016",
+    "tracklist": ""
   },
   {
     "Title": "African Experience 02",
     "audio": "https://hearthis.at/djg400/dj-g400-an-african-experience-02-audio/listen.mp3?s=qpc",
-
-    "Album": "African Experience ",
+    "Album": "African Experience",
     "Episode": 2,
     "color": "#090f50",
     "hue": "",
     "popular": 2,
-    "Genre": "Africa, Afro, EA",
+    "Genre": "East Africa, Afrobeats",
     "Artists": "Sauti Sol,",
     "Cover": "./cover/ae02.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae02.jpg",
     "thumbnailLg": "./image/mix-covers/ae02-landscape.jpg",
-    "id": "3",
-    "date": ""
+    "id": "4",
+    "date": "04 Jan 2017",
+    "tracklist": ""
   },
   {
     "Title": "African Experience 03",
     "audio": "https://hearthis.at/djg400/dj-g400-an-african-experience-03-audio./listen.mp3?s=fzq",
-
-    "Album": "African Experience ",
+    "Album": "African Experience",
     "Episode": 3,
-    "color": "#",
+    "color": "#ecedf1",
     "hue": "",
     "popular": 3,
-    "Genre": "Africa, Afro, EA",
+    "Genre": "East Africa, Afrobeats",
     "Artists": "",
     "Cover": "./cover/ae03.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae03.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "7",
-    "date": ""
+    "date": "13 Mar 2017",
+    "tracklist": ""
   },
   {
     "Title": "African Experience 04",
     "audio": "https://hearthis.at/djg400/dj-g400-an-african-experience-04-audio/listen.mp3?s=dwM",
-
-    "Album": "African Experience ",
+    "Album": "African Experience",
     "Episode": 4,
     "color": "#a8900c",
     "hue": "",
     "popular": 2,
-    "Genre": "Africa, Afro, EA",
+    "Genre": "East Africa, Afrobeats",
     "Artists": "",
     "Cover": "./cover/ae04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "9",
-    "date": ""
+    "date": "24 Jun 2017",
+    "tracklist": ""
   },
   {
     "Title": "African Experience 05",
     "audio": "https://hearthis.at/djg400/dj-g400-an-african-experience-05-audio/listen.mp3?s=dzu",
-    "Album": "African Experience ",
+    "Album": "African Experience",
     "Episode": 5,
     "color": "#fd181f",
     "hue": "",
@@ -210,31 +217,32 @@
     "thumbnail": "./image/mix-covers/thumbnail/ae05.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "12",
-    "date": ""
+    "date": "18 Dec 2017",
+    "tracklist": ""
   },
   {
     "Title": "African Experience 06",
     "audio": "https://hearthis.at/djg400/dj-g400-an-african-experience-06-audio/listen.mp3?s=9VZ",
-
-    "Album": "African Experience ",
+    "Album": "African Experience",
     "Episode": 6,
     "color": "#eb4103",
     "hue": "",
     "popular": 2,
-    "Genre": "Africa, Afro, EA",
+    "Genre": "East Africa, Afrobeats",
     "Artists": "",
     "Cover": "./cover/ae06.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae06.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "22",
-    "date": "22 Sep 2019"
+    "date": "22 Sep 2019",
+    "tracklist": ""
   },
   {
     "Title": "Club Inferno 01",
     "audio": "",
     "Album": "Club Inferno",
     "Episode": 1,
-    "color": "#",
+    "color": "#ff6d22",
     "hue": "",
     "popular": 1,
     "Genre": "Mashup, RnB, Dancehall, Hip Hop, Afro",
@@ -242,13 +250,13 @@
     "Cover": "./cover/inferno-01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "4",
-    "date": ""
+    "id": "3",
+    "date": "03 Sep 2016",
+    "tracklist": ""
   },
   {
     "Title": "Club Inferno 02",
-    "audio": "\nhttps://hearthis.at/djg400/dj-g400-club-inferno-02-audio/listen.mp3?s=eya",
-
+    "audio": "https://hearthis.at/djg400/dj-g400-club-inferno-02-audio/listen.mp3?s=eya",
     "Album": "Club Inferno",
     "Episode": 2,
     "color": "#d6450e",
@@ -260,14 +268,15 @@
     "thumbnail": "./image/mix-covers/thumbnail/inferno02.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "5",
-    "date": ""
+    "date": "28 Jan 2017",
+    "tracklist": ""
   },
   {
     "Title": "Club Inferno 03",
     "audio": "https://hearthis.at/djg400/dj-g400-club-inferno-03-audio/listen.mp3?s=YXq",
     "Album": "Club Inferno",
     "Episode": 3,
-    "color": "#",
+    "color": "#dcc4b0",
     "hue": "",
     "popular": 3,
     "Genre": "Mashup, RnB, Dancehall, Hip Hop, Afro",
@@ -275,16 +284,16 @@
     "Cover": "./cover/inderno01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno03.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "12",
-    "date": ""
+    "id": "13",
+    "date": "19 Sep 2018",
+    "tracklist": ""
   },
   {
     "Title": "Club Inferno 04",
     "audio": "https://hearthis.at/djg400/dj-g400-club-inferno-04-audio/listen.mp3?s=fgP",
-
     "Album": "Club Inferno",
     "Episode": 4,
-    "color": "#",
+    "color": "#ff9900",
     "hue": "",
     "popular": 4,
     "Genre": "Mashup, RnB, Dancehall, Hip Hop, Afro",
@@ -293,7 +302,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/inferno04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "20",
-    "date": ""
+    "date": "27 Mar 2019",
+    "tracklist": ""
   },
   {
     "Title": "Mixconduct Vol 01",
@@ -308,8 +318,9 @@
     "Cover": "./cover/mixconduct-1.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/mixconduct-01.jpg",
     "thumbnailLg": "./image/mix-covers/mixconduct-01-landscape.jpg",
-    "id": "2",
-    "date": ""
+    "id": "8",
+    "date": "21 Apr 2017",
+    "tracklist": ""
   },
   {
     "Title": "Mixconduct Vol 02",
@@ -324,8 +335,9 @@
     "Cover": "./cover/mixconduct-2.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/mixconduct-02.jpg",
     "thumbnailLg": "./image/mix-covers/mixconduct-02-landscape.jpg",
-    "id": "2",
-    "date": ""
+    "id": "11",
+    "date": "26 Sep 2017",
+    "tracklist": ""
   },
   {
     "Title": "Hood Love 01",
@@ -341,7 +353,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/hoodlove-01.jpg",
     "thumbnailLg": "./image/mix-covers/hood-love-bg-lg.jpg",
     "id": "13",
-    "date": ""
+    "date": "19 Feb 2018",
+    "tracklist": ""
   },
   {
     "Title": "Sean Paul Mixtape",
@@ -357,14 +370,15 @@
     "thumbnail": "./image/mix-covers/thumbnail/seanpaul.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "16",
-    "date": ""
+    "date": "06 Oct 2018",
+    "tracklist": ""
   },
   {
     "Title": "Rihanna Mixtape",
     "audio": "https://hearthis.at/djg400/dj-g400-rihanna-mixtape-audio/listen.mp3?s=u7Z",
     "Album": "Rihanna Mixtape",
     "Episode": 1,
-    "color": "#",
+    "color": "#ffff33",
     "hue": "",
     "popular": 1,
     "Genre": "Dancehall, Pop, House, Edm, Hip Hop",
@@ -373,23 +387,25 @@
     "thumbnail": "./image/mix-covers/thumbnail/rihanna.jpg",
     "thumbnailLg": "./image/mix-covers/rihanna-bg-lg.jpg",
     "id": "19",
-    "date": ""
+    "date": "14 Mar 2019",
+    "tracklist": ""
   },
   {
     "Title": "The Shuffle Vol 01",
     "audio": "https://hearthis.at/djg400/dj-g400-the-shuffle-vol-01-audio/listen.mp3?s=FYE",
     "Album": "The Suffle",
     "Episode": 1,
-    "color": "#",
+    "color": "#fff",
     "hue": "",
     "popular": 1,
     "Genre": "Old School, Rap, Hip Hop, Jams",
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/shuffle01.jpg",
+    "thumbnail": "./image/mix-covers/thumbnail/shuffle-01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "18",
-    "date": ""
+    "date": "03 Feb 2019",
+    "tracklist": ""
   },
   {
     "Title": "Local Classics Part 01",
@@ -400,35 +416,37 @@
     "hue": "",
     "popular": 5,
     "Genre": "Kenyan Music",
-    "Artists": "Sauti Sol, Nonini, Jua Cali, Bamboo, Kleptomaniax, P-Unit, Bobby Mapesa, Abbas Kubaff, Calif Records",
+    "Artists": "Calif Records, Ogopa DJs, Nonini, Jua Cali, Bamboo, Kleptomaniax, P-Unit, Bobby Mapesa, Abbas Kubaff, Calif Records",
     "Cover": "./cover/local01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/local01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "21",
-    "date": "29 July 2019"
+    "date": "29 July 2019",
+    "tracklist": ""
   },
   {
     "Title": "NTV Set 01",
     "audio": "https://hearthis.at/djg400/ntv-set-01-code-black-dj-g400/listen.mp3?s=M5x",
     "Album": "NTV",
     "Episode": 1,
-    "color": "#",
+    "color": "#fff",
     "hue": "filter: brightness(200%) saturate(200%);",
     "popular": 1,
-    "Genre": "Keyan Music, Hip Hop",
+    "Genre": "Keyan Hip Hop",
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ntv-01.jpg",
     "thumbnailLg": "./image/mix-covers/ntv-04-lg.jpg",
     "id": "25",
-    "date": "26 May 2020"
+    "date": "26 May 2020",
+    "tracklist": ""
   },
   {
     "Title": "NTV Set 02",
     "audio": "https://hearthis.at/djg400/ntv-set-02-dj-g400-code-black/",
     "Album": "NTV",
     "Episode": 2,
-    "color": "#",
+    "color": "#fff",
     "hue": "filter: brightness(200%) saturate(200%);",
     "popular": 2,
     "Genre": "Hip Hop, Rap, Old School",
@@ -437,30 +455,32 @@
     "thumbnail": "./image/mix-covers/thumbnail/ntv-02.jpg",
     "thumbnailLg": "./image/mix-covers/ntv-04-lg.jpg",
     "id": "26",
-    "date": "8 Jun 2020"
+    "date": "08 Jun 2020",
+    "tracklist": ""
   },
   {
     "Title": "NTV Set 03",
     "audio": "https://hearthis.at/djg400/ntv-set-03-dj-g400-code-black/listen.mp3?s=hSf",
     "Album": "NTV",
     "Episode": 3,
-    "color": "#",
+    "color": "#fff",
     "hue": "filter: brightness(200%) saturate(200%);",
     "popular": 3,
-    "Genre": "Crunk, Hop Hop",
+    "Genre": "Crunk, Hip Hop",
     "Artists": "",
     "cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ntv-03.jpg",
     "thumbnailLg": "./image/mix-covers/ntv-04-lg.jpg",
     "id": "27",
-    "date": "8 Jun 2020"
+    "date": "08 Jun 2020",
+    "tracklist": ""
   },
   {
     "Title": "NTV Set 04",
     "audio": "https://hearthis.at/djg400/ntv-set-04-dj-g400-code-black/listen.mp3?s=UHd",
     "Album": "NTV",
     "Episode": 4,
-    "color": "#",
+    "color": "#fff",
     "hue": "filter: brightness(200%) saturate(200%);",
     "popular": 4,
     "Genre": "Grime, Urban, Dancehall, Afrobeats",
@@ -469,7 +489,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/ntv-04.jpg",
     "thumbnailLg": "./image/mix-covers/ntv-04-lg.jpg",
     "id": "28",
-    "date": "8 Jul 2020"
+    "date": "08 Jul 2020",
+    "tracklist": ""
   },
   {
     "Title": "Lagos To The Max 01",
@@ -485,7 +506,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/lagos01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "30",
-    "date": "16 Sep 2022"
+    "date": "16 Sep 2022",
+    "tracklist": ""
   },
   {
     "Title": "Lagos To The Max 02",
@@ -501,7 +523,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/lagos02.jpg",
     "thumbnailLg": "./image/mix-covers/s02.jpg",
     "id": "32",
-    "date": "27 Sep 2022"
+    "date": "27 Sep 2022",
+    "tracklist": ""
   },
   {
     "Title": "Lagos To The Max 03",
@@ -517,7 +540,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/lagos03.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "34",
-    "date": "27 Sep 2022"
+    "date": "27 Sep 2022",
+    "tracklist": ""
   },
   {
     "Title": "Lagos To The Max 04",
@@ -533,7 +557,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/lagos04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "36",
-    "date": "9 Oct 2022"
+    "date": "09 Oct 2022",
+    "tracklist": ""
   },
   {
     "Title": "Lagos To The Max 05",
@@ -549,14 +574,15 @@
     "thumbnail": "./image/mix-covers/thumbnail/lagos05.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "38",
-    "date": "20 Oct 2022"
+    "date": "20 Oct 2022",
+    "tracklist": ""
   },
   {
     "Title": "Hip Hop Saved My Life 01",
     "audio": "https://hearthis.at/djg400/dj-g400-hip-hop-saved-my-life-01/listen.mp3?s=fhs",
     "Album": "Hip Hop Saved My Life ",
     "Episode": 1,
-    "color": "#",
+    "color": "#ffcccc",
     "hue": "",
     "popular": 1,
     "Genre": "Hip Hop, Rap, Trap",
@@ -565,7 +591,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/hhsml01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "29",
-    "date": "16 Sep 2022"
+    "date": "16 Sep 2022",
+    "tracklist": ""
   },
   {
     "Title": "Hip Hop Saved My Life 02",
@@ -581,7 +608,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/hhsml02.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "31",
-    "date": "27 Sep 2022"
+    "date": "27 Sep 2022",
+    "tracklist": ""
   },
   {
     "Title": "Hip Hop Saved My Life 03",
@@ -597,7 +625,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/hhsml03.jpg",
     "thumbnailLg": "./image/mix-covers/hhsml03-bg-lg.jpg",
     "id": "33",
-    "date": "4 Oct 2022"
+    "date": "04 Oct 2022",
+    "tracklist": ""
   },
   {
     "Title": "Hip Hop Saved My Life 04",
@@ -613,7 +642,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/hhsml04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "35",
-    "date": "14 Oct 2022"
+    "date": "14 Oct 2022",
+    "tracklist": ""
   },
   {
     "Title": "Hip Hop Saved My Life 05",
@@ -629,7 +659,8 @@
     "thumbnail": "./image/mix-covers/thumbnail/hhsml05.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "37",
-    "date": "26 Oct 2022"
+    "date": "26 Oct 2022",
+    "tracklist": ""
   },
   {
     "Title": "Local Classics 02",
@@ -645,6 +676,7 @@
     "thumbnail": "./image/mix-covers/thumbnail/local02.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "40",
-    "date": "1 Oct 23"
+    "date": "01 Oct 23",
+    "tracklist": ""
   }
 ]

@@ -40,10 +40,8 @@ fetch("./data.json")
             `;
 
       const hoverElements = document.querySelectorAll(".hover");
-      console.log("logo");
       const logo = document.getElementById("logo");
       logo.style.fill = `${episode.color}`;
-      console.log("done");
 
       for (let i = 0; i < hoverElements.length; i++) {
         hoverElements[i].style.color = `${episode.color}`; // You can change 'red' to any desired color
