@@ -13,6 +13,7 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs01.jpg",
     "thumbnailLg": "",
     "id": "2",
+    "similar": "1, 6, 10, 14, 17, 23, 24, ",
     "date": "23 Dec 2016",
     "tracklist": ""
   },
@@ -30,6 +31,7 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs02.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "6",
+    "similar": "1, 6, 10, 14, 17, 23, 24, ",
     "date": "13 Mar 2017",
     "tracklist": ""
   },
@@ -47,6 +49,7 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs03.jpg",
     "thumbnailLg": "./image/mix-covers/highjacked-03-lg.jpg",
     "id": "10",
+    "similar": "1, 6, 10, 14, 17, 23, 24, ",
     "date": "12 Aug 2017",
     "tracklist": ""
   },
@@ -64,6 +67,7 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "14",
+    "similar": "1, 6, 10, 14, 17, 23, 24, ",
     "date": "09 Jul 2018",
     "tracklist": ""
   },
@@ -81,6 +85,7 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs05.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "17",
+    "similar": "1, 6, 10, 14, 17, 23, 24, ",
     "date": "30 Dec 2018",
     "tracklist": ""
   },
@@ -98,6 +103,7 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs06.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "23",
+    "similar": "1, 6, 10, 14, 17, 23, 24, ",
     "date": "25 Oct 2019",
     "tracklist": ""
   },
@@ -115,6 +121,7 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs07.jpg",
     "thumbnailLg": "./image/mix-covers/highjacked-07-lg.jpg",
     "id": "24",
+    "similar": "1, 6, 10, 14, 17, 23, 24, ",
     "date": "04 May 2020",
     "tracklist": ""
   },
@@ -132,6 +139,7 @@
     "thumbnail": "./image/mix-covers/thumbnail/hs08.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "39",
+    "similar": "1, 6, 10, 14, 17, 23, 24, ",
     "date": "01 Sep 2023",
     "tracklist": ""
   },
@@ -642,6 +650,7 @@
     "thumbnail": "./image/mix-covers/thumbnail/hhsml04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "35",
+    "similar": "1, 6, 10, 14, 17, 23, 24, ",
     "date": "14 Oct 2022",
     "tracklist": ""
   },
@@ -659,6 +668,7 @@
     "thumbnail": "./image/mix-covers/thumbnail/hhsml05.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "37",
+    "similar": "1, 6, 10, 14, 17, 23, 24, ",
     "date": "26 Oct 2022",
     "tracklist": ""
   },
