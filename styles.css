@@ -649,3 +649,6 @@ nav .fa-solid {
 .btn-none:hover {
   text-decoration: underline;
 }
+.blog-image {
+  width: 100%;
+}
