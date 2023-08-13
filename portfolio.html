@@ -80,13 +80,13 @@
   </head>
   <body>
     <div id="#header">
-      <div class="containerLocal">
+      <div class="container">
         <nav>
           <img src="./image/4pixels.png" class="logo" />
           <ul id="sidemenu">
             <li><a class="hover" href="./index.html">Home</a></li>
-            <li><a class="hover" href="./blog.html">Blog</a></li>
-            <li><a class="hover" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="hover" href="./blog.html">Products</a></li>
+            <li><a class="hover" href="./portfolio.html">Services</a></li>
             <li><a class="hover" href="./about-us.html">About Us</a></li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
@@ -96,6 +96,7 @@
       <!------portfolio-->
       <div id="portfolio">
         <h1 class="text-center sub-title hover">Portfolio</h1>
+        <p class="text-center"><a class="underline text-white" href="./index.html">Home</a> / Previous work</p>
         <div class="containerLocal">
           <div class="work-list">
             <div class="work">
@@ -109,6 +110,21 @@
                 </p>
                 <a href="http://www.lukustore.nl/"
                   ><i style="cursor: pointer" class="fa-solid fa-link"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img class="greyscale" style="height: 100%; width: 100%; object-fit: cover"  src="https://images.pexels.com/photos/1105379/pexels-photo-1105379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+              <div class="layer">
+                <h3>Research Website</h3>
+                <p>
+                  A website for higly advanced and customized detector solutions for researchers.
+                  Check the website for publications.
+                </p>
+                <a
+                  style="cursor: pointer"
+                  href="https://4ourpixels.github.io/amsterdam-scientific-instruments/"
+                  ><i class="fa-solid fa-link"></i
                 ></a>
               </div>
             </div>
@@ -200,34 +216,48 @@
               </div>
             </div>
           </div>
+          <hr class="my-5">
+          <h3>Latest blog</h3>
+          <a class="underline text-secondary" href="./drake-blog.html">Drake Reveals New Album Following Release of His First Poetry
+              Book: 'For All the Dogs'.</a>
+          <br>
+          <a href="./web_blog.html" class="underline text-secondary">  Unleashing the Power of Web Development: A 4our Pixels Guide.</a>
+          <h3 class="mt-5">Latest mixes</h3>
+          <a class="underline text-secondary" href="./mix.html?id=38">DJ G400 - Lagos To The Max 05</a>
+          <br>
+          <a class="underline text-secondary" href="./mix.html?id=24">DJ G400 - Highjacked Season 07</a>
+          <br>
+          <a class="underline text-secondary" href="./mix.html?id=21">DJ G400 - Local Classics Part 01</a>
+          <hr class="my-5">
       </div>
     </div>
     <!------aboout------->
-    <div class="containerLocal">
-      <hr class="mb-5">
+    <div class="container">
       <h1 class="text-center mb-5">Have an awesome project?</h1>
-      <form name="submit-to-google-sheet">
-        <label class="form-label" for="Name">Name</label>
-        <input type="text" name="Name" id="Name" placeholder="Your Name" required />
-        <label class="form-label" for="Email">Email</label>
-        <input
-        id="Email"
-        type="email"
-        name="Email"
-        placeholder="Your Email"
-        required
-        />
-        <label class="form-label" for="Message">Message</label>
-        <textarea
-          type="text"
-          id="Message"
-          name="Message"
-          rows="6"
-          placeholder="Your Message..."
-        ></textarea>
-        <button type="submit" class="btn2">Submit</button>
-      </form>
-      <span id="msg"></span>
+      <div class="row justify-content-center">
+        <form class="col-sm-12 col-md-8" name="submit-to-google-sheet">
+          <label class="form-label" for="Name">Name</label>
+          <input type="text" name="Name" id="Name" placeholder="Your Name" required />
+          <label class="form-label" for="Email">Email</label>
+          <input
+          id="Email"
+          type="email"
+          name="Email"
+          placeholder="Your Email"
+          required
+          />
+          <label class="form-label" for="Message">Message</label>
+          <textarea
+            type="text"
+            id="Message"
+            name="Message"
+            rows="6"
+            placeholder="Your Message..."
+          ></textarea>
+          <button type="submit" class="btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
     </div>
     <footer class="container mt-5">
       <hr class="mb-5 mt-3" />
