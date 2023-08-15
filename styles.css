@@ -652,3 +652,8 @@ nav .fa-solid {
 .blog-image {
   width: 100%;
 }
+.row-secondary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

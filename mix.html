@@ -125,13 +125,6 @@
           </h6>
           <div id="episode-title" class="sub-title"></div>
           <h6 id="date-released" class="text-white"></h6>
-          <h1
-            class="my-5 hover text-center display-1"
-            onclick="playPause()"
-            type="submit"
-          >
-            <i class="fa-solid fa-2xl fa-play" id="controlIcon"></i>
-          </h1>
           <div class="audio-player">
             <audio id="song">
               <source type="audio/mpeg" />
@@ -148,12 +141,37 @@
             id="volume_control"
             oninput="changeVolume()"
           />
-          <input
-            class="mb-5 w-100"
-            type="range"
-            value="0"
-            id="mix_progress_bar"
-          />
+          <input class="w-100" type="range" value="0" id="mix_progress_bar" />
+
+          <!-- Time -->
+          <div class="d-flex justify-content-between">
+            <h6 class="text-secondary">1:12</h6>
+            <h6 class="text-secondary">3:02</h6>
+          </div>
+          <!-- End of Time -->
+
+          <!-- Play Button -->
+          <div class="container mt-5">
+            <div class="row-secondary justify-content-between">
+              <div class="hover" onclick="backward()" type="submit">
+                <i
+                  class="fa-solid fa-2xl fa-backward"
+                  id="controlIconBackward"
+                ></i>
+              </div>
+              <div class="hover display-1" onclick="playPause()" type="submit">
+                <i class="fa-solid fa-2xl fa-play" id="controlIcon"></i>
+              </div>
+              <div class="hover" onclick="forward()" type="submit">
+                <i
+                  class="fa-solid fa-2xl fa-forward"
+                  id="controlIconForward"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <!-- End of Play Button -->
+
           <div class="container">
             <div class="row justify-content-center">
               <h6 class="text-center text-white my-5">See Featured Artists</h6>
@@ -162,9 +180,7 @@
                 class="text-white text-center hover"
               ></h2>
             </div>
-          </div>
-          <div class="container mb-5">
-            <div class="row justify-content-center">
+            <div class="row mb-5 justify-content-center">
               <h6
                 id="episode-genre"
                 class="text-center text-white border-bottom w-50 pb-3 my-5"
