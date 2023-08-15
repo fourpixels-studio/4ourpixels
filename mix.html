@@ -47,7 +47,7 @@
 
     <!-- Android Chrome specific favicon -->
     <link rel="manifest" href="./image/favicon/site.webmanifest" />
-    <meta id="theme-color" name="theme-color" content="" />
+    <meta id="theme-color" name="theme-color" content="#30d5c8" />
 
     <!-- Microsoft specific favicon -->
     <meta name="msapplication-TileImage" content="./image/favicon/4white.png" />
@@ -125,11 +125,13 @@
           </h6>
           <div id="episode-title" class="sub-title"></div>
           <h6 id="date-released" class="text-white"></h6>
-          <div class="row">
-            <h1 class="mt-3 hover" onclick="playPause()" type="submit">
-              <i class="fa-solid fa-play" id="controlIcon"></i>
-            </h1>
-          </div>
+          <h1
+            class="my-5 hover text-center display-1"
+            onclick="playPause()"
+            type="submit"
+          >
+            <i class="fa-solid fa-2xl fa-play" id="controlIcon"></i>
+          </h1>
           <div class="audio-player">
             <audio id="song">
               <source type="audio/mpeg" />
