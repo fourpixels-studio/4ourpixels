@@ -24,16 +24,15 @@ fetch("./data.json")
       // Create the list item
       const listItem = `
         <tr>
-          <th scope="row"><img height="70" width="70" src="${
+          <th scope="row"><img height="170" width="170" src="${
             episode.thumbnail
           }"/></th>
           <td>
-            <a class="hover underline" href="mix.html?id=${encodeURIComponent(
+            <a class="hover h3 underline" href="mix.html?id=${encodeURIComponent(
               episode.id
             )}">
-          ${episode.Album} 0${episode.Episode}</a></td>
-          <td>${episode.Genre}</td>
-          <td>${episode.date}</td>
+          ${episode.Title}
+          <br/>${episode.Genre}</a></td>
         </tr>
       `;
 
