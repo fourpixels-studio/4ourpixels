@@ -126,24 +126,6 @@
     "tracklist": ""
   },
   {
-    "Title": "Highjacked Season 08",
-    "audio": "https://hearthis.at/djg400/dj-g400-highjacked-season-07-auido/listen.mp3?s=lge",
-    "Album": "Highjacked",
-    "Episode": 8,
-    "color": "#fcbb30",
-    "hue": "filter: hue-rotate(220deg);",
-    "popular": 5,
-    "Genre": "Trap",
-    "Artists": "Gunna, Don Toliver,Yo Gotti, Megan Thee Stallion, Lil Uzi Vert, Pop Smoke, Skepta, Dave, Lil Skies, Wiz Khalifa, Young Dolph, Key Glock, Snupe Bandz, Big Moochie Grape, Jay Fizzle, PaperRoute Woo, Lil Baby, Big Uncc",
-    "Cover": "./cover/hs08.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/hs08.jpg",
-    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "39",
-    "similar": "1, 6, 10, 14, 17, 23, 24, ",
-    "date": "01 Sep 2023",
-    "tracklist": ""
-  },
-  {
     "Title": "African Experience 01",
     "audio": "",
     "Album": "African Experience",
@@ -670,23 +652,6 @@
     "id": "37",
     "similar": "1, 6, 10, 14, 17, 23, 24, ",
     "date": "26 Oct 2022",
-    "tracklist": ""
-  },
-  {
-    "Title": "Local Classics 02",
-    "audio": "https://hearthis.at/djg400/dj-g400-local-classics-part-01-audio/listen.mp3?s=C6u",
-    "Album": "Local Classics",
-    "Episode": 2,
-    "color": "#f4f4f4",
-    "hue": "",
-    "popular": 2,
-    "Genre": "Kenyan Music",
-    "Artists": "Sauti Sol, Nonini, Jua Cali, Bamboo, Kleptomaniax, P-Unit, Bobby Mapesa, Abbas Kubaff, Calif Records",
-    "Cover": "./cover/local02.jpg",
-    "thumbnail": "./image/mix-covers/thumbnail/local02.jpg",
-    "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
-    "id": "40",
-    "date": "01 Oct 23",
     "tracklist": ""
   }
 ]
