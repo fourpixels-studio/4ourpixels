@@ -30,9 +30,9 @@ fetch("./data.json")
       mixHeader.style.height = "100vh";
       pageTitle.innerHTML = `DJ G400 - ${episode.Title}`;
       episodeTitle.innerHTML = `${episode.Title}`;
-      episodeGenre.innerHTML = `Other ${episode.Genre} Mixes By DJ G400`;
+      // episodeGenre.innerHTML = `Other ${episode.Genre} Mixes By DJ G400`;
       episodeArtists.innerHTML = `${episode.Artists}`;
-      similarMixes.innerHTML = `${episode.Title}`;
+      // similarMixes.innerHTML = `${episode.Title}`;
       dateReleased.innerHTML = `Released: ${episode.date}`;
       breadcrumb.innerHTML = `
 
@@ -139,3 +139,6 @@ function changeVolume() {
   // Set the volume of the audio element
   audioElement.volume = volume;
 }
+
+const start = document.getElementById("start-time");
+const end = document.getElementById("end-time");

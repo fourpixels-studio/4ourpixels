@@ -144,15 +144,15 @@
           <input class="w-100" type="range" value="0" id="mix_progress_bar" />
 
           <!-- Time -->
-          <div class="d-flex justify-content-between">
-            <h6 class="text-secondary">1:12</h6>
-            <h6 class="text-secondary">3:02</h6>
-          </div>
+          <!-- <div style="margin-top: 1rem" class="d-flex justify-content-between">
+            <h6 id="start-time" class="text-secondary">0:00</h6>
+            <h6 id="end-time" class="text-secondary">0:00</h6>
+          </div> -->
           <!-- End of Time -->
 
           <!-- Play Button -->
           <div class="container mt-5">
-            <div class="row-secondary justify-content-between">
+            <div class="row-secondary justify-content-evenly">
               <div class="hover" onclick="backward()" type="submit">
                 <i
                   class="fa-solid fa-2xl fa-backward"
@@ -174,7 +174,7 @@
 
           <div class="container">
             <div class="row justify-content-center">
-              <h6 class="text-center text-white my-5">See Featured Artists</h6>
+              <h6 class="text-center text-white my-5">Featured Artists</h6>
               <h2
                 id="episode-artists"
                 class="text-white text-center hover"
@@ -183,7 +183,7 @@
             <div class="row mb-5 justify-content-center">
               <h6
                 id="episode-genre"
-                class="text-center text-white border-bottom w-50 pb-3 my-5"
+                class="text-center text-white w-50 pb-3 my-5"
               ></h6>
               <h2
                 id="similar-mixes"
@@ -194,6 +194,7 @@
         </div>
       </div>
     </div>
+
     <script>
       var song = document.getElementById("song");
       var progress = document.getElementById("mix_progress_bar");
@@ -221,22 +222,6 @@
       song.onpause = song.onended = function () {
         clearInterval(interval);
       };
-    </script>
-
-    <script>
-      var tablinks = document.getElementsByClassName("tab-links");
-      var tabcontents = document.getElementsByClassName("tab-contents");
-
-      function opentab(tabname) {
-        for (tablink of tablinks) {
-          tablink.classList.remove("active-link");
-        }
-        for (tabcontent of tabcontents) {
-          tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-      }
     </script>
 
     <script>
@@ -274,9 +259,26 @@
         progress.value = song.currentTime;
       }
     </script>
+
     <script>
       function goBack() {
         history.back();
+      }
+    </script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
       }
     </script>
 
