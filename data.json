@@ -6,15 +6,16 @@
     "Episode": 1,
     "color": "#ffcc33",
     "hue": "",
-    "popular": 1,
+    "popular": false,
     "Genre": "Trap",
-    "Artists": "Rae Sremmurd, Travis Scott, Mustard, Niykee Heaton, Migos, Asap Ferg, Future, Usher, Young Thug, Lil Uzi Vert, Gucci Mane, Young Dolph, Kent Jones, Rick Ross, Kevin Gates, Chris Brown, Kehlani, Kodak Black, YFN Lucci, Madeintyo, 21 Savage, Metro Boomin, DJ Khaled, Jay Z, Belly, Lil Durk, Meek Mill, Desiigner, Dreezy, Jeremih, August Aulsina, Young MA",
+    "Artists": "Rae Sremmurd, Travis Scott, Mustard, Niykee Heaton, Migos, Asap Ferg, Future, Usher, Young Thug, Lil Uzi Vert, Gucci Mane, Young Dolph, Kent Jones, Rick Ross, Kevin Gates, Chris Brown, Kehlani, Kodak Black, YFN Lucci, Madeintyo, 21 Savage, Metro Boomin, DJ Khaled, Jay Z, Belly, Lil Durk, Meek Mill, Desiigner, Dreezy, Jeremih, Augustust Aulsina, Young MA",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs01.jpg",
     "thumbnailLg": "",
     "id": "2",
     "similar": "1, 6, 10, 14, 17, 23, 24",
-    "date": "23 Dec 2016",
+    "date": "23 December 2016",
+    "coverDownloadLink": "Trap",
     "tracklist": ""
   },
   {
@@ -24,7 +25,7 @@
     "Episode": 2,
     "color": "#e71f35",
     "hue": "",
-    "popular": 2,
+    "popular": false,
     "Genre": "Trap",
     "Artists": "Machine Gun Kelly, Ty Dolla $ign, Wiz Khalifa, Miguel, Que, DJ Esco, Lil Uzi Vert, Migos, Quavo, Takeoff, 2 Chainz, Ralo, Young Thug, Lil Yatchy, Rich Homie Quan, Belly, Gucci Mane, Jay Critch, Rich The Kid, Yo Gotti, Mayonde, Muthoni The Drummer Queen, Kagwe Mungai, Drake, Caskey, K Camp, Rae Sremmurd, Trey Songz, Young Dolph, Future, 2 Chainz, 21 Savage, Metro Boomin, Kodak Black, Sonny Digital, Black Boe, Big Sean, Offset, 24Hours, The Weeknd, Dae Dae, London On Da Track, SahBabii, Laso Loaded, Naiboi, Kent Jones, Soulja Boy, Dej Loaf, Chris Brown",
     "Cover": "./cover/hs02.jpg",
@@ -32,7 +33,8 @@
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "6",
     "similar": "1, 6, 10, 14, 17, 23, 24, ",
-    "date": "13 Mar 2017",
+    "date": "13 March 2017",
+    "coverDownloadLink": "Trap",
     "tracklist": ""
   },
   {
@@ -42,7 +44,7 @@
     "Episode": 3,
     "color": "#ff1912",
     "hue": "",
-    "popular": 3,
+    "popular": false,
     "Genre": "Trap, Hip Hop, Rap",
     "Artists": "Big Sean, Omarion, C'Zar, G-Eazy, Carnage, Thirtyrack, Cousin Stizz, Kendrick Lamar, Rihanna, Cardi B, Offset, E-40, MadeinTYO, 24hrs, Quavo, Takeoff, Migos, DJ Khaled, Kodack Black, Rick Ross, Gucci Mane, Post Malone, Machine Gun Kelly, Ayo & Teo, PnB Rock",
     "Cover": "./cover/hs03.jpg",
@@ -50,7 +52,8 @@
     "thumbnailLg": "./image/mix-covers/highjacked-03-lg.jpg",
     "id": "10",
     "similar": "1, 6, 10, 14, 17, 23, 24, ",
-    "date": "12 Aug 2017",
+    "date": "12 August 2017",
+    "coverDownloadLink": "Trap, Hip Hop, Rap",
     "tracklist": ""
   },
   {
@@ -60,7 +63,7 @@
     "Episode": 4,
     "color": "#d4ff06",
     "hue": "",
-    "popular": 4,
+    "popular": false,
     "Genre": "Trap, Hip Hop, Rap",
     "Artists": "Lil Pump, Wiz Khalifa, Migos, Offset, Quavo, Takeoff, Plies, Rae Sremmurd, Chin Bees, Joe Moses, Future, K Camp, Lil Yatchy, Chris Brown, Gucci Mane, Ugly God, Cardi B, 21 Savage, Nicki Minaj, Blocboy JB, Drake, Tay Keith, Post Malone, Bryson Tiller, Rich The Kid, Kendrick Lamar, Tinashe, Ty Dolla $ign, Yo Gotti, Kodak Black, A Boogie Wit Da Hoodie, The Weeknd, Rvissian, Rick Ross, Konshens, DJ Esco, Lil Debbie, Tory Lanez, Fabolous, Velous, Asap Rocky, Skepta, Jay Z, Beyonce, Abbas, 6ix9ine, Afrojack, Belly, O.T. Genasis, Ricky Breaker, Lil Uzi Vert, Asap Ferg, YG, 2 Chainz, Famous Dex, G-Eazy, Jacquees, Dej Loaf, RJMrLA, Tyga, Big Sean",
     "Cover": "./cover/hs04.jpg",
@@ -68,7 +71,8 @@
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "14",
     "similar": "1, 6, 10, 14, 17, 23, 24, ",
-    "date": "09 Jul 2018",
+    "date": "09 July 2018",
+    "coverDownloadLink": "Trap, Hip Hop, Rap",
     "tracklist": ""
   },
   {
@@ -78,15 +82,16 @@
     "Episode": 5,
     "color": "#00fe60",
     "hue": "",
-    "popular": 5,
+    "popular": true,
     "Genre": "Trap, Hip Hop, Rap",
-    "Artists": "French Montana, Tory Lanez, Lil Mosey, Rich The Kid, Juice Wrld, Childish Gambino",
+    "Artists": "Lil Baby, Gunna, IAMDDB, Drake, 6ix9ine, Nicki Mina, Kirko Bangz, Tory Lanez, Jacquees, Wiz Khalifa, Swae Lee, Travis Scott, Young Thug, Lil Uzi Vert, Kevin Gates, Gucci Mane, Lil Pump, Yella Beezy, Belly, Nav, Young Dolph, Offset, Bruno Mars, Kodak Black, Quavo, Wuod Baba, Octopizzo, Ty Dolla $ign, Khalid, 6lack, Sheck Wes, Juicy J, 2Chainz, Blocboy JB, 21 Savage, Lil Yatchy, Cardi B, Post Malone, Flipp Dinero, French Montana, Khaligraph Jones, Rich The Kid, Lil Mosey, YG, Asap Rocky, YBN Nahmir, Smokepurpp, Juice Wrld, Childish Gambino, Padison Fontaine, Young MA, Meek Mill, Lil Durk, Future, DJ Durel, Migos, Lil Wayne, Swizz Beats, Tyga, OT Genasis, Lil Duval, Snoop Dogg, Ball Greezy, Kanye West, Adele Givens, Saweetie, London On Da Track, G-Eazy",
     "Cover": "./cover/hs05.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs05.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "17",
     "similar": "1, 6, 10, 14, 17, 23, 24, ",
-    "date": "30 Dec 2018",
+    "date": "30 December 2018",
+    "coverDownloadLink": "Trap, Hip Hop, Rap",
     "tracklist": ""
   },
   {
@@ -96,15 +101,16 @@
     "Episode": 6,
     "color": "#dedede",
     "hue": "",
-    "popular": 5,
+    "popular": true,
     "Genre": "Trap, Hip Hop, Rap",
-    "Artists": "Gucci Mane, Key Glock, Young Dolph, Travis Scott, Khaligraph Jones, Smokepurpp, YNW Melly, YG",
+    "Artists": "Wiz Khalifa, Gucci Mane, Migos, Quality Control, Quavo, Key Glock, Cardi B, Lil Nas X, Billy Ray Cyrus, Yella Beezy, Quavo, Offset, Young Dolph, Bandplay, Meghan The Stallion, 21 Savage, J Cole, DJ Khaled, Skepta, Nafe Smallz, Lil Pump, Master VK, Dababy, Travis Scott, Jeezy, Boity, Nasty C, Peewee Longway, Money Man, King Von, Lil Durk, Khaligraph Jones, Missy Elliot, Smokepurrp, NLE Choppa, Juicy J, Ty Dolla $ign, Maandy, Young MA, Chris Brown, Gunna, Doja Cat, Tyga, Nav, Meek Mill, Marlo, Offset, City Girls, Moneybagg Yo, Lil Tecca, Big Sean< Asap Ferg, Hitboy, SZA, A Boogie Wid Da Hoodie, Schoolboy Q, YG, Stormzy, Tory Lanez, Trippie Redd, Big K.R.I.T, Lil Wayne, Saweetie, French Montana, Blueface, Lil Tjay, YNW Mellow, 9lokknine, Snowsa, Mustard, Roddy Rich, Kash Doll, Fetty Wap, 50 Cent, Monty, Young Thug, Ski Musk The Slump God, G-Eazy, Allblack, T-Pain, Rick Ross, Dababy, Jon Z, NSG, PNB Rock, Layton Greene, French Montana, Drake, J Balvin, Saweetie",
     "Cover": "./cover/hs06.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs06.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "23",
     "similar": "1, 6, 10, 14, 17, 23, 24, ",
-    "date": "25 Oct 2019",
+    "date": "25 October 2019",
+    "coverDownloadLink": "Trap, Hip Hop, Rap",
     "tracklist": ""
   },
   {
@@ -114,15 +120,16 @@
     "Episode": 7,
     "color": "#fcbb30",
     "hue": "filter: hue-rotate(220deg);",
-    "popular": 7,
+    "popular": true,
     "Genre": "Trap, Hip Hop, Rap",
-    "Artists": "Roddy Ricch, NAV, Gunna, Sheck Wes, Don Toliver,Yo Gotti, Megan Thee Stallion, Lil Uzi Vert",
+    "Artists": "Roddy Ricch, NAV, Travis Scott, J Cole, Tory Lanez, JACKBOYS, Sheck Wes, Don Toliver, Luxury Tax 50 & Cactus Jack, Yo Gotti, Megan Thee Stallion, Lil Uzi Vert, YBN Nahmir, G Eazy, Offset, Dababy, Lil Baby, Moneybagg Yo, Gucci Mane, Wakadinali, Dyna Cods, Blueface, Dreamville, Lute, Future, Pop Smoke, Migos, Young Thug, Ty Dolla $ign, Jack Harlow, Nicki Minaj, K Camp, Ashnikko, Yung Baby Tate, Tyla Yaweh, French Montana, Lil Mosey, Meek Mill, Octavian, Skepta, Michael Phantom, Costa Titch, Riky Rick & AKA, Smokepurrp, Nipsey Hussle, iLL Wayno, Holla FyeSixWun, Drake, Eminem, Juice WRLD, Megan The Stallion, NLE Choppa, Asap Ferg, Lizzo, NBA Youngboy, 21 Savage, Yella Beezy, Lil Mosey, OT Genasis, Mustard, Tyga, Wiz Khalifa, Famous Dex, Rich The Kid, Young Thug",
     "Cover": "./cover/hs07.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hs07.jpg",
     "thumbnailLg": "./image/mix-covers/highjacked-07-lg.jpg",
     "id": "24",
     "similar": "1, 6, 10, 14, 17, 23, 24, ",
     "date": "04 May 2020",
+    "coverDownloadLink": "Trap, Hip Hop, Rap",
     "tracklist": ""
   },
   {
@@ -139,8 +146,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/ae01.jpg",
     "thumbnailLg": "",
     "id": "1",
-    "date": "07 Sep 2016",
-    "tracklist": ""
+    "date": "02 September 2016",
+    "tracklist": "",
+    "coverDownloadLink": "East Africa, Afrobeats"
   },
   {
     "Title": "African Experience 02",
@@ -156,8 +164,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/ae02.jpg",
     "thumbnailLg": "./image/mix-covers/ae02-landscape.jpg",
     "id": "4",
-    "date": "04 Jan 2017",
-    "tracklist": ""
+    "date": "04 January 2017",
+    "tracklist": "",
+    "coverDownloadLink": "East Africa, Afrobeats"
   },
   {
     "Title": "African Experience 03",
@@ -173,8 +182,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/ae03.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "7",
-    "date": "13 Mar 2017",
-    "tracklist": ""
+    "date": "13 March 2017",
+    "tracklist": "",
+    "coverDownloadLink": "East Africa, Afrobeats"
   },
   {
     "Title": "African Experience 04",
@@ -190,8 +200,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/ae04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "9",
-    "date": "24 Jun 2017",
-    "tracklist": ""
+    "date": "21 August 2017",
+    "tracklist": "",
+    "coverDownloadLink": "East Africa, Afrobeats"
   },
   {
     "Title": "African Experience 05",
@@ -200,15 +211,16 @@
     "Episode": 5,
     "color": "#fd181f",
     "hue": "",
-    "popular": 5,
+    "popular": true,
     "Genre": "Africa, Afro, EA",
     "Artists": "",
     "Cover": "./cover/ae05.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae05.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "12",
-    "date": "18 Dec 2017",
-    "tracklist": ""
+    "date": "18 December 2017",
+    "tracklist": "",
+    "coverDownloadLink": "Africa, Afro, EA"
   },
   {
     "Title": "African Experience 06",
@@ -217,15 +229,16 @@
     "Episode": 6,
     "color": "#eb4103",
     "hue": "",
-    "popular": 2,
+    "popular": true,
     "Genre": "East Africa, Afrobeats",
     "Artists": "",
     "Cover": "./cover/ae06.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/ae06.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "22",
-    "date": "22 Sep 2019",
-    "tracklist": ""
+    "date": "22 September 2019",
+    "tracklist": "",
+    "coverDownloadLink": "East Africa, Afrobeats"
   },
   {
     "Title": "Club Inferno 01",
@@ -241,8 +254,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/inferno01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "3",
-    "date": "03 Sep 2016",
-    "tracklist": ""
+    "date": "03 September 2016",
+    "tracklist": "",
+    "coverDownloadLink": "Mashup, RnB, Dancehall, Hip Hop, Afro"
   },
   {
     "Title": "Club Inferno 02",
@@ -258,8 +272,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/inferno02.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "5",
-    "date": "28 Jan 2017",
-    "tracklist": ""
+    "date": "28 January 2017",
+    "tracklist": "",
+    "coverDownloadLink": "Mashup, RnB, Dancehall, Hip Hop, Afro"
   },
   {
     "Title": "Club Inferno 03",
@@ -268,15 +283,16 @@
     "Episode": 3,
     "color": "#dcc4b0",
     "hue": "",
-    "popular": 3,
+    "popular": true,
     "Genre": "Mashup, RnB, Dancehall, Hip Hop, Afro",
     "Artists": "",
     "Cover": "./cover/inderno01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno03.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "13",
-    "date": "19 Sep 2018",
-    "tracklist": ""
+    "date": "19 September 2018",
+    "tracklist": "",
+    "coverDownloadLink": "Mashup, RnB, Dancehall, Hip Hop, Afro"
   },
   {
     "Title": "Club Inferno 04",
@@ -285,15 +301,16 @@
     "Episode": 4,
     "color": "#ff9900",
     "hue": "",
-    "popular": 4,
+    "popular": true,
     "Genre": "Mashup, RnB, Dancehall, Hip Hop, Afro",
-    "Artists": "",
+    "Artists": "Sauti Sol, Nyashinski, Khalid, Ariana Grande, Nicki Minaj, Ochungulo Family, Estelle, Tarrus Riley, Nandy, Benny Boom, Ashley, Ya Levis, ",
     "Cover": "./cover/ci04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/inferno04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "20",
-    "date": "27 Mar 2019",
-    "tracklist": ""
+    "date": "27 March 2019",
+    "tracklist": "",
+    "coverDownloadLink": "Mashup, RnB, Dancehall, Hip Hop, Afro"
   },
   {
     "Title": "Mixconduct Vol 01",
@@ -309,8 +326,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/mixconduct-01.jpg",
     "thumbnailLg": "./image/mix-covers/mixconduct-01-landscape.jpg",
     "id": "8",
-    "date": "21 Apr 2017",
-    "tracklist": ""
+    "date": "21 April 2017",
+    "tracklist": "",
+    "coverDownloadLink": "Hip Hop, Rnb"
   },
   {
     "Title": "Mixconduct Vol 02",
@@ -326,8 +344,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/mixconduct-02.jpg",
     "thumbnailLg": "./image/mix-covers/mixconduct-02-landscape.jpg",
     "id": "11",
-    "date": "26 Sep 2017",
-    "tracklist": ""
+    "date": "26 September 2017",
+    "tracklist": "",
+    "coverDownloadLink": "Hip Hop, Rnb"
   },
   {
     "Title": "Hood Love 01",
@@ -336,15 +355,16 @@
     "Episode": 1,
     "color": "#5b2831",
     "hue": "",
-    "popular": 1,
+    "popular": true,
     "Genre": "RnB, Rap",
-    "Artists": "Ty Dolla $ign, Jhene Aiko, Ciara, Nicki Minaj, August Aulsina, Chris Brown, Kevin Gates, The Game",
+    "Artists": "Ty Dolla $ign, Jhene Aiko, Ciara, Nicki Minaj, Augustust Aulsina, Chris Brown, Kevin Gates, The Game",
     "Cover": "./cover/hood-love-01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hoodlove-01.jpg",
     "thumbnailLg": "./image/mix-covers/hood-love-bg-lg.jpg",
     "id": "13",
-    "date": "19 Feb 2018",
-    "tracklist": ""
+    "date": "19 February 2018",
+    "tracklist": "",
+    "coverDownloadLink": "RnB, Rap"
   },
   {
     "Title": "Sean Paul Mixtape",
@@ -353,15 +373,16 @@
     "Episode": 1,
     "color": "#330508",
     "hue": "",
-    "popular": 5,
+    "popular": true,
     "Genre": "Dancehall, Pop",
     "Artists": "",
     "Cover": "./cover/seanpaul.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/seanpaul.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "16",
-    "date": "06 Oct 2018",
-    "tracklist": ""
+    "date": "06 October 2018",
+    "tracklist": "",
+    "coverDownloadLink": "Dancehall, Pop"
   },
   {
     "Title": "Rihanna Mixtape",
@@ -370,15 +391,16 @@
     "Episode": 1,
     "color": "#ffff33",
     "hue": "",
-    "popular": 1,
+    "popular": true,
     "Genre": "Dancehall, Pop, House, Edm, Hip Hop",
     "Artists": "",
     "cover": "./cover/rihanna.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/rihanna.jpg",
     "thumbnailLg": "./image/mix-covers/rihanna-bg-lg.jpg",
     "id": "19",
-    "date": "14 Mar 2019",
-    "tracklist": ""
+    "date": "14 March 2019",
+    "tracklist": "",
+    "coverDownloadLink": "Dancehall, Pop, House, Edm, Hip Hop"
   },
   {
     "Title": "The Shuffle Vol 01",
@@ -394,8 +416,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/shuffle-01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "18",
-    "date": "03 Feb 2019",
-    "tracklist": ""
+    "date": "03 February 2019",
+    "tracklist": "",
+    "coverDownloadLink": "Old School, Rap, Hip Hop, Jams"
   },
   {
     "Title": "Local Classics Part 01",
@@ -404,7 +427,7 @@
     "Episode": 1,
     "color": "#fff",
     "hue": "",
-    "popular": 5,
+    "popular": true,
     "Genre": "Kenyan Music",
     "Artists": "Calif Records, Ogopa DJs, Nonini, Jua Cali, Bamboo, Kleptomaniax, P-Unit, Bobby Mapesa, Abbas Kubaff, Calif Records",
     "Cover": "./cover/local01.jpg",
@@ -412,7 +435,8 @@
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "21",
     "date": "29 July 2019",
-    "tracklist": ""
+    "tracklist": "",
+    "coverDownloadLink": "Kenyan Music"
   },
   {
     "Title": "NTV Set 01",
@@ -429,7 +453,8 @@
     "thumbnailLg": "./image/mix-covers/ntv-04-lg.jpg",
     "id": "25",
     "date": "26 May 2020",
-    "tracklist": ""
+    "tracklist": "",
+    "coverDownloadLink": "Keyan Hip Hop"
   },
   {
     "Title": "NTV Set 02",
@@ -445,8 +470,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/ntv-02.jpg",
     "thumbnailLg": "./image/mix-covers/ntv-04-lg.jpg",
     "id": "26",
-    "date": "08 Jun 2020",
-    "tracklist": ""
+    "date": "08 June 2020",
+    "tracklist": "",
+    "coverDownloadLink": "Hip Hop, Rap, Old School"
   },
   {
     "Title": "NTV Set 03",
@@ -462,8 +488,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/ntv-03.jpg",
     "thumbnailLg": "./image/mix-covers/ntv-04-lg.jpg",
     "id": "27",
-    "date": "08 Jun 2020",
-    "tracklist": ""
+    "date": "08 July 2020",
+    "tracklist": "",
+    "coverDownloadLink": "Crunk, Hip Hop"
   },
   {
     "Title": "NTV Set 04",
@@ -479,8 +506,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/ntv-04.jpg",
     "thumbnailLg": "./image/mix-covers/ntv-04-lg.jpg",
     "id": "28",
-    "date": "08 Jul 2020",
-    "tracklist": ""
+    "date": "08 July 2020",
+    "tracklist": "",
+    "coverDownloadLink": "Grime, Urban, Dancehall, Afrobeats"
   },
   {
     "Title": "Lagos To The Max 01",
@@ -496,8 +524,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/lagos01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "30",
-    "date": "16 Sep 2022",
-    "tracklist": "Jagele, BBC (Remix), Ginger, Action, Sempe, Be Honest, Vanilla, Leg Over Mashup, Cassanova, Kilometer, Essence, Peace Of Mind, Let You Go, Condo, Mad Over You, Plenty"
+    "date": "16 September 2022",
+    "tracklist": "Jagele, BBC (Remix), Ginger, Action, Sempe, Be Honest, Vanilla, Leg Over Mashup, Cassanova, Kilometer, Essence, Peace Of Mind, Let You Go, Condo, Mad Over You, Plenty",
+    "coverDownloadLink": "Afrobeats, Naija"
   },
   {
     "Title": "Lagos To The Max 02",
@@ -506,15 +535,16 @@
     "Episode": 2,
     "color": "#e3aa61",
     "hue": "",
-    "popular": 2,
+    "popular": true,
     "Genre": "Afrobeats, Naija",
     "Artists": "Wizkid, Fireboy DML, Wizkid, Darkoo, Seyi Shay, Eugy, Rema, Skepta, WSTRN, Buju, Ladipoe, Mr Eazi, ",
     "Cover": "./cover/lagos02.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos02.jpg",
     "thumbnailLg": "./image/mix-covers/s02.jpg",
     "id": "32",
-    "date": "27 Sep 2022",
-    "tracklist": "Come Closer, Vanilla, Cool Vibes, Jealous, Gangsta, For Your Matter, Dimension, "
+    "date": "27 September 2022",
+    "tracklist": "Come Closer, Vanilla, Cool Vibes, Jealous, Gangsta, For Your Matter, Dimension, ",
+    "coverDownloadLink": "Afrobeats, Naija"
   },
   {
     "Title": "Lagos To The Max 03",
@@ -530,8 +560,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/lagos03.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "34",
-    "date": "27 Sep 2022",
-    "tracklist": ""
+    "date": "27 September 2022",
+    "tracklist": "",
+    "coverDownloadLink": "Afrobeats, Naija"
   },
   {
     "Title": "Lagos To The Max 04",
@@ -540,15 +571,16 @@
     "Episode": 4,
     "color": "#d29f8a",
     "hue": "",
-    "popular": 4,
+    "popular": true,
     "Genre": "Afrobeats",
     "Artists": "Asake, Kelvyn Boy, DJ Spinal, Niniola, Falz, Maphorisa, Davido, Zinoleesky",
     "Cover": "./cover/lagos04.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/lagos04.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "36",
-    "date": "09 Oct 2022",
-    "tracklist": ""
+    "date": "09 October 2022",
+    "tracklist": "",
+    "coverDownloadLink": "Afrobeats"
   },
   {
     "Title": "Lagos To The Max 05",
@@ -564,8 +596,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/lagos05.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "38",
-    "date": "20 Oct 2022",
-    "tracklist": ""
+    "date": "20 October 2022",
+    "tracklist": "",
+    "coverDownloadLink": "Naija"
   },
   {
     "Title": "Hip Hop Saved My Life 01",
@@ -574,15 +607,16 @@
     "Episode": 1,
     "color": "#ffcccc",
     "hue": "",
-    "popular": 1,
+    "popular": true,
     "Genre": "Hip Hop, Rap, Trap",
     "Artists": "",
     "Cover": "./cover/hs01.jpg",
     "thumbnail": "./image/mix-covers/thumbnail/hhsml01.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "29",
-    "date": "16 Sep 2022",
-    "tracklist": ""
+    "date": "16 September 2022",
+    "tracklist": "",
+    "coverDownloadLink": "Hip Hop, Rap, Trap"
   },
   {
     "Title": "Hip Hop Saved My Life 02",
@@ -598,8 +632,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/hhsml02.jpg",
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "31",
-    "date": "27 Sep 2022",
-    "tracklist": ""
+    "date": "27 September 2022",
+    "tracklist": "",
+    "coverDownloadLink": "Hip Hop"
   },
   {
     "Title": "Hip Hop Saved My Life 03",
@@ -615,8 +650,9 @@
     "thumbnail": "./image/mix-covers/thumbnail/hhsml03.jpg",
     "thumbnailLg": "./image/mix-covers/hhsml03-bg-lg.jpg",
     "id": "33",
-    "date": "04 Oct 2022",
-    "tracklist": ""
+    "date": "04 October 2022",
+    "tracklist": "",
+    "coverDownloadLink": "Hip Hop, RnB"
   },
   {
     "Title": "Hip Hop Saved My Life 04",
@@ -633,7 +669,8 @@
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "35",
     "similar": "1, 6, 10, 14, 17, 23, 24, ",
-    "date": "14 Oct 2022",
+    "date": "14 October 2022",
+    "coverDownloadLink": "Trap, UK",
     "tracklist": ""
   },
   {
@@ -643,7 +680,7 @@
     "Episode": 5,
     "color": "#f4f4f4",
     "hue": "",
-    "popular": 5,
+    "popular": true,
     "Genre": "Trap",
     "Artists": "Trouble, Boosie Badazz, Playboi Carti, City Girls, Big Sean, Post Malone, Drake, Skepta, Young Bleu",
     "Cover": "./cover/hs01.jpg",
@@ -651,7 +688,8 @@
     "thumbnailLg": "./image/mix-covers/djg400-bg-lg.jpg",
     "id": "37",
     "similar": "1, 6, 10, 14, 17, 23, 24, ",
-    "date": "26 Oct 2022",
+    "date": "26 October 2022",
+    "coverDownloadLink": "Trap",
     "tracklist": ""
   }
 ]
