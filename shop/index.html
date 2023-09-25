@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Arap Trap - Merchandise</title>
+    <link
+        rel="icon"
+        type="image/x-icon"
+        sizes="32x32"
+        href="./images/favicon.ico"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .text-primary-change{
+            color: #30d5c8;
+        }
+        .text-white{
+            color: #ffffff;
+        }
+        .text-center {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+
+        .mb3{
+            margin-bottom: 3rem;
+        }
+    </style>
+</head>
+<body>
+<!---- header ----->
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                   <a href="index.html"><img height="50" width="auto" src="./images/g400.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a class="text-white" href="./index.html">Home</li></a>
+                        <li><a class="text-white" href="./products.html">Shop</li></a>
+                        <li><a class="text-white" href="./account.html">Gallery</a></li>
+                    </ul>
+                </nav>
+                <a id="cart-btn-home" class="text-black"  href="products.html"><img style="filter: invert();" src="images/cart.png" width="30px" height="30px"></a>
+                <img style="filter: invert();" src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1 class="text-white">Arap Trap's Merchandise Store.</h1>
+                    <p>Shop the latest collection of urban, modern, and fresh merchandise inspired by Arap Trap's unique style.</p>
+                    <a href="products.html" class="btn">Shop now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!---- brands ----->
+
+    <div class="brands">
+        <div class="small-container">
+        <h1 class="mb-3 title text-center">Pick A Design</h1>
+        <div class="row">
+            <!-- 400 Summer edition -->
+            <div class="col-5">
+                <a href="https://4ourpixels.github.io/ecommerce/product-detail.html?productId=1">
+                    <img class="img-fluid" src="images/logo-summer-ap.png">
+                </a>
+            </div>
+
+            <!-- g400 Edition -->
+            <div class="col-5">
+                <a href="https://4ourpixels.github.io/ecommerce/product-detail.html?productId=3">
+                    <img class="img-fluid" src="images/logo-philips.png">
+                </a>
+            </div>
+
+            <!-- Arap Trap Gothic Edition -->
+            <div class="col-5">
+                <a href="https://4ourpixels.github.io/ecommerce/product-detail.html?productId=9">
+                    <img class="img-fluid" src="images/logo-paypal.png">
+                </a>
+            </div>
+
+            <!-- Graffiti UZI Edition -->
+            <div class="col-5">
+                <a href="https://4ourpixels.github.io/ecommerce/product-detail.html?productId=13">
+                    <img class="img-fluid" src="images/logo-graffiti-ap.png">
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!---- footer ----->
+    <div class="footer">
+        <p class="copyright mb3">Copyright <a style="color: inherit;" href="https://4ourpixels.github.io/4ourpixels/">Four Pixels</a> 2023</p>
+    </div>
+
+<!---- js for toggle menu ----->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script type="module/javascript" src="./products.js"></script>
+<script type="module/javascript" src="./app.js"></script>
+
+</body>
+</html>
