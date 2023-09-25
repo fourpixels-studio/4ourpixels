@@ -20,6 +20,26 @@ fetch("./data.json")
 
       const themeColor = document.getElementById("theme-color");
 
+      // Meta Tags Start------------------------------------
+      // Assuming 'episode' is the JSON data for the episode
+      const artists = episode.Artists; // Get the artist names from the JSON data
+
+      // Create or select the existing meta keywords tag
+      let metaKeywords = document.querySelector('meta[name="keywords"]');
+
+      // If the meta keywords tag doesn't exist, create it
+      if (!metaKeywords) {
+        metaKeywords = document.createElement("meta");
+        metaKeywords.setAttribute("name", "keywords");
+      }
+
+      // Set the content attribute of the meta keywords tag to the artist names
+      metaKeywords.setAttribute("content", artists);
+
+      // Add the meta keywords tag to the head of the document
+      document.head.appendChild(metaKeywords);
+      // End of Metatags------------------------------------
+
       newthemeColor = episode.color;
       themeColor.setAttribute("content", newthemeColor);
 
