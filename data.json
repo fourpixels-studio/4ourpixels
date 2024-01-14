@@ -420,6 +420,24 @@
     "tracklist": "",
     "coverDownloadLink": "Old School, Rap, Hip Hop, Jams"
   },
+    {
+    "Title": "The Shuffle Vol 02",
+    "audio": "https://hearthis.at/djg400/dj-g400-the-shuffle-24-october-2023/listen.mp3?s=JOL",
+    "Album": "The Suffle",
+    "Episode": 2,
+    "color": "#fff",
+    "hue": "",
+    "popular": 3,
+    "Genre": "Urban, Hip Hop, Pop, Rap, RnB, Grime, UK, Afrobeats",
+    "Artists": "Koffee, J Hus, Post Malone, Nicki Minaj, City Girls, AKA, Nasty C, Mustard, Roddy Rich, Migos, Kahush,  Saweetie, Jhene Aiko, YG, The Weeknd, Kodak Black, Kendrick Lamar, Tyga, Wiz Khalifa,  Pop Smoke, NSG, Wizkid, Skepta, Ty Dolla SIgn",
+    "cover": "./cover/seanpaul.jpg",
+    "thumbnail": "./image/mix-covers/thumbnail/the-shuffle-vol-2-cover.jpg",
+    "thumbnailLg": "./image/mix-covers/the-shuffle-vol-2-cover.jpg",
+    "id": "38",
+    "date": "23 October 2023",
+    "tracklist": "",
+    "coverDownloadLink": "Urban, Hip Hop, Pop, Rap, RnB, Grime, UK, Afrobeats"
+  },
   {
     "Title": "Local Classics Part 01",
     "audio": "https://hearthis.at/djg400/dj-g400-local-classics-part-01-audio/listen.mp3?s=C6u",
