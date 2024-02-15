@@ -395,3 +395,99 @@ nav .fa-solid {
 #services p {
   font-size: 16px;
 }
+
+#mix-description {
+  font-size: 14px;
+  color: #fff;
+}
+#mix_progress_bar {
+  --webkit-appearance: none;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#mix_progress_bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+#volume_control {
+  --webkit-appearance: none;
+  width: auto;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  transform: rotate(-90deg);
+  transform-origin: left center;
+}
+#volume_control::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.btn-none {
+  background: none;
+  border: none;
+}
+.btn-none:hover {
+  text-decoration: underline;
+}
+
+/* Single Mix */
+#single-mix-header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./image/mix-covers/hood-love-bg-lg-01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #single-mix-header {
+    background-image: url(./image/mix-covers/hood-love-phone-01.jpg);
+  }
+  #mix-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), #000000d6),
+      url(./image/mix-covers/highjacked-03-md.jpg);
+  }
+
+  .header-text {
+    margin-top: 100%;
+    font-size: 16px;
+  }
+  .header-text h1 {
+    font-size: 30px;
+  }
+}
+/* End of Single Mix */
+
+/* 2nd Commit */
+@media only screen and (max-width: 600px) {
+  .header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.greyscale {
+  filter: grayscale();
+}
+
+.btn-4 {
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #30d5c8;
+  padding: 0.7rem 1.3rem;
+  color: #30d5c8;
+}
