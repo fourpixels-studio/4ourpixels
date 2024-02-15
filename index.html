@@ -1,85 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-EQDWVPW7C3"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-EQDWVPW7C3");
-    </script>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Meta Tags -->
-    <meta property="og:title" content="Four Pixels - Creative Agency">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Masters of the digital realm, blending creativity and technology into mind-blowing experiences. Graphic gurus, web whisperers, and visual/audio virtuosos. Elevate your online presence with custom web/app development, stunning graphic design, mesmerizing digital art, and epic DJ services.">
-    <meta name="keywords" content="digital realm, creativity, technology, website development, app development, graphic design, digital art, DJ services, online presence">
-    <meta name="author" content="Four Pixels">
-    <meta name="og:image" content="https://drive.google.com/file/d/1i-4IFlnck9FhEYce6NETJWHgEV3UGG5C/view?usp=sharing">
-    <meta property="og:type" content="website">
-    <title>Four Pixels - Masters of the Digital Realm</title>
-    <!-- End of Meta Tags -->
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-
-    <!-- Favicon for all devices -->
-    <link
-      rel="icon"
-      type="image/x-icon"
-      sizes="32x32"
-      href="./image/favicon/favicon.ico"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./image/favicon/favicon-16x16.png"
-    />
-
-    <!-- iOS specific favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./image/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="./image/favicon/apple-touch-icon.png"
-    />
-
-    <!-- Android Chrome specific favicon -->
-    <link rel="manifest" href="./image/favicon/site.webmanifest" />
-    <meta name="theme-color" content="#30d5c8" />
-
-    <!-- Microsoft specific favicon -->
-    <meta name="msapplication-TileImage" content="./image/favicon/4white.png" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-
-    <!-- Other favicons -->
-    <link
-      rel="mask-icon"
-      href="./image/favicon//image/favicon/4white.png"
-      color="#30d5c8"
-    />
-    <meta name="msapplication-config" content="./browserconfig.xml" />
-    <meta name="theme-color" content="#30d5c8" />
+    <title>Four Pixels | Masters Of The Digital Realm</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -91,295 +16,262 @@
       src="https://kit.fontawesome.com/215638c07f.js"
       crossorigin="anonymous"
     ></script>
+    <!-- favicons
+    ================================================== -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./image/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="android-chrome"
+      sizes="192x192"
+      href="./image/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="android-chrome"
+      sizes="512x512"
+      href="./image/favicon/android-chrome-512x512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./image/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./image/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./image/site.webmanifest" />
   </head>
   <body>
-    <div id="#header_four_pixels">
-      <video autoplay muted loop id="video-background">
-        <source
-          id="video-element"
-          src="./video/portrait.mp4"
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video>
-
-      <div class="containerLocal">
+    <div id="header">
+      <div class="container">
         <nav>
-          <img src="./image/4pixels.png" class="logo" />
+          <img src="image/logo.png" class="logo" />
           <ul id="sidemenu">
-            <li>
-              <a class="hover" href="./index.html">Home</a>
-            </li>
-            <li>
-              <a class="hover" href="./products.html">Products</a>
-            </li>
-            <li>
-              <a class="hover" href="#services">Services</a>
-            </li>
-            <li>
-              <a class="hover" href="./about-us.html">About Us</a>
-            </li>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
-        <div class="header-text">
-          <small>Creative Agency</small>
-          <h1 id="hero-title" class="sub-title hover">
-            Welcome to<br />
-            <span>4our</span> Pixels
-          </h1>
-        </div>
       </div>
     </div>
     <!------aboout------->
     <div id="about">
-      <h1 class="text-center hover sub-title">
-        <a class="hover underline" href="./about-us.html">About Us</a>
-      </h1>
-      <div class="containerLocal text-center">
-        <h2>
-          Masters of the
-          <a class="underline hover" href="./motion-graphics-pricing.html"
-            >digital realm,</a
-          >
-          blending creativity and technology into mind-blowing experiences.
-          <a class="underline hover" href="./graphic-design-pricing.html"
-            >Graphic gurus,</a
-          >
-          <a class="underline hover" href="./web-app-development-pricing.html"
-            >web whisperers,</a
-          > and 
-          <a class="underline hover" href="./djg400.html"></a>
-          visual/audio virtuosos.</a
-          >
-        </h2>
-      </div>
       <div class="container">
-        <hr />
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Four Pixels</h1>
+            <h2>
+              We specialize in bridging the gap between art and function,
+              turning visions into reality. Our collaborative approach empowers
+              brands to establish a unique and compelling digital presence,
+              leaving a lasting impression.
+            </h2>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <!------                    <p class="tab-links" onclick="opentab('education')">Education</p>------>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
+                <li><span>Web Development</span><br />Web/App Development</li>
+                <li>
+                  <span>Video & Audio</span><br />Editing Podcasts and YouTube
+                  Videos
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2019 - Current</span><br />Lead Designer At Wajenzi
+                  Warehouse Limited
+                </li>
+                <li><span>2016 - Current</span><br />Construction Web</li>
+                <li>
+                  <span>2019 - 2022</span><br />Art Director at Code Black INTL
+                </li>
+                <li><span>2017 - 2018</span><br />Mianzi Studios</li>
+              </ul>
+            </div>
+            <!------                <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021</span><br>Design Training at 4P Institute</li>
+                                <li><span>2017</span><br>MBA from MIT KE</li>
+                                <li><span>202</span><br>BBA from IBM</li>
+                            </ul>
+                        </div> 
+------>
+          </div>
+        </div>
       </div>
     </div>
-
+    <!------Services------>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title text-center">Our Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web/App Development</h2>
+            <p>
+              We craft custom web and app solutions tailored just for you. Ready
+              to take your online presence to the next level?
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Graphic Design</h2>
+            <p>
+              Stunning logos, unforgettable branding, and print materials that
+              leave a lasting impression.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Digital Art</h2>
+            <p>
+              Transform your content into visual magic with our mesmerizing
+              motion graphics. From videos to presentations, we make your ideas
+              dance!
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>DJ G400</h2>
+            <p>
+              Your one-stop party shop for epic playlists, banging mixes,
+              dazzling outfits, and unforgettable DJ services.
+            </p>
+            <a href="./djg400.html">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!------portfolio-->
-    <div id="services" class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12 mb-5 px-4">
-          <h1 class="sub-title hover">
-            We offer several <br />
-            services for <span class="legacy-color">you.</span>
-          </h1>
-          <img style="margin-top: 2rem;" class="img-fluid" src="./image/index/undraw_terms_re_6ak4.svg">
-        </div>
-
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <ol class="list-unstyled px-4">
-            <li>
-              <h2 class="hover">
-                <span class="legacy-color">01.</span> Web/App Development
-              </h2>
-              <p class="text-muted">
-                We craft custom web and app solutions tailored just for you. Ready to take your online presence to the next level?
-              </p>
-              <a
-                class="link text-muted underline small"
-                href="./web-app-development-pricing.html"
-                >Learn more</a
-              >
-            </li>
-            <hr />
-            <li>
-              <h2 class="hover">
-                <span class="legacy-color">02.</span> Graphic Design
-              </h2>
-              <p class="text-muted">
-                Stunning logos, unforgettable branding, and print materials that leave a lasting impression. 
-              </p>
-              <a
-                class="link text-muted underline small"
-                href="./graphic-design-pricing.html"
-                >Learn more</a
-              >
-            </li>
-            <hr />
-            <li class="mb-5">
-              <h2 class="hover">
-                <span class="legacy-color">03.</span>  Digital Art
-              </h2>
-              <p class="text-muted">
-                Transform your content into visual magic with our mesmerizing motion graphics. From videos to presentations, we make your ideas dance!
-              </p>
-              <a
-                class="link text-muted underline small"
-                href="./motion-graphics-pricing.html"
-                >Ready to bring your story to life? Let's create something epic!</a
-              >
-            </li>
-            <hr />
-            <li class="mb-5">
-              <h2 class="hover">
-                <span class="legacy-color">04.</span> Groove with DJ G400!
-              </h2>
-              <p class="text-muted">
-                We're your one-stop party shop for epic playlists, banging mixes, dazzling outfits, and unforgettable DJ services.
-              </p>
-              <a class="link text-muted underline small" href="./djg400.html"
-                >Check out DJ G400</a
-              >
-            </li>
-          </ol>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <hr />
-    </div>
-    <div class="container">
-      <h1 class="mt-5 text-center sub-title">Blogs</h1>
-      <p class="text-center text-muted">Welcome to our digital diary! Explore a world of technology, music, and art in our blog section. Grab a virtual cup of coffee and join the conversation. Let's dive into the digital universe together!</p>
+    <div id="portfolio">
       <div class="container">
+        <h1 class="sub-title text-center">Portfolio</h1>
         <div class="work-list">
           <div class="work">
-            <img
-              class="greyscale"
-              style="
-                height: 300px;
-                width: 100%;
-                object-fit: cover;
-                border-radius: 0px;
-              "
-              src="https://wallpapers-hub.art/wallpaper-images/568442.jpg"
-            />
+            <img src="image/work-1.png" />
             <div class="layer">
-              <h3>
-                Drake Reveals New Album: 'For All the Dogs'
-              </h3>
-              <a href="./drake-blog.html"
-                ><i style="cursor: pointer" class="fa-solid fa-link"></i
+              <h3>E-Commerce</h3>
+              <p>
+                A comprehensive digital transformation, communication solutions
+                <br />
+                and communication solutions through an intuitive website.
+              </p>
+              <a href="https://www.lukustore.nl/"
+                ><i class="fa-solid fa-link"></i
               ></a>
             </div>
-            <h6 class="mt-4 text-center">Hip Hop News</h6>
           </div>
           <div class="work">
-            <img
-              class="greyscale"
-              style="
-                height: 300px;
-                width: 100%;
-                object-fit: cover;
-                border-radius: 0px;
-              "
-              src="https://images.unsplash.com/photo-1533908279087-2448f4554f18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80"
-            />
+            <img src="image/work-2.png" />
             <div class="layer">
-              <h3>
-                Unleashing the Power of Web Development: <br />
-                A 4our Pixels Guide.
-              </h3>
-              <a href="./web_blog.html"
-                ><i style="cursor: pointer" class="fa-solid fa-link"></i
+              <h3>Application</h3>
+              <p>
+                Python-powered image compression app<br />
+                Easily compress your images now.
+              </p>
+              <a href="https://fourpixels.studio/application/image-compression/"
+                ><i class="fa-solid fa-link"></i
               ></a>
             </div>
-            <h6 class="mt-4 text-center">Web/App Development</h6>
           </div>
           <div class="work">
-            <img
-              class="greyscale"
-              style="
-                height: 300px;
-                width: 100%;
-                object-fit: cover;
-                border-radius: 0px;
-              "
-              src="https://images.pexels.com/photos/14001304/pexels-photo-14001304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            />
+            <img src="image/work-3.png" />
             <div class="layer">
-              <h3>
-                Introducing Python's Image Compressing App: Your All-in-One
-                Solution.
-              </h3>
-              <a href="./image_compression_blog.html"
-                ><i style="cursor: pointer" class="fa-solid fa-link"></i
+              <h3>Discussion Forum</h3>
+              <p>
+                The platform made with python allows secure <br />discussions,
+                problem solving and knowledge sharing.
+              </p>
+              <a href="https://www.amscins.com/"
+                ><i class="fa-solid fa-link"></i
               ></a>
             </div>
-            <h6 class="mt-4 text-center">Image Compression.</h6>
           </div>
         </div>
+        <a
+          href="https://fourpixels.studio/services/web-app-development/"
+          class="btn"
+          >See More</a
+        >
       </div>
     </div>
-    <footer class="container mt-5">
-      <hr class="mb-5 mt-3" />
-      <div class="p-5 row">
-        <div class="col-12 col-md">
-          <img class="mb-4" height="50" src="image/4logo.png" alt="" />
-          <small class="d-block mb-3 text-muted"
-            >&copy;
-            <a
-              class="underline link text-muted"
-              href="https://4ourpixels.github.io/4ourpixels/"
-              >4our Pixels</a
-            >
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
-          </small>
-        </div>
-        <div class="col-6 col-md">
-          <p>Social Media</p>
-          <div class="social-icons">
-            <a href="https://github.com/4ourpixels"
-              ><i class="fa-brands fa-github fa-xs"></i
-            ></a>
-            <a href="https://www.linkedin.com/in/mosesbartena/"
-              ><i class="fa-brands fa-linkedin fa-xs"></i
-            ></a>
-            <a href="https://www.instagram.com/4ourpixels"
-              ><i class="fa-brands fa-instagram fa-xs"></i
-            ></a>
-            <a href="https://www.twitter.com/4ourpixels"
-              ><i class="fa-brands fa-twitter fa-xs"></i
-            ></a>
-            <a href="https://www.threads.net/@4ourpixels"
-              ><i class="fa-solid fa-at fa-xs"></i
-            ></a>
+    <!------contact-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Us</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>hello@fourpixels.studio
+            </p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/4ourpixels"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://www.x.com/4ourpixels"
+                ><i class="fa-brands fa-x"></i
+              ></a>
+              <a href="https://www.instagram.com/fourpixels.studio"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.youtube.com/@fourpixels.studio"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
           </div>
-        </div>
-        <div class="col-6 col-md">
-          <p>Resources</p>
-          <div class="social-icons">
-            <a href="./djg400.html"
-              ><img
-                style="margin-bottom: 0.5rem; filter: opacity(0.7)"
-                height="25"
-                src="./image/brands/g400.png"
-            /></a>
-            <a href="https://4ourpixels.github.io/ecommerce/"
-              ><i class="fa-brands fa-xs fa-shopify"></i
-            ></a>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                type="text"
+                name="Message"
+                rows="6"
+                placeholder="Your Message..."
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
           </div>
         </div>
       </div>
-    </footer>
-    <script>
-      // Check if the media query matches
-      function handleVideoSourceChange(mq) {
-        if (mq.matches) {
-          // Set the video source for small screens
-          document.getElementById("video-element").src = "./video/portrait.mp4";
-        } else {
-          // Set the video source for larger screens
-          document.getElementById("video-element").src = "./video/720.mp4";
-        }
-      }
-
-      // Create a media query
-      const mediaQuery = window.matchMedia("(max-width: 600px)");
-
-      // Call the function initially
-      handleVideoSourceChange(mediaQuery);
-
-      // Register event listener for changes in the media query
-      mediaQuery.addListener(handleVideoSourceChange);
-    </script>
+      <div class="copyright">
+        <p>Copyright © 2024 Four Pixels</p>
+      </div>
+    </div>
+    <script src="./image/js.js"></script>
     <script>
       var tablinks = document.getElementsByClassName("tab-links");
       var tabcontents = document.getElementsByClassName("tab-contents");
