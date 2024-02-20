@@ -14,11 +14,11 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(image/4pixels-4k.jpg);
+  background-image: url(image/background3.png);
   background-size: cover;
   background-position: center;
 }
-.container {
+.containerLocal {
   padding: 10px 10%;
 }
 
@@ -28,9 +28,7 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-nav:hover {
-  cursor: pointer;
-}
+
 .logo {
   width: 140px;
 }
@@ -82,14 +80,14 @@ nav ul li a:hover::after {
   flex-wrap: wrap;
 }
 
-.about-col-1 {
+.about-column-1 {
   flex-basis: 35%;
 }
-.about-col-1 img {
+.about-column-1 img {
   width: 100%;
   border-radius: 15px;
 }
-.about-col-2 {
+.about-column-2 {
   flex-basis: 60%;
 }
 
@@ -199,10 +197,16 @@ nav ul li a:hover::after {
   display: block;
   transition: transform 0.3s;
 }
+.work iframe {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.3s;
+}
 .layer {
   width: 100%;
   height: 0%;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #30d5c8);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), #000000d6);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -223,11 +227,11 @@ nav ul li a:hover::after {
 }
 .layer a {
   margin-top: 20px;
-  color: #30d5c8;
+  color: #000000;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
-  background: #fff;
+  background: #30d5c8;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -236,21 +240,25 @@ nav ul li a:hover::after {
 .work:hover img {
   transform: scale(1.1);
 }
+.work:hover iframe {
+  transform: scale(1.1);
+}
 .work:hover .layer {
   height: 100%;
 }
-.btn {
+.btn4 {
   display: block;
-  margin: 50px auto;
   width: fit-content;
   border: 1px solid #30d5c8;
-  padding: 14px 50px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   border-radius: 6px;
   text-decoration: none;
-  color: #fff;
+  color: #30d5c8;
   transition: ease-in-out 0.3s;
 }
-.btn:hover {
+.btn4:hover {
+  color: #000;
   background: #30d5c8;
 }
 
@@ -269,9 +277,7 @@ nav ul li a:hover::after {
   margin-right: 15px;
   font-size: 25px;
 }
-.social-icons {
-  margin-top: 30px;
-}
+
 .social-icons a {
   text-decoration: none;
   font-size: 30px;
@@ -284,9 +290,58 @@ nav ul li a:hover::after {
   color: #30d5c8;
   transform: translateY(-5px);
 }
-.btn.btn2 {
+.hearthis {
+  margin-top: 30px;
+}
+.hearthis {
+  height: 25px;
+  margin-right: 15px;
   display: inline-block;
-  background: #30d5c8;
+  transition: transform 0.3s;
+}
+.hearthis:hover {
+  transform: translateY(-5px);
+}
+
+.btn2 {
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: none;
+  padding: 14px 50px;
+  border-radius: 8px;
+  border: 1px solid #30d5c8;
+  text-decoration: none;
+  color: #000000;
+  background-color: #30d5c8;
+  transition: ease-in-out 0.3s;
+  width: 100%;
+}
+.btn2:hover {
+  border: 1px solid #30d5c8;
+  border-radius: 8px solid #30d5c8;
+  background: none;
+  color: #30d5c8;
+}
+.btn2-lg {
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: none;
+  padding: 14px 50px;
+  border-radius: 8px;
+  border: 1px solid #30d5c8;
+  text-decoration: none;
+  color: #000000;
+  background-color: #30d5c8;
+  transition: ease-in-out 0.3s;
+  width: 100%;
+}
+.btn2-lg:hover {
+  border: 1px solid #30d5c8;
+  border-radius: 8px solid #30d5c8;
+  background: none;
+  color: #30d5c8;
 }
 .contact-right form {
   width: 100%;
@@ -324,8 +379,9 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(image/phone-background.jpg);
+    background-image: url(image/phone-background.png);
   }
+
   .header-text {
     margin-top: 100%;
     font-size: 16px;
@@ -359,16 +415,16 @@ nav .fa-solid {
     cursor: pointer;
   }
   .sub-title {
-    font-size: 40px;
+    font-size: 60px;
   }
-  .about-col-1,
-  .about-col-2 {
+  .about-column-1,
+  .about-column-2 {
     flex-basis: 100%;
   }
-  .about-col-1 {
+  .about-column-1 {
     margin-bottom: 30px;
   }
-  .about-col-2 {
+  .about-column-2 {
     font-size: 14px;
   }
   .tab-links {
@@ -389,11 +445,165 @@ nav .fa-solid {
   display: block;
 }
 
-.text-center {
-  text-align: center;
+.blog {
+  background: #262626;
 }
-#services p {
-  font-size: 16px;
+
+/* Tuesday 13th June */
+.brand-color {
+  color: #30d5c8;
+}
+
+#header2 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url(https://images.unsplash.com/photo-1533908279087-2448f4554f18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80);
+  background-size: cover;
+  background-position: center;
+}
+#drake {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url(https://wallpapers-hub.art/wallpaper-images/568442.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#header_four_pixels {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+#video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#image_compression_header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url(https://images.pexels.com/photos/14001304/pexels-photo-14001304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  background-position: center;
+}
+/* 2nd Commit */
+@media only screen and (max-width: 600px) {
+  .header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.greyscale {
+  filter: grayscale();
+}
+
+.btn-4 {
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #30d5c8;
+  padding: 0.7rem 1.3rem;
+  color: #30d5c8;
+}
+
+/* Single Mix */
+#single-mix-header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./image/mix-covers/hood-love-bg-lg-01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #single-mix-header {
+    background-image: url(./image/mix-covers/hood-love-phone-01.jpg);
+  }
+  #mix-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), #000000d6),
+      url(./image/mix-covers/highjacked-03-md.jpg);
+  }
+
+  .header-text {
+    margin-top: 100%;
+    font-size: 16px;
+  }
+  .header-text h1 {
+    font-size: 30px;
+  }
+}
+/* End of Single Mix */
+
+.underline {
+  text-decoration: none;
+  color: inherit;
+}
+
+.underline:hover {
+  text-decoration: underline;
+}
+
+.hover {
+  color: inherit;
+  cursor: pointer;
+}
+.hover:hover {
+  transition: ease-in 0.5s;
+  color: #30d5c8;
+}
+
+.blog-thumbnail {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.btn-outlined {
+  font-size: 0.5rem;
+  border: 1px solid #30d5c8;
+  background: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  color: #30d5c8;
+}
+
+.legacy-color {
+  color: #30d5c8;
+}
+
+.text-deco-none {
+  text-decoration: none;
+}
+
+#hero-title {
+  font-size: 60px;
 }
 
 #mix-description {
@@ -439,55 +649,11 @@ nav .fa-solid {
 .btn-none:hover {
   text-decoration: underline;
 }
-
-/* Single Mix */
-#single-mix-header {
+.blog-image {
   width: 100%;
-  height: 100vh;
-  background-image: url(./image/mix-covers/hood-love-bg-lg-01.jpg);
-  background-size: cover;
-  background-position: center;
 }
-
-@media only screen and (max-width: 600px) {
-  #single-mix-header {
-    background-image: url(./image/mix-covers/hood-love-phone-01.jpg);
-  }
-  #mix-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), #000000d6),
-      url(./image/mix-covers/highjacked-03-md.jpg);
-  }
-
-  .header-text {
-    margin-top: 100%;
-    font-size: 16px;
-  }
-  .header-text h1 {
-    font-size: 30px;
-  }
-}
-/* End of Single Mix */
-
-/* 2nd Commit */
-@media only screen and (max-width: 600px) {
-  .header-text h1 {
-    font-size: 60px;
-    margin-top: 20px;
-  }
-}
-
-.hidden {
-  display: none;
-}
-
-.greyscale {
-  filter: grayscale();
-}
-
-.btn-4 {
-  font-size: 1rem;
-  border-radius: 8px;
-  border: 1px solid #30d5c8;
-  padding: 0.7rem 1.3rem;
-  color: #30d5c8;
+.row-secondary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
