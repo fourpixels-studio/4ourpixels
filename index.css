@@ -291,9 +291,11 @@ nav ul li a:hover::after {
 .btn2 {
   width: 100%
   background: #30d5c8;
+  display: inline-block;
 }
 .btn2:hover {
   background: #14615b;
+  border-color: solid 1px #14615b
   transition: ease-in-out 1s;
 }
 .contact-right form {
