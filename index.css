@@ -247,11 +247,12 @@ nav ul li a:hover::after {
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
-  color: #fff;
+  color: #30d5c8;
   transition: ease-in-out 0.3s;
 }
 .btn:hover {
   background: #30d5c8;
+  color: #000;
 }
 
 /*----- contact ------*/
@@ -499,5 +500,23 @@ nav .fa-solid {
   border-radius: 8px;
   border: 1px solid #30d5c8;
   padding: 0.7rem 1.3rem;
+  color: #30d5c8;
+}
+.submit-btn {
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #30d5c8;
+  background: #30d5c8;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #000;
+  transition: ease-in-out 0.6s;
+  cursor: pointer;
+  width: 100%;
+}
+.submit-btn:hover {
+  background: none;
   color: #30d5c8;
 }
