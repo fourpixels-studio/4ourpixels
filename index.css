@@ -520,3 +520,7 @@ nav .fa-solid {
   background: none;
   color: #30d5c8;
 }
+.no_link {
+  text-decoration: none;
+  color: inherit;
+}
